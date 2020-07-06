@@ -28,3 +28,5 @@ https://github.com/konstantinwerner/hub_keyboard
 https://github.com/BenRoe/awesome-mechanical-keyboard
 
 https://github.com/di0ib/Misc
+
+http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
