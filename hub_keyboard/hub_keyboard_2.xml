@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/joshstein/Documents/GitHub/Apex/hub_keyboard/hub_keyboard_2.sch</source>
+    <date>Monday, July 06, 2020 at 08:56:56 AM</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>hub_keyboard_2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>FE1.1S</value>
+      <footprint>hub_keyboard:SSOP28</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C9359</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="FE1.1S" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70C115B1</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_A_SMT_FEMALE</value>
+      <footprint>hub_keyboard:USB-A-S-SILK-FEMALE</footprint>
+      <fields>
+        <field name="DIGIKEY">609-4946-1-ND</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="USB_A_SMT_FEMALE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>83A3164B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_A_SMT_FEMALE</value>
+      <footprint>hub_keyboard:USB-A-S-SILK-FEMALE</footprint>
+      <fields>
+        <field name="DIGIKEY">609-4946-1-ND</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="USB_A_SMT_FEMALE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F1780596</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_A_SMT_FEMALE</value>
+      <footprint>hub_keyboard:USB-A-S-SILK-FEMALE</footprint>
+      <fields>
+        <field name="DIGIKEY">609-4946-1-ND</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="USB_A_SMT_FEMALE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>92202B0B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>USB_C2-LAYER</value>
+      <footprint>hub_keyboard:USB-C-16P</footprint>
+      <fields>
+        <field name="DIGIKEY">2073-USB4105-GF-ACT-ND</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="USB_C2-LAYER" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA14143</tstamp>
+    </comp>
+    <comp ref="ISP1">
+      <value>AVR-ISP-6-EDGE</value>
+      <footprint>hub_keyboard:6PAD_ISP</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="AVR-ISP-6-EDGE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C5773CD6</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>16MHz</value>
+      <footprint>hub_keyboard:3.2X2.5_KX-7</footprint>
+      <fields>
+        <field name="LCSC">C13738</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="KX-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A6B8961E</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>12pF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C38523</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7FA7725E</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>12pF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C38523</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8A270E72</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1u</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6FE3D8B4</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D43EC51F</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>20k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C4184</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D8635354</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>20k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C4184</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5071B17B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10n 100V</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C84709</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>12A4064C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1M</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C22935</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>947D9E31</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10n 100V</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C84709</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2F4C8C48</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1M</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C22935</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>BE3D42EC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10n 100V</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C84709</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3C437C10</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C22935</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>99B5315F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n 100V</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C84709</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F9BE43E8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1M</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C22935</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3A4A3C5E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>060502EA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>05997AF9</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FA01A6D6</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10u</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>32508C8E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k7</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C13167</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E66EC926</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0C3AE8E0</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>Ferrite 2A</value>
+      <footprint>hub_keyboard:R0805</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C44361</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0CE4963D</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>12MHz</value>
+      <footprint>hub_keyboard:3.2X2.5_KX-7</footprint>
+      <fields>
+        <field name="LCSC">C9002</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="KX-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>AA320E17</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>hub_keyboard:CT3528</footprint>
+      <fields>
+        <field name="LCSC">C16133</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="CPOL-EUCT3528" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F17AA65A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>hub_keyboard:CT3528</footprint>
+      <fields>
+        <field name="LCSC">C16133</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="CPOL-EUCT3528" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DF433A60</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100uF</value>
+      <footprint>hub_keyboard:CT3528</footprint>
+      <fields>
+        <field name="LCSC">C16133</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="CPOL-EUCT3528" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>CD35B308</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>20k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C4184</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C02F8B5D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6B7D5417</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A7D0BF53</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BBC83C</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>283A4AC9</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1DB0A341</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>1.1A Hold</value>
+      <footprint>hub_keyboard:R1210</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C70100</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R1210" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0367ED63</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>AC84AD9C</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10n</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>B3A3920B</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>EF5A8354</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>24SN</value>
+      <footprint>hub_keyboard:SO-08</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C184083</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="24SN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3C0E41D9</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>PRTR5V0U2X</value>
+      <footprint>hub_keyboard:SOT143</footprint>
+      <fields>
+        <field name="DIGIKEY">1727-3884-1-ND</field>
+        <field name="EXTENDED">TRUE</field>
+        <field name="FARNELL">1524157</field>
+        <field name="LCSC">C384891</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="PRTR5V0U2X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DB78B421</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>12pF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C38523</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>08D174DD</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>12pF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C38523</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7AC36122</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>PRTR5V0U2X</value>
+      <footprint>hub_keyboard:SOT143</footprint>
+      <fields>
+        <field name="DIGIKEY">1727-3884-1-ND</field>
+        <field name="EXTENDED">TRUE</field>
+        <field name="FARNELL">1524157</field>
+        <field name="LCSC">C384891</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="PRTR5V0U2X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9CA8D5E5</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>PRTR5V0U2X</value>
+      <footprint>hub_keyboard:SOT143</footprint>
+      <fields>
+        <field name="DIGIKEY">1727-3884-1-ND</field>
+        <field name="EXTENDED">TRUE</field>
+        <field name="FARNELL">1524157</field>
+        <field name="LCSC">C384891</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="PRTR5V0U2X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72C1871A</tstamp>
+    </comp>
+    <comp ref="DISPLAY1">
+      <value>I2C_OLED_128X32</value>
+      <footprint>hub_keyboard:128X32_I2C_OLED</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="I2C_OLED_128X32" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>537D8CE9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D198352C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5k1</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7E60C7BA</tstamp>
+    </comp>
+    <comp ref="RESET1">
+      <value>MOMENTARY-SWITCH-SPST-SMD-5.2-REDUNDANT</value>
+      <footprint>hub_keyboard:TACTILE_SWITCH_SMD_5.2MM</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="MOMENTARY-SWITCH-SPST-SMD-5.2-REDUNDANT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>EDEA9B6F</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>hub_keyboard:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FC039302</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>PCF8574APWR</value>
+      <footprint>hub_keyboard:SSOP20</footprint>
+      <fields>
+        <field name="LCSC">C94361</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="PCF8574TS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C4D99B28</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8265D0A1</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1C77FB69</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F517920E</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>LED3MM</value>
+      <footprint>hub_keyboard:LED3MM</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FAAADBB7</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>LED3MM</value>
+      <footprint>hub_keyboard:LED3MM</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>41BD10E0</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>LED3MM</value>
+      <footprint>hub_keyboard:LED3MM</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E117CAA2</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>LED3MM</value>
+      <footprint>hub_keyboard:LED3MM</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6770364D</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>LED3MM</value>
+      <footprint>hub_keyboard:LED3MM</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>01E2EC58</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED3MM</value>
+      <footprint>hub_keyboard:LED3MM</footprint>
+      <libsource lib="hub_keyboard-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>84EE1AB4</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A0666A1B</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4080CD33</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7916EEF6</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>409401FF</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>984F31AF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4212B154</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C87CEA22</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>EBD0106B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7AB92B1D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D5EFCBE0</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>22R</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>84C3B2F5</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>ATMEGA32U4-MU</value>
+      <footprint>hub_keyboard:QFN44G-0.5-7X7MM</footprint>
+      <fields>
+        <field name="EXTENDED">TRUE</field>
+        <field name="LCSC">C112161</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="MCU-ATMEGA32U4-MUR(VQFN44)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A622CFDF</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>hub_keyboard:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="hub_keyboard-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54833735</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="hub_keyboard-eagle-import" part="24SN">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">24SN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="AVR-ISP-6-EDGE">
+      <fields>
+        <field name="Value">AVR-ISP-6-EDGE</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="P$4" type="BiDi"/>
+        <pin num="MISO" name="P$1" type="BiDi"/>
+        <pin num="MOSI" name="P$5" type="BiDi"/>
+        <pin num="RST" name="P$3" type="BiDi"/>
+        <pin num="SCK" name="P$2" type="BiDi"/>
+        <pin num="VCC" name="P$6" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="C-EUC0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EUC0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="CPOL-EUCT3528">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-EUCT3528</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="FE1.1S">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">FE1.1S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="XOUT" type="passive"/>
+        <pin num="3" name="XIN" type="passive"/>
+        <pin num="4" name="DM4" type="BiDi"/>
+        <pin num="5" name="DP4" type="BiDi"/>
+        <pin num="6" name="DM3" type="BiDi"/>
+        <pin num="7" name="DP3" type="BiDi"/>
+        <pin num="8" name="DM2" type="BiDi"/>
+        <pin num="9" name="DP2" type="BiDi"/>
+        <pin num="10" name="DM1" type="BiDi"/>
+        <pin num="11" name="DP1" type="BiDi"/>
+        <pin num="12" name="VD18_O" type="power_in"/>
+        <pin num="13" name="VD33" type="power_in"/>
+        <pin num="14" name="REXT" type="passive"/>
+        <pin num="15" name="DMU" type="BiDi"/>
+        <pin num="16" name="DPU" type="BiDi"/>
+        <pin num="17" name="XRSTJ" type="input"/>
+        <pin num="18" name="VBUSM" type="power_in"/>
+        <pin num="19" name="BUSJ" type="input"/>
+        <pin num="20" name="VDD5" type="power_in"/>
+        <pin num="21" name="VVD33_O" type="power_in"/>
+        <pin num="22" name="DRV" type="BiDi"/>
+        <pin num="23" name="LED1/EESCL" type="BiDi"/>
+        <pin num="24" name="LED2" type="BiDi"/>
+        <pin num="25" name="PWRJ" type="output"/>
+        <pin num="26" name="OVCJ" type="input"/>
+        <pin num="27" name="TESTJ/EESDA" type="BiDi"/>
+        <pin num="28" name="VD18" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="I2C_OLED_128X32">
+      <fields>
+        <field name="Reference">DISP</field>
+        <field name="Value">I2C_OLED_128X32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="KX-7">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">KX-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="LED3MM">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED3MM</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="MCU-ATMEGA32U4-MUR(VQFN44)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCU-ATMEGA32U4-MUR(VQFN44)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6(INT.6/AIN0)" type="BiDi"/>
+        <pin num="2" name="UVCC" type="BiDi"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="BiDi"/>
+        <pin num="6" name="UCAP" type="BiDi"/>
+        <pin num="7" name="VBUS" type="BiDi"/>
+        <pin num="8" name="PB0(SS/PCINT0)" type="BiDi"/>
+        <pin num="9" name="PB1(PCINT1/SCLK)" type="BiDi"/>
+        <pin num="10" name="PB2(PDI/PCINT2/MOSI)" type="BiDi"/>
+        <pin num="11" name="PB3(PD0/PCINT3/MISO)" type="BiDi"/>
+        <pin num="12" name="PB7(PCINT7/OC0A/OC1C/~RTS)" type="BiDi"/>
+        <pin num="13" name="~RESET" type="BiDi"/>
+        <pin num="14" name="VCC@1" type="BiDi"/>
+        <pin num="15" name="GND@1" type="BiDi"/>
+        <pin num="16" name="XTAL2" type="BiDi"/>
+        <pin num="17" name="XTAL1" type="BiDi"/>
+        <pin num="18" name="PD0(OC0B/SCL/INT0)" type="BiDi"/>
+        <pin num="19" name="PD1(SDA/INT1)" type="BiDi"/>
+        <pin num="20" name="PD2(RXD1/INT2)" type="BiDi"/>
+        <pin num="21" name="PD3(TXD1/INT3)" type="BiDi"/>
+        <pin num="22" name="PD5(XCLK1/~CTS)" type="BiDi"/>
+        <pin num="23" name="GND@2" type="BiDi"/>
+        <pin num="24" name="AVCC@1" type="BiDi"/>
+        <pin num="25" name="PD4(ICP1/ADC8)" type="BiDi"/>
+        <pin num="26" name="PD6(T1/ADC9/~OC4D)" type="BiDi"/>
+        <pin num="27" name="PD7(T0/OC4D/ADC10)" type="BiDi"/>
+        <pin num="28" name="PB4(PCINT4/ADC11)" type="BiDi"/>
+        <pin num="29" name="PB5(PCINT5/OC1A/ADC12/~OC4B)" type="BiDi"/>
+        <pin num="30" name="PB6(PCINT6/OC1B/OC4B/ADC13)" type="BiDi"/>
+        <pin num="31" name="PC6(OC3A/~OC4A)" type="BiDi"/>
+        <pin num="32" name="PC7(ICP3/CLK0/OC4A)" type="BiDi"/>
+        <pin num="33" name="PE2(~HWB)" type="BiDi"/>
+        <pin num="34" name="VCC@2" type="BiDi"/>
+        <pin num="35" name="GND@3" type="BiDi"/>
+        <pin num="36" name="PF7(ADC7/TDI)" type="BiDi"/>
+        <pin num="37" name="PF6(ADC6/TDO)" type="BiDi"/>
+        <pin num="38" name="PF5(ADC5/TMS)" type="BiDi"/>
+        <pin num="39" name="PF4(ADC4/TCK)" type="BiDi"/>
+        <pin num="40" name="PF1(ADC1)" type="BiDi"/>
+        <pin num="41" name="PF0(ADC0)" type="BiDi"/>
+        <pin num="42" name="AREF" type="BiDi"/>
+        <pin num="43" name="GND@4" type="BiDi"/>
+        <pin num="44" name="AVCC@2" type="BiDi"/>
+        <pin num="TAB" name="GND@1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="MOMENTARY-SWITCH-SPST-SMD-5.2-REDUNDANT">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MOMENTARY-SWITCH-SPST-SMD-5.2-REDUNDANT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="PCF8574TS">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PCF8574TS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~INT" type="output"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="A0" type="input"/>
+        <pin num="7" name="A1" type="input"/>
+        <pin num="9" name="A2" type="input"/>
+        <pin num="10" name="P0" type="BiDi"/>
+        <pin num="11" name="P1" type="BiDi"/>
+        <pin num="12" name="P2" type="BiDi"/>
+        <pin num="14" name="P3" type="BiDi"/>
+        <pin num="15" name="VSS" type="power_in"/>
+        <pin num="16" name="P4" type="BiDi"/>
+        <pin num="17" name="P5" type="BiDi"/>
+        <pin num="19" name="P6" type="BiDi"/>
+        <pin num="20" name="P7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="PRTR5V0U2X">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IO1" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="R-EU_R0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-EU_R0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="R-EU_R0805">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-EU_R0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="R-EU_R1210">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-EU_R1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="USB_A_SMT_FEMALE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A_SMT_FEMALE</field>
+      </fields>
+      <pins>
+        <pin num="D+" name="D+" type="BiDi"/>
+        <pin num="D-" name="D-" type="BiDi"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="SHLD1" name="SHIELD" type="BiDi"/>
+        <pin num="SHLD2" name="SHIELD" type="BiDi"/>
+        <pin num="VBUS" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="hub_keyboard-eagle-import" part="USB_C2-LAYER">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C2-LAYER</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="GND" name="GND" type="BiDi"/>
+        <pin num="GND2" name="GND" type="BiDi"/>
+        <pin num="SHLD1" name="SHLD" type="BiDi"/>
+        <pin num="SHLD2" name="SHLD" type="BiDi"/>
+        <pin num="SHLD3" name="SHLD" type="BiDi"/>
+        <pin num="SHLD4" name="SHLD" type="BiDi"/>
+        <pin num="SHLD5" name="SHLD" type="BiDi"/>
+        <pin num="SHLD6" name="SHLD" type="BiDi"/>
+        <pin num="SHLD7" name="SHLD" type="BiDi"/>
+        <pin num="SHLD8" name="SHLD" type="BiDi"/>
+        <pin num="VBUS1" name="VBUS" type="BiDi"/>
+        <pin num="VBUS2" name="VBUS" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="hub_keyboard-eagle-import">
+      <uri>/Users/joshstein/Documents/GitHub/Apex/hub_keyboard/hub_keyboard-eagle-import.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="2" name="Net-(D18-Pad3)">
+      <node ref="IC1" pin="11"/>
+      <node ref="R18" pin="1"/>
+      <node ref="D18" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D16-Pad2)">
+      <node ref="IC1" pin="8"/>
+      <node ref="D16" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D16-Pad3)">
+      <node ref="IC1" pin="9"/>
+      <node ref="D16" pin="3"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D14-Pad3)">
+      <node ref="IC1" pin="7"/>
+      <node ref="D14" pin="3"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D14-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="D14" pin="2"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="7" name="Net-(J4-PadA7)">
+      <node ref="J4" pin="A7"/>
+      <node ref="J4" pin="B7"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J4-PadA6)">
+      <node ref="J4" pin="A6"/>
+      <node ref="J4" pin="B6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="9" name="R1">
+      <node ref="IC4" pin="39"/>
+    </net>
+    <net code="10" name="R2">
+      <node ref="IC4" pin="38"/>
+    </net>
+    <net code="11" name="R3">
+      <node ref="IC4" pin="37"/>
+    </net>
+    <net code="12" name="R4">
+      <node ref="IC4" pin="36"/>
+    </net>
+    <net code="13" name="C1">
+      <node ref="IC4" pin="8"/>
+    </net>
+    <net code="14" name="C2/SCK">
+      <node ref="IC4" pin="9"/>
+      <node ref="ISP1" pin="SCK"/>
+    </net>
+    <net code="15" name="C3/MOSI">
+      <node ref="ISP1" pin="MOSI"/>
+      <node ref="IC4" pin="10"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad4)">
+      <node ref="IC4" pin="3"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad5)">
+      <node ref="IC4" pin="4"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C7" pin="-"/>
+      <node ref="C5" pin="-"/>
+      <node ref="C3" pin="-"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="ISP1" pin="GND"/>
+      <node ref="J4" pin="GND2"/>
+      <node ref="J4" pin="GND"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J1" pin="GND"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J2" pin="GND"/>
+      <node ref="J3" pin="GND"/>
+      <node ref="C12" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="D18" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="DISPLAY1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="RESET1" pin="3"/>
+      <node ref="RESET1" pin="4"/>
+      <node ref="C19" pin="1"/>
+      <node ref="IC3" pin="15"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="IC4" pin="15"/>
+      <node ref="IC4" pin="23"/>
+      <node ref="IC4" pin="35"/>
+      <node ref="IC4" pin="43"/>
+      <node ref="IC4" pin="5"/>
+      <node ref="IC4" pin="TAB"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C17-Pad1)">
+      <node ref="X2" pin="3"/>
+      <node ref="C17" pin="1"/>
+      <node ref="IC4" pin="17"/>
+    </net>
+    <net code="20" name="Net-(C18-Pad1)">
+      <node ref="X2" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="IC4" pin="16"/>
+    </net>
+    <net code="21" name="Net-(C20-Pad2)">
+      <node ref="IC4" pin="6"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="22" name="VCC">
+      <node ref="IC4" pin="34"/>
+      <node ref="IC4" pin="24"/>
+      <node ref="IC4" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="IC4" pin="14"/>
+      <node ref="C12" pin="2"/>
+      <node ref="LED1" pin="A"/>
+      <node ref="LED2" pin="A"/>
+      <node ref="LED3" pin="A"/>
+      <node ref="LED4" pin="A"/>
+      <node ref="LED5" pin="A"/>
+      <node ref="LED6" pin="A"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="ISP1" pin="VCC"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="DISPLAY1" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="IC4" pin="44"/>
+      <node ref="IC4" pin="7"/>
+    </net>
+    <net code="23" name="/RST">
+      <node ref="R33" pin="2"/>
+      <node ref="RESET1" pin="1"/>
+      <node ref="RESET1" pin="2"/>
+      <node ref="ISP1" pin="RST"/>
+      <node ref="IC4" pin="13"/>
+    </net>
+    <net code="24" name="R5">
+      <node ref="IC4" pin="41"/>
+    </net>
+    <net code="25" name="/SDA">
+      <node ref="R25" pin="2"/>
+      <node ref="DISPLAY1" pin="4"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="IC4" pin="19"/>
+    </net>
+    <net code="26" name="/SCL">
+      <node ref="IC3" pin="2"/>
+      <node ref="IC4" pin="18"/>
+      <node ref="DISPLAY1" pin="3"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="27" name="C5">
+      <node ref="IC4" pin="12"/>
+    </net>
+    <net code="28" name="C4/MISO">
+      <node ref="IC4" pin="11"/>
+      <node ref="ISP1" pin="MISO"/>
+    </net>
+    <net code="29" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J3" pin="SHLD1"/>
+      <node ref="J3" pin="SHLD2"/>
+    </net>
+    <net code="30" name="Net-(C6-Pad2)">
+      <node ref="J2" pin="SHLD1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J2" pin="SHLD2"/>
+    </net>
+    <net code="31" name="Net-(C4-Pad2)">
+      <node ref="J1" pin="SHLD2"/>
+      <node ref="J1" pin="SHLD1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C1-Pad2)">
+      <node ref="J4" pin="SHLD4"/>
+      <node ref="J4" pin="SHLD5"/>
+      <node ref="J4" pin="SHLD6"/>
+      <node ref="J4" pin="SHLD7"/>
+      <node ref="J4" pin="SHLD3"/>
+      <node ref="J4" pin="SHLD2"/>
+      <node ref="J4" pin="SHLD1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J4" pin="SHLD8"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(IC1-Pad15)">
+      <node ref="R4" pin="1"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="34" name="Net-(IC1-Pad16)">
+      <node ref="IC1" pin="16"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="35" name="R6">
+      <node ref="IC4" pin="40"/>
+    </net>
+    <net code="36" name="C6">
+      <node ref="IC4" pin="20"/>
+    </net>
+    <net code="37" name="C7">
+      <node ref="IC4" pin="21"/>
+    </net>
+    <net code="38" name="C8">
+      <node ref="IC4" pin="22"/>
+    </net>
+    <net code="39" name="C10">
+      <node ref="IC4" pin="26"/>
+    </net>
+    <net code="40" name="C11">
+      <node ref="IC4" pin="27"/>
+    </net>
+    <net code="41" name="C12">
+      <node ref="IC4" pin="28"/>
+    </net>
+    <net code="42" name="C13">
+      <node ref="IC4" pin="29"/>
+    </net>
+    <net code="43" name="C14">
+      <node ref="IC4" pin="30"/>
+    </net>
+    <net code="44" name="C9">
+      <node ref="IC4" pin="25"/>
+    </net>
+    <net code="45" name="C15">
+      <node ref="IC4" pin="31"/>
+    </net>
+    <net code="46" name="C16">
+      <node ref="IC4" pin="32"/>
+    </net>
+    <net code="47" name="C17">
+      <node ref="IC4" pin="1"/>
+    </net>
+    <net code="48" name="Net-(IC4-Pad33)">
+      <node ref="IC4" pin="33"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="49" name="/1V8_HUB">
+      <node ref="C11" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="IC1" pin="28"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="50" name="/3V3_HUB">
+      <node ref="IC1" pin="21"/>
+      <node ref="R5" pin="1"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="51" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="52" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C9-Pad1)">
+      <node ref="IC1" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="54" name="Net-(C16-Pad1)">
+      <node ref="X1" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="55" name="Net-(IC1-Pad17)">
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="56" name="Net-(C2-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="57" name="Net-(C3-Pad+)">
+      <node ref="D16" pin="4"/>
+      <node ref="J1" pin="VBUS"/>
+      <node ref="D18" pin="4"/>
+      <node ref="C3" pin="+"/>
+      <node ref="D14" pin="4"/>
+      <node ref="C5" pin="+"/>
+      <node ref="C7" pin="+"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="J2" pin="VBUS"/>
+      <node ref="J3" pin="VBUS"/>
+    </net>
+    <net code="58" name="Net-(C14-Pad2)">
+      <node ref="IC1" pin="26"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="59" name="Net-(F1-Pad2)">
+      <node ref="J4" pin="VBUS1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J4" pin="VBUS2"/>
+    </net>
+    <net code="60" name="/SCL_HUB">
+      <node ref="IC1" pin="23"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="61" name="/SDA_HUB">
+      <node ref="IC1" pin="27"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="62" name="Net-(J4-PadA5)">
+      <node ref="J4" pin="A5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="63" name="Net-(J4-PadB5)">
+      <node ref="J4" pin="B5"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C19-Pad2)">
+      <node ref="IC4" pin="42"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="65" name="CL_LED_A">
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="66" name="CL_LED_C">
+      <node ref="IC3" pin="11"/>
+    </net>
+    <net code="67" name="SL_LED_C">
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="68" name="SL_LED_A">
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="69" name="Net-(IC3-Pad12)">
+      <node ref="R32" pin="1"/>
+      <node ref="IC3" pin="12"/>
+    </net>
+    <net code="70" name="Net-(IC3-Pad14)">
+      <node ref="IC3" pin="14"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="71" name="Net-(IC3-Pad16)">
+      <node ref="R30" pin="1"/>
+      <node ref="IC3" pin="16"/>
+    </net>
+    <net code="72" name="Net-(IC3-Pad17)">
+      <node ref="R29" pin="1"/>
+      <node ref="IC3" pin="17"/>
+    </net>
+    <net code="73" name="Net-(IC3-Pad19)">
+      <node ref="IC3" pin="19"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="74" name="Net-(IC3-Pad20)">
+      <node ref="R27" pin="1"/>
+      <node ref="IC3" pin="20"/>
+    </net>
+    <net code="75" name="Net-(LED6-PadK)">
+      <node ref="R32" pin="2"/>
+      <node ref="LED6" pin="K"/>
+    </net>
+    <net code="76" name="Net-(LED5-PadK)">
+      <node ref="R31" pin="2"/>
+      <node ref="LED5" pin="K"/>
+    </net>
+    <net code="77" name="Net-(LED4-PadK)">
+      <node ref="LED4" pin="K"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="78" name="Net-(LED3-PadK)">
+      <node ref="R29" pin="2"/>
+      <node ref="LED3" pin="K"/>
+    </net>
+    <net code="79" name="Net-(LED2-PadK)">
+      <node ref="R28" pin="2"/>
+      <node ref="LED2" pin="K"/>
+    </net>
+    <net code="80" name="Net-(LED1-PadK)">
+      <node ref="LED1" pin="K"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="81" name="Net-(J3-PadD-)">
+      <node ref="J3" pin="D-"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="82" name="Net-(J3-PadD+)">
+      <node ref="R18" pin="2"/>
+      <node ref="J3" pin="D+"/>
+    </net>
+    <net code="83" name="Net-(J2-PadD-)">
+      <node ref="R14" pin="2"/>
+      <node ref="J2" pin="D-"/>
+    </net>
+    <net code="84" name="Net-(J2-PadD+)">
+      <node ref="J2" pin="D+"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="85" name="Net-(J1-PadD-)">
+      <node ref="J1" pin="D-"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="86" name="Net-(J1-PadD+)">
+      <node ref="J1" pin="D+"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="87" name="Net-(IC1-Pad22)">
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="88" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="89" name="Net-(IC1-Pad25)">
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="90" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+    </net>
+  </nets>
+</export>

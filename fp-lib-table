@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Keyboard Footprints")(type KiCad)(uri "/Users/joshstein/Baer Law, LLC Dropbox/Baer Law LLC/1 - STEIN/Personal/Kicad Parts/Keyboard Footprints")(options "")(descr ""))
+  (lib (name hub_keyboard)(type KiCad)(uri ${KIPRJMOD}/hub_keyboard/hub_keyboard.pretty)(options "")(descr ""))
+)

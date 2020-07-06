@@ -1,0 +1,1618 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8500 4400 8000 4400
+Wire Wire Line
+	8000 4400 8000 4000
+Wire Wire Line
+	8000 4000 5300 4000
+Wire Wire Line
+	8700 5300 8700 5400
+Wire Wire Line
+	8700 5400 8500 5400
+Wire Wire Line
+	8500 5400 8500 4400
+Wire Wire Line
+	9400 4400 8500 4400
+Connection ~ 8500 4400
+Wire Wire Line
+	5300 3900 8100 3900
+Wire Wire Line
+	8100 3900 8100 4500
+Wire Wire Line
+	8100 4500 8700 4500
+Wire Wire Line
+	8700 4700 8700 4500
+Wire Wire Line
+	8700 4500 9100 4500
+Connection ~ 8700 4500
+Wire Wire Line
+	8500 6200 7800 6200
+Wire Wire Line
+	7800 6200 7800 4300
+Wire Wire Line
+	7800 4300 5300 4300
+Wire Wire Line
+	8700 7100 8700 7200
+Wire Wire Line
+	8700 7200 8500 7200
+Wire Wire Line
+	8500 7200 8500 6200
+Wire Wire Line
+	9400 6200 8500 6200
+Connection ~ 8500 6200
+Wire Wire Line
+	5300 4200 7900 4200
+Wire Wire Line
+	7900 4200 7900 6300
+Wire Wire Line
+	7900 6300 8700 6300
+Wire Wire Line
+	8700 6500 8700 6300
+Wire Wire Line
+	8700 6300 9100 6300
+Connection ~ 8700 6300
+Wire Wire Line
+	8800 7900 7700 7900
+Wire Wire Line
+	7700 7900 7700 4500
+Wire Wire Line
+	7700 4500 5300 4500
+Wire Wire Line
+	8800 8700 8800 7900
+Wire Wire Line
+	9100 7900 8800 7900
+Connection ~ 8800 7900
+Wire Wire Line
+	8600 7800 7600 7800
+Wire Wire Line
+	7600 7800 7600 4600
+Wire Wire Line
+	7600 4600 5300 4600
+Wire Wire Line
+	8800 9300 8800 9400
+Wire Wire Line
+	8800 9400 8600 9400
+Wire Wire Line
+	8600 9400 8600 7800
+Wire Wire Line
+	9400 7800 8600 7800
+Connection ~ 8600 7800
+Wire Wire Line
+	7500 2100 7000 2100
+Wire Wire Line
+	7000 2100 7000 3600
+Wire Wire Line
+	7000 3600 6600 3600
+Wire Wire Line
+	7500 2000 6900 2000
+Wire Wire Line
+	6900 2000 6900 3500
+Wire Wire Line
+	11800 4300 12000 4300
+Wire Wire Line
+	12000 4300 12000 4500
+Wire Wire Line
+	12000 4500 11700 4500
+Wire Wire Line
+	12000 4500 12100 4500
+Connection ~ 12000 4500
+Text Label 11800 4300 0    10   ~ 0
+GND
+Wire Wire Line
+	11800 6100 12000 6100
+Wire Wire Line
+	12000 6100 12000 6300
+Wire Wire Line
+	12000 6300 11700 6300
+Wire Wire Line
+	12000 6300 12100 6300
+Connection ~ 12000 6300
+Text Label 11800 6100 0    10   ~ 0
+GND
+Wire Wire Line
+	11800 7700 12000 7700
+Wire Wire Line
+	12000 7700 12000 7900
+Wire Wire Line
+	12000 7900 11700 7900
+Wire Wire Line
+	12000 7900 12100 7900
+Connection ~ 12000 7900
+Text Label 11800 7700 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 3300 7600 3500
+Wire Wire Line
+	7600 3500 7400 3500
+Wire Wire Line
+	7400 3500 7400 3200
+Wire Wire Line
+	7400 3500 7400 3600
+Connection ~ 7400 3500
+Text Label 7600 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	7500 2500 7300 2500
+Text Label 7500 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	9900 4600 9700 4600
+Text Label 9900 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	9900 6400 9700 6400
+Text Label 9900 6400 0    10   ~ 0
+GND
+Wire Wire Line
+	9900 8000 9700 8000
+Text Label 9900 8000 0    10   ~ 0
+GND
+Wire Wire Line
+	3900 5300 3800 5300
+Wire Wire Line
+	3800 5300 3800 5400
+Text Label 3900 5300 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 4200 1900 4300
+Text Label 1900 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	1000 4200 1000 4300
+Text Label 1000 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	3100 5000 3000 5000
+Wire Wire Line
+	3000 5000 3000 5400
+Text Label 3100 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	5900 5100 6100 5100
+Wire Wire Line
+	6100 5100 6100 5400
+Text Label 5900 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 3000 6200 3200
+Text Label 6200 3000 0    10   ~ 0
+GND
+Wire Wire Line
+	6500 3100 6500 3200
+Text Label 6500 3100 0    10   ~ 0
+GND
+Wire Wire Line
+	1400 4300 1400 4100
+Text Label 1400 4300 0    10   ~ 0
+GND
+Wire Wire Line
+	2200 4200 2200 4300
+Text Label 2200 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 7200 6300 6900
+Text Label 6300 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	3900 2000 3800 2000
+Wire Wire Line
+	3800 2000 3800 2200
+Wire Wire Line
+	3900 1900 3800 1900
+Wire Wire Line
+	3800 1900 3800 2000
+Wire Wire Line
+	3900 1800 3800 1800
+Wire Wire Line
+	3800 1800 3800 1900
+Connection ~ 3800 2000
+Connection ~ 3800 1900
+Text Label 3900 2000 0    10   ~ 0
+GND
+Wire Wire Line
+	2600 4300 2600 4400
+Text Label 2600 4300 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 1900 6200 1900
+Wire Wire Line
+	6200 1800 6200 1900
+Wire Wire Line
+	6200 1900 6200 2100
+Connection ~ 6200 1900
+Text Label 6300 1900 0    10   ~ 0
+VCC
+Wire Wire Line
+	3900 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 3000
+Wire Wire Line
+	2200 3100 2200 3000
+Wire Wire Line
+	2200 3000 3500 3000
+Wire Wire Line
+	3500 3000 3500 3400
+Wire Wire Line
+	3500 3400 3800 3400
+Connection ~ 3800 3400
+Text Label 3900 3400 0    10   ~ 0
+VCC
+Wire Wire Line
+	11400 4300 10700 4300
+Wire Wire Line
+	10700 4300 10700 4400
+Wire Wire Line
+	10700 4400 10600 4400
+Wire Wire Line
+	11400 4500 10700 4500
+Wire Wire Line
+	10700 4500 10700 4400
+Connection ~ 10700 4400
+Wire Wire Line
+	11400 6100 10700 6100
+Wire Wire Line
+	10700 6100 10700 6200
+Wire Wire Line
+	10700 6200 10600 6200
+Wire Wire Line
+	11400 6300 10700 6300
+Wire Wire Line
+	10700 6300 10700 6200
+Connection ~ 10700 6200
+Wire Wire Line
+	11400 7700 10700 7700
+Wire Wire Line
+	10700 7700 10700 7800
+Wire Wire Line
+	10700 7800 10600 7800
+Wire Wire Line
+	11400 7900 10700 7900
+Wire Wire Line
+	10700 7900 10700 7800
+Connection ~ 10700 7800
+Wire Wire Line
+	7400 2900 7400 2800
+Wire Wire Line
+	7400 2800 7100 2800
+Wire Wire Line
+	7100 2800 7100 2400
+Wire Wire Line
+	7100 2400 7500 2400
+Wire Wire Line
+	7600 2900 7600 2800
+Wire Wire Line
+	7600 2800 7400 2800
+Connection ~ 7400 2800
+Wire Wire Line
+	6200 3600 5300 3600
+Wire Wire Line
+	6500 3500 5300 3500
+Wire Wire Line
+	3900 3700 3600 3700
+Wire Wire Line
+	3600 3700 3600 3800
+Wire Wire Line
+	3600 3800 3900 3800
+Wire Wire Line
+	3600 3800 2200 3800
+Wire Wire Line
+	2200 3800 1900 3800
+Wire Wire Line
+	1900 3800 1900 3900
+Wire Wire Line
+	2200 3900 2200 3800
+Connection ~ 3600 3800
+Connection ~ 2200 3800
+Text Label 1900 3800 2    50   ~ 0
+1V8_HUB
+Wire Wire Line
+	3900 3500 3600 3500
+Wire Wire Line
+	3600 3500 3600 3600
+Wire Wire Line
+	3600 3600 3900 3600
+Wire Wire Line
+	3600 3600 1400 3600
+Wire Wire Line
+	1400 3600 1000 3600
+Wire Wire Line
+	1000 3600 1000 3900
+Wire Wire Line
+	1400 3800 1400 3600
+Connection ~ 3600 3600
+Text Label 1000 3600 2    50   ~ 0
+3V3_HUB
+Connection ~ 1400 3600
+Wire Wire Line
+	3400 4800 3000 4800
+Text Label 3000 4800 2    50   ~ 0
+3V3_HUB
+Wire Wire Line
+	4700 1100 4700 1300
+Text Label 4700 1100 2    50   ~ 0
+3V3_HUB
+Wire Wire Line
+	3700 1600 3900 1600
+Text Label 3700 1600 2    50   ~ 0
+3V3_HUB
+Wire Wire Line
+	3900 5000 3500 5000
+Wire Wire Line
+	5500 5100 5300 5100
+Wire Wire Line
+	3900 4000 3500 4000
+Wire Wire Line
+	3500 4000 3500 3900
+Wire Wire Line
+	3500 3900 2600 3900
+Wire Wire Line
+	2600 3900 2600 4000
+Connection ~ 3500 4000
+Wire Wire Line
+	3900 4100 3600 4100
+Wire Wire Line
+	3600 4100 3600 4200
+Wire Wire Line
+	3600 4200 3500 4200
+Wire Wire Line
+	3500 4200 3300 4200
+Wire Wire Line
+	3300 4200 3300 4000
+Wire Wire Line
+	3300 4000 3000 4000
+Wire Wire Line
+	3000 4000 3000 4100
+Connection ~ 3500 4200
+Wire Wire Line
+	3900 4800 3800 4800
+Wire Wire Line
+	6200 2500 6200 2600
+Wire Wire Line
+	6200 2600 6200 2700
+Wire Wire Line
+	6200 2600 5800 2600
+Wire Wire Line
+	5800 2600 5800 3400
+Wire Wire Line
+	5800 3400 5300 3400
+Wire Wire Line
+	6200 2600 6500 2600
+Wire Wire Line
+	6500 2600 6500 2700
+Connection ~ 6200 2600
+Wire Wire Line
+	9900 3900 8300 3900
+Wire Wire Line
+	8300 3900 8300 4300
+Wire Wire Line
+	10100 5700 8300 5700
+Wire Wire Line
+	8300 5700 8300 6100
+Wire Wire Line
+	8300 4300 8300 5700
+Wire Wire Line
+	10100 7300 8300 7300
+Wire Wire Line
+	8300 7300 8300 7700
+Wire Wire Line
+	8300 6100 8300 6500
+Wire Wire Line
+	8300 6500 8300 7300
+Wire Wire Line
+	9900 7700 9400 7700
+Wire Wire Line
+	9400 7700 8300 7700
+Wire Wire Line
+	9900 6100 9300 6100
+Wire Wire Line
+	9300 6100 8300 6100
+Wire Wire Line
+	9900 4300 9300 4300
+Wire Wire Line
+	9300 4300 8300 4300
+Wire Wire Line
+	8300 3800 8300 3900
+Wire Wire Line
+	6800 6500 8300 6500
+Wire Wire Line
+	9300 4700 9300 4300
+Wire Wire Line
+	9300 6500 9300 6100
+Wire Wire Line
+	9400 8700 9400 7700
+Connection ~ 8300 4300
+Connection ~ 8300 5700
+Connection ~ 8300 6100
+Connection ~ 8300 7300
+Connection ~ 8300 3900
+Connection ~ 8300 6500
+Connection ~ 9300 4300
+Connection ~ 9300 6100
+Connection ~ 9400 7700
+Wire Wire Line
+	6400 6500 6300 6500
+Wire Wire Line
+	6300 6500 6300 6600
+Wire Wire Line
+	5300 5300 5500 5300
+Wire Wire Line
+	5500 5300 5500 6500
+Wire Wire Line
+	5500 6500 6300 6500
+Connection ~ 6300 6500
+Wire Wire Line
+	8300 3400 8300 1600
+Wire Wire Line
+	7500 1900 7000 1900
+Wire Wire Line
+	7000 1900 6700 1900
+Wire Wire Line
+	8300 1600 7000 1600
+Wire Wire Line
+	7000 1600 7000 1900
+Connection ~ 7000 1900
+Wire Wire Line
+	3900 1500 3700 1500
+Text Label 3700 1500 2    50   ~ 0
+SCL_HUB
+Wire Wire Line
+	3900 4400 3700 4400
+Text Label 3700 4400 2    50   ~ 0
+SCL_HUB
+Wire Wire Line
+	5000 1800 5200 1800
+Text Label 5200 1800 0    50   ~ 0
+SDA_HUB
+Wire Wire Line
+	3900 4300 3700 4300
+Text Label 3700 4300 2    50   ~ 0
+SDA_HUB
+Wire Wire Line
+	7500 2200 7200 2200
+Wire Wire Line
+	7200 2200 7200 1300
+Wire Wire Line
+	7200 1300 7300 1300
+Wire Wire Line
+	7500 2300 7100 2300
+Wire Wire Line
+	7100 2300 7100 1300
+Wire Wire Line
+	7100 1300 7000 1300
+Wire Wire Line
+	9900 4400 9800 4400
+Wire Wire Line
+	9500 4500 9900 4500
+Wire Wire Line
+	9900 6200 9800 6200
+Wire Wire Line
+	9500 6300 9900 6300
+Wire Wire Line
+	9900 7800 9800 7800
+Wire Wire Line
+	9900 7900 9500 7900
+$Comp
+L hub_keyboard-eagle-import:FE1.1S IC1
+U 1 1 70C115B1
+P 4600 4400
+AR Path="/70C115B1" Ref="IC1"  Part="1" 
+AR Path="/5EFCC321/70C115B1" Ref="IC1"  Part="1" 
+AR Path="/5F06AC00/70C115B1" Ref="IC1"  Part="1" 
+F 0 "IC1" H 4000 5550 59  0000 L BNN
+F 1 "FE1.1S" H 4000 3300 59  0000 L BNN
+F 2 "hub_keyboard:SSOP28" H 4600 4400 50  0001 C CNN
+F 3 "" H 4600 4400 50  0001 C CNN
+F 4 "TRUE" H 4600 4400 59  0001 L BNN "EXTENDED"
+F 5 "C9359" H 4600 4400 59  0001 L BNN "LCSC"
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J3
+U 1 1 83A3164B
+P 10200 4500
+AR Path="/83A3164B" Ref="J3"  Part="1" 
+AR Path="/5EFCC321/83A3164B" Ref="J3"  Part="1" 
+AR Path="/5F06AC00/83A3164B" Ref="J3"  Part="1" 
+F 0 "J3" H 10000 4810 70  0000 L BNN
+F 1 "USB_A_SMT_FEMALE" H 10000 4290 70  0000 L TNN
+F 2 "hub_keyboard:USB-A-S-SILK-FEMALE" H 10200 4500 50  0001 C CNN
+F 3 "" H 10200 4500 50  0001 C CNN
+F 4 "609-4946-1-ND" H 10200 4500 70  0001 L BNN "DIGIKEY"
+	1    10200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J2
+U 1 1 F1780596
+P 10200 6300
+AR Path="/F1780596" Ref="J2"  Part="1" 
+AR Path="/5EFCC321/F1780596" Ref="J2"  Part="1" 
+AR Path="/5F06AC00/F1780596" Ref="J2"  Part="1" 
+F 0 "J2" H 10000 6610 70  0000 L BNN
+F 1 "USB_A_SMT_FEMALE" H 10000 6090 70  0000 L TNN
+F 2 "hub_keyboard:USB-A-S-SILK-FEMALE" H 10200 6300 50  0001 C CNN
+F 3 "" H 10200 6300 50  0001 C CNN
+F 4 "609-4946-1-ND" H 10200 6300 70  0001 L BNN "DIGIKEY"
+	1    10200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J1
+U 1 1 92202B0B
+P 10200 7900
+AR Path="/92202B0B" Ref="J1"  Part="1" 
+AR Path="/5EFCC321/92202B0B" Ref="J1"  Part="1" 
+AR Path="/5F06AC00/92202B0B" Ref="J1"  Part="1" 
+F 0 "J1" H 10000 8210 70  0000 L BNN
+F 1 "USB_A_SMT_FEMALE" H 10000 7690 70  0000 L TNN
+F 2 "hub_keyboard:USB-A-S-SILK-FEMALE" H 10200 7900 50  0001 C CNN
+F 3 "" H 10200 7900 50  0001 C CNN
+F 4 "609-4946-1-ND" H 10200 7900 70  0001 L BNN "DIGIKEY"
+	1    10200 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:USB_C2-LAYER J4
+U 1 1 5FA14143
+P 8000 2200
+AR Path="/5FA14143" Ref="J4"  Part="1" 
+AR Path="/5EFCC321/5FA14143" Ref="J4"  Part="1" 
+AR Path="/5F06AC00/5FA14143" Ref="J4"  Part="1" 
+F 0 "J4" H 7900 2610 70  0000 L BNN
+F 1 "USB_C2-LAYER" H 7900 1710 70  0000 L BNN
+F 2 "hub_keyboard:USB-C-16P" H 8000 2200 50  0001 C CNN
+F 3 "" H 8000 2200 50  0001 C CNN
+F 4 "2073-USB4105-GF-ACT-ND" H 8000 2200 70  0001 L BNN "DIGIKEY"
+	1    8000 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C8
+U 1 1 12A4064C
+P 11600 4500
+AR Path="/12A4064C" Ref="C8"  Part="1" 
+AR Path="/5EFCC321/12A4064C" Ref="C8"  Part="1" 
+AR Path="/5F06AC00/12A4064C" Ref="C8"  Part="1" 
+F 0 "C8" V 11585 4560 59  0000 L BNN
+F 1 "10n 100V" V 11585 3960 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 11600 4500 50  0001 C CNN
+F 3 "" H 11600 4500 50  0001 C CNN
+F 4 "TRUE" H 11600 4500 59  0001 L BNN "EXTENDED"
+F 5 "C84709" H 11600 4500 59  0001 L BNN "LCSC"
+	1    11600 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R16
+U 1 1 947D9E31
+P 11600 4300
+AR Path="/947D9E31" Ref="R16"  Part="1" 
+AR Path="/5EFCC321/947D9E31" Ref="R16"  Part="1" 
+AR Path="/5F06AC00/947D9E31" Ref="R16"  Part="1" 
+F 0 "R16" H 11450 4359 59  0000 L BNN
+F 1 "1M" H 11750 4370 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 11600 4300 50  0001 C CNN
+F 3 "" H 11600 4300 50  0001 C CNN
+F 4 "C22935" H 11600 4300 59  0001 L BNN "LCSC"
+	1    11600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C6
+U 1 1 2F4C8C48
+P 11600 6300
+AR Path="/2F4C8C48" Ref="C6"  Part="1" 
+AR Path="/5EFCC321/2F4C8C48" Ref="C6"  Part="1" 
+AR Path="/5F06AC00/2F4C8C48" Ref="C6"  Part="1" 
+F 0 "C6" V 11585 6360 59  0000 L BNN
+F 1 "10n 100V" V 11585 5760 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 11600 6300 50  0001 C CNN
+F 3 "" H 11600 6300 50  0001 C CNN
+F 4 "TRUE" H 11600 6300 59  0001 L BNN "EXTENDED"
+F 5 "C84709" H 11600 6300 59  0001 L BNN "LCSC"
+	1    11600 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R13
+U 1 1 BE3D42EC
+P 11600 6100
+AR Path="/BE3D42EC" Ref="R13"  Part="1" 
+AR Path="/5EFCC321/BE3D42EC" Ref="R13"  Part="1" 
+AR Path="/5F06AC00/BE3D42EC" Ref="R13"  Part="1" 
+F 0 "R13" H 11450 6159 59  0000 L BNN
+F 1 "1M" H 11750 6170 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 11600 6100 50  0001 C CNN
+F 3 "" H 11600 6100 50  0001 C CNN
+F 4 "C22935" H 11600 6100 59  0001 L BNN "LCSC"
+	1    11600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C4
+U 1 1 3C437C10
+P 11600 7900
+AR Path="/3C437C10" Ref="C4"  Part="1" 
+AR Path="/5EFCC321/3C437C10" Ref="C4"  Part="1" 
+AR Path="/5F06AC00/3C437C10" Ref="C4"  Part="1" 
+F 0 "C4" V 11585 7960 59  0000 L BNN
+F 1 "10n 100V" V 11585 7360 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 11600 7900 50  0001 C CNN
+F 3 "" H 11600 7900 50  0001 C CNN
+F 4 "TRUE" H 11600 7900 59  0001 L BNN "EXTENDED"
+F 5 "C84709" H 11600 7900 59  0001 L BNN "LCSC"
+	1    11600 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R10
+U 1 1 99B5315F
+P 11600 7700
+AR Path="/99B5315F" Ref="R10"  Part="1" 
+AR Path="/5EFCC321/99B5315F" Ref="R10"  Part="1" 
+AR Path="/5F06AC00/99B5315F" Ref="R10"  Part="1" 
+F 0 "R10" H 11450 7759 59  0000 L BNN
+F 1 "1M" H 11750 7770 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 11600 7700 50  0001 C CNN
+F 3 "" H 11600 7700 50  0001 C CNN
+F 4 "C22935" H 11600 7700 59  0001 L BNN "LCSC"
+	1    11600 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C1
+U 1 1 F9BE43E8
+P 7400 3100
+AR Path="/F9BE43E8" Ref="C1"  Part="1" 
+AR Path="/5EFCC321/F9BE43E8" Ref="C1"  Part="1" 
+AR Path="/5F06AC00/F9BE43E8" Ref="C1"  Part="1" 
+F 0 "C1" V 7385 3160 59  0000 L BNN
+F 1 "10n 100V" V 7515 3440 59  0000 R TNN
+F 2 "hub_keyboard:C0603" H 7400 3100 50  0001 C CNN
+F 3 "" H 7400 3100 50  0001 C CNN
+F 4 "TRUE" H 7400 3100 59  0001 L BNN "EXTENDED"
+F 5 "C84709" H 7400 3100 59  0001 L BNN "LCSC"
+	1    7400 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R8
+U 1 1 3A4A3C5E
+P 7600 3100
+AR Path="/3A4A3C5E" Ref="R8"  Part="1" 
+AR Path="/5EFCC321/3A4A3C5E" Ref="R8"  Part="1" 
+AR Path="/5F06AC00/3A4A3C5E" Ref="R8"  Part="1" 
+F 0 "R8" H 7450 3159 59  0000 L BNN
+F 1 "1M" H 7750 3170 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 7600 3100 50  0001 C CNN
+F 3 "" H 7600 3100 50  0001 C CNN
+F 4 "C22935" H 7600 3100 59  0001 L BNN "LCSC"
+	1    7600 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R3
+U 1 1 060502EA
+P 6700 3500
+AR Path="/060502EA" Ref="R3"  Part="1" 
+AR Path="/5EFCC321/060502EA" Ref="R3"  Part="1" 
+AR Path="/5F06AC00/060502EA" Ref="R3"  Part="1" 
+F 0 "R3" H 6550 3559 59  0000 L BNN
+F 1 "22R" H 6550 3370 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 6700 3500 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+F 4 "C23345" H 6700 3500 59  0001 L BNN "LCSC"
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R4
+U 1 1 05997AF9
+P 6400 3600
+AR Path="/05997AF9" Ref="R4"  Part="1" 
+AR Path="/5EFCC321/05997AF9" Ref="R4"  Part="1" 
+AR Path="/5F06AC00/05997AF9" Ref="R4"  Part="1" 
+F 0 "R4" H 6250 3659 59  0000 L BNN
+F 1 "22R" H 6250 3470 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 6400 3600 50  0001 C CNN
+F 3 "" H 6400 3600 50  0001 C CNN
+F 4 "C23345" H 6400 3600 59  0001 L BNN "LCSC"
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C11
+U 1 1 FA01A6D6
+P 1900 4100
+AR Path="/FA01A6D6" Ref="C11"  Part="1" 
+AR Path="/5EFCC321/FA01A6D6" Ref="C11"  Part="1" 
+AR Path="/5F06AC00/FA01A6D6" Ref="C11"  Part="1" 
+F 0 "C11" H 1960 4115 59  0000 L BNN
+F 1 "10u" H 1960 3915 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 1900 4100 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+F 4 "C19702" H 1900 4100 59  0001 L BNN "LCSC"
+	1    1900 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C13
+U 1 1 32508C8E
+P 1000 4100
+AR Path="/32508C8E" Ref="C13"  Part="1" 
+AR Path="/5EFCC321/32508C8E" Ref="C13"  Part="1" 
+AR Path="/5F06AC00/32508C8E" Ref="C13"  Part="1" 
+F 0 "C13" H 1060 4115 59  0000 L BNN
+F 1 "10u" H 1060 3915 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 1000 4100 50  0001 C CNN
+F 3 "" H 1000 4100 50  0001 C CNN
+F 4 "C19702" H 1000 4100 59  0001 L BNN "LCSC"
+	1    1000 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R1
+U 1 1 E66EC926
+P 3300 5000
+AR Path="/E66EC926" Ref="R1"  Part="1" 
+AR Path="/5EFCC321/E66EC926" Ref="R1"  Part="1" 
+AR Path="/5F06AC00/E66EC926" Ref="R1"  Part="1" 
+F 0 "R1" H 3150 5059 59  0000 L BNN
+F 1 "2k7" H 3150 4870 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 3300 5000 50  0001 C CNN
+F 3 "" H 3300 5000 50  0001 C CNN
+F 4 "C13167" H 3300 5000 59  0001 L BNN "LCSC"
+	1    3300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R20
+U 1 1 0C3AE8E0
+P 5700 5100
+AR Path="/0C3AE8E0" Ref="R20"  Part="1" 
+AR Path="/5EFCC321/0C3AE8E0" Ref="R20"  Part="1" 
+AR Path="/5F06AC00/0C3AE8E0" Ref="R20"  Part="1" 
+F 0 "R20" H 5550 5159 59  0000 L BNN
+F 1 "10k" H 5550 4970 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 5700 5100 50  0001 C CNN
+F 3 "" H 5700 5100 50  0001 C CNN
+F 4 "C25804" H 5700 5100 59  0001 L BNN "LCSC"
+	1    5700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0805 R9
+U 1 1 0CE4963D
+P 6500 1900
+AR Path="/0CE4963D" Ref="R9"  Part="1" 
+AR Path="/5EFCC321/0CE4963D" Ref="R9"  Part="1" 
+AR Path="/5F06AC00/0CE4963D" Ref="R9"  Part="1" 
+F 0 "R9" H 6350 1959 59  0000 L BNN
+F 1 "Ferrite 2A" H 6350 1770 59  0000 L BNN
+F 2 "hub_keyboard:R0805" H 6500 1900 50  0001 C CNN
+F 3 "" H 6500 1900 50  0001 C CNN
+F 4 "TRUE" H 6500 1900 59  0001 L BNN "EXTENDED"
+F 5 "C44361" H 6500 1900 59  0001 L BNN "LCSC"
+	1    6500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:KX-7 X1
+U 1 1 AA320E17
+P 3500 4100
+AR Path="/AA320E17" Ref="X1"  Part="1" 
+AR Path="/5EFCC321/AA320E17" Ref="X1"  Part="1" 
+AR Path="/5F06AC00/AA320E17" Ref="X1"  Part="1" 
+F 0 "X1" V 3650 4050 59  0000 R TNN
+F 1 "12MHz" V 3500 3950 59  0000 R TNN
+F 2 "hub_keyboard:3.2X2.5_KX-7" H 3500 4100 50  0001 C CNN
+F 3 "" H 3500 4100 50  0001 C CNN
+F 4 "C9002" H 3500 4100 59  0001 L BNN "LCSC"
+	1    3500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:CPOL-EUCT3528 C3
+U 1 1 F17AA65A
+P 10000 3900
+AR Path="/F17AA65A" Ref="C3"  Part="1" 
+AR Path="/5EFCC321/F17AA65A" Ref="C3"  Part="1" 
+AR Path="/5F06AC00/F17AA65A" Ref="C3"  Part="1" 
+F 0 "C3" H 10045 3919 59  0000 L BNN
+F 1 "100uF" H 10045 3719 59  0000 L BNN
+F 2 "hub_keyboard:CT3528" H 10000 3900 50  0001 C CNN
+F 3 "" H 10000 3900 50  0001 C CNN
+F 4 "C16133" H 10000 3900 59  0001 L BNN "LCSC"
+	1    10000 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:CPOL-EUCT3528 C5
+U 1 1 DF433A60
+P 10200 5700
+AR Path="/DF433A60" Ref="C5"  Part="1" 
+AR Path="/5EFCC321/DF433A60" Ref="C5"  Part="1" 
+AR Path="/5F06AC00/DF433A60" Ref="C5"  Part="1" 
+F 0 "C5" H 10245 5719 59  0000 L BNN
+F 1 "100uF" H 10245 5519 59  0000 L BNN
+F 2 "hub_keyboard:CT3528" H 10200 5700 50  0001 C CNN
+F 3 "" H 10200 5700 50  0001 C CNN
+F 4 "C16133" H 10200 5700 59  0001 L BNN "LCSC"
+	1    10200 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:CPOL-EUCT3528 C7
+U 1 1 CD35B308
+P 10200 7300
+AR Path="/CD35B308" Ref="C7"  Part="1" 
+AR Path="/5EFCC321/CD35B308" Ref="C7"  Part="1" 
+AR Path="/5F06AC00/CD35B308" Ref="C7"  Part="1" 
+F 0 "C7" H 10245 7319 59  0000 L BNN
+F 1 "100uF" H 10245 7119 59  0000 L BNN
+F 2 "hub_keyboard:CT3528" H 10200 7300 50  0001 C CNN
+F 3 "" H 10200 7300 50  0001 C CNN
+F 4 "C16133" H 10200 7300 59  0001 L BNN "LCSC"
+	1    10200 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R5
+U 1 1 C02F8B5D
+P 3600 4800
+AR Path="/C02F8B5D" Ref="R5"  Part="1" 
+AR Path="/5EFCC321/C02F8B5D" Ref="R5"  Part="1" 
+AR Path="/5F06AC00/C02F8B5D" Ref="R5"  Part="1" 
+F 0 "R5" H 3450 4859 59  0000 L BNN
+F 1 "20k" H 3450 4670 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 3600 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+F 4 "C4184" H 3600 4800 59  0001 L BNN "LCSC"
+	1    3600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R7
+U 1 1 6B7D5417
+P 6200 2300
+AR Path="/6B7D5417" Ref="R7"  Part="1" 
+AR Path="/5EFCC321/6B7D5417" Ref="R7"  Part="1" 
+AR Path="/5F06AC00/6B7D5417" Ref="R7"  Part="1" 
+F 0 "R7" H 6050 2359 59  0000 L BNN
+F 1 "10k" H 6050 2170 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 6200 2300 50  0001 C CNN
+F 3 "" H 6200 2300 50  0001 C CNN
+F 4 "C25804" H 6200 2300 59  0001 L BNN "LCSC"
+	1    6200 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:VCC #P+04
+U 1 1 40DCAEBA
+P 6200 1700
+AR Path="/40DCAEBA" Ref="#P+04"  Part="1" 
+AR Path="/5EFCC321/40DCAEBA" Ref="#P+04"  Part="1" 
+AR Path="/5F06AC00/40DCAEBA" Ref="#P+04"  Part="1" 
+F 0 "#P+04" H 6200 1700 50  0001 C CNN
+F 1 "VCC" V 6100 1600 59  0000 L BNN
+F 2 "" H 6200 1700 50  0001 C CNN
+F 3 "" H 6200 1700 50  0001 C CNN
+	1    6200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C2
+U 1 1 A7D0BF53
+P 6200 2900
+AR Path="/A7D0BF53" Ref="C2"  Part="1" 
+AR Path="/5EFCC321/A7D0BF53" Ref="C2"  Part="1" 
+AR Path="/5F06AC00/A7D0BF53" Ref="C2"  Part="1" 
+F 0 "C2" V 6185 2960 59  0000 L BNN
+F 1 "100nF" V 6315 3240 59  0000 R TNN
+F 2 "hub_keyboard:C0603" H 6200 2900 50  0001 C CNN
+F 3 "" H 6200 2900 50  0001 C CNN
+F 4 "C14663" H 6200 2900 59  0001 L BNN "LCSC"
+	1    6200 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R19
+U 1 1 54BBC83C
+P 6500 2900
+AR Path="/54BBC83C" Ref="R19"  Part="1" 
+AR Path="/5EFCC321/54BBC83C" Ref="R19"  Part="1" 
+AR Path="/5F06AC00/54BBC83C" Ref="R19"  Part="1" 
+F 0 "R19" H 6350 2959 59  0000 L BNN
+F 1 "100k" H 6350 2770 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 6500 2900 50  0001 C CNN
+F 3 "" H 6500 2900 50  0001 C CNN
+F 4 "C25803" H 6500 2900 59  0001 L BNN "LCSC"
+	1    6500 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C10
+U 1 1 283A4AC9
+P 1400 4000
+AR Path="/283A4AC9" Ref="C10"  Part="1" 
+AR Path="/5EFCC321/283A4AC9" Ref="C10"  Part="1" 
+AR Path="/5F06AC00/283A4AC9" Ref="C10"  Part="1" 
+F 0 "C10" V 1385 4060 59  0000 L BNN
+F 1 "100nF" V 1515 4240 59  0000 R TNN
+F 2 "hub_keyboard:C0603" H 1400 4000 50  0001 C CNN
+F 3 "" H 1400 4000 50  0001 C CNN
+F 4 "C14663" H 1400 4000 59  0001 L BNN "LCSC"
+	1    1400 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C15
+U 1 1 1DB0A341
+P 2200 4100
+AR Path="/1DB0A341" Ref="C15"  Part="1" 
+AR Path="/5EFCC321/1DB0A341" Ref="C15"  Part="1" 
+AR Path="/5F06AC00/1DB0A341" Ref="C15"  Part="1" 
+F 0 "C15" V 2185 4160 59  0000 L BNN
+F 1 "100nF" V 2315 4340 59  0000 R TNN
+F 2 "hub_keyboard:C0603" H 2200 4100 50  0001 C CNN
+F 3 "" H 2200 4100 50  0001 C CNN
+F 4 "C14663" H 2200 4100 59  0001 L BNN "LCSC"
+	1    2200 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R1210 F1
+U 1 1 0367ED63
+P 8300 3600
+AR Path="/0367ED63" Ref="F1"  Part="1" 
+AR Path="/5EFCC321/0367ED63" Ref="F1"  Part="1" 
+AR Path="/5F06AC00/0367ED63" Ref="F1"  Part="1" 
+F 0 "F1" H 8150 3659 59  0000 L BNN
+F 1 "1.1A Hold" H 8150 3470 59  0000 L BNN
+F 2 "hub_keyboard:R1210" H 8300 3600 50  0001 C CNN
+F 3 "" H 8300 3600 50  0001 C CNN
+F 4 "TRUE" H 8300 3600 59  0001 L BNN "EXTENDED"
+F 5 "C70100" H 8300 3600 59  0001 L BNN "LCSC"
+	1    8300 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R21
+U 1 1 AC84AD9C
+P 6600 6500
+AR Path="/AC84AD9C" Ref="R21"  Part="1" 
+AR Path="/5EFCC321/AC84AD9C" Ref="R21"  Part="1" 
+AR Path="/5F06AC00/AC84AD9C" Ref="R21"  Part="1" 
+F 0 "R21" H 6450 6559 59  0000 L BNN
+F 1 "10k" H 6450 6370 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 6600 6500 50  0001 C CNN
+F 3 "" H 6600 6500 50  0001 C CNN
+F 4 "C25804" H 6600 6500 59  0001 L BNN "LCSC"
+	1    6600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C14
+U 1 1 B3A3920B
+P 6300 6800
+AR Path="/B3A3920B" Ref="C14"  Part="1" 
+AR Path="/5EFCC321/B3A3920B" Ref="C14"  Part="1" 
+AR Path="/5F06AC00/B3A3920B" Ref="C14"  Part="1" 
+F 0 "C14" V 6285 6860 59  0000 L BNN
+F 1 "10n" V 6415 7040 59  0000 R TNN
+F 2 "hub_keyboard:C0603" H 6300 6800 50  0001 C CNN
+F 3 "" H 6300 6800 50  0001 C CNN
+F 4 "C57112" H 6300 6800 59  0001 L BNN "LCSC"
+	1    6300 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:VCC #P+08
+U 1 1 615237C0
+P 3800 2900
+AR Path="/615237C0" Ref="#P+08"  Part="1" 
+AR Path="/5EFCC321/615237C0" Ref="#P+08"  Part="1" 
+AR Path="/5F06AC00/615237C0" Ref="#P+08"  Part="1" 
+F 0 "#P+08" H 3800 2900 50  0001 C CNN
+F 1 "VCC" V 3700 2800 59  0000 L BNN
+F 2 "" H 3800 2900 50  0001 C CNN
+F 3 "" H 3800 2900 50  0001 C CNN
+	1    3800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C12
+U 1 1 EF5A8354
+P 2200 3300
+AR Path="/EF5A8354" Ref="C12"  Part="1" 
+AR Path="/5EFCC321/EF5A8354" Ref="C12"  Part="1" 
+AR Path="/5F06AC00/EF5A8354" Ref="C12"  Part="1" 
+F 0 "C12" H 2260 3315 59  0000 L BNN
+F 1 "10u" H 2260 3115 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 2200 3300 50  0001 C CNN
+F 3 "" H 2200 3300 50  0001 C CNN
+F 4 "C19702" H 2200 3300 59  0001 L BNN "LCSC"
+	1    2200 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:24SN IC2
+U 1 1 3C0E41D9
+P 4400 1800
+AR Path="/3C0E41D9" Ref="IC2"  Part="1" 
+AR Path="/5EFCC321/3C0E41D9" Ref="IC2"  Part="1" 
+AR Path="/5F06AC00/3C0E41D9" Ref="IC2"  Part="1" 
+F 0 "IC2" H 4000 2250 59  0000 L BNN
+F 1 "24SN" H 4000 1400 59  0000 L BNN
+F 2 "hub_keyboard:SO-08" H 4400 1800 50  0001 C CNN
+F 3 "" H 4400 1800 50  0001 C CNN
+F 4 "TRUE" H 4400 1800 59  0001 L BNN "EXTENDED"
+F 5 "C184083" H 4400 1800 59  0001 L BNN "LCSC"
+	1    4400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:PRTR5V0U2X D18
+U 1 1 DB78B421
+P 9000 5000
+AR Path="/DB78B421" Ref="D18"  Part="1" 
+AR Path="/5EFCC321/DB78B421" Ref="D18"  Part="1" 
+AR Path="/5F06AC00/DB78B421" Ref="D18"  Part="1" 
+F 0 "D18" H 8797 5400 59  0000 L BNN
+F 1 "PRTR5V0U2X" H 8797 4603 59  0000 L BNN
+F 2 "hub_keyboard:SOT143" H 9000 5000 50  0001 C CNN
+F 3 "" H 9000 5000 50  0001 C CNN
+F 4 "1727-3884-1-ND" H 9000 5000 59  0001 L BNN "DIGIKEY"
+F 5 "TRUE" H 9000 5000 59  0001 L BNN "EXTENDED"
+F 6 "1524157" H 9000 5000 59  0001 L BNN "FARNELL"
+F 7 "C384891" H 9000 5000 59  0001 L BNN "LCSC"
+	1    9000 5000
+	0    1    -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C16
+U 1 1 08D174DD
+P 3000 4200
+AR Path="/08D174DD" Ref="C16"  Part="1" 
+AR Path="/5EFCC321/08D174DD" Ref="C16"  Part="1" 
+AR Path="/5F06AC00/08D174DD" Ref="C16"  Part="1" 
+F 0 "C16" H 3060 4215 59  0000 L BNN
+F 1 "12pF" H 3060 4015 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 3000 4200 50  0001 C CNN
+F 3 "" H 3000 4200 50  0001 C CNN
+F 4 "C38523" H 3000 4200 59  0001 L BNN "LCSC"
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:C-EUC0603 C9
+U 1 1 7AC36122
+P 2600 4100
+AR Path="/7AC36122" Ref="C9"  Part="1" 
+AR Path="/5EFCC321/7AC36122" Ref="C9"  Part="1" 
+AR Path="/5F06AC00/7AC36122" Ref="C9"  Part="1" 
+F 0 "C9" H 2660 4115 59  0000 L BNN
+F 1 "12pF" H 2660 3915 59  0000 L BNN
+F 2 "hub_keyboard:C0603" H 2600 4100 50  0001 C CNN
+F 3 "" H 2600 4100 50  0001 C CNN
+F 4 "C38523" H 2600 4100 59  0001 L BNN "LCSC"
+	1    2600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:PRTR5V0U2X D16
+U 1 1 9CA8D5E5
+P 9000 6800
+AR Path="/9CA8D5E5" Ref="D16"  Part="1" 
+AR Path="/5EFCC321/9CA8D5E5" Ref="D16"  Part="1" 
+AR Path="/5F06AC00/9CA8D5E5" Ref="D16"  Part="1" 
+F 0 "D16" H 8797 7200 59  0000 L BNN
+F 1 "PRTR5V0U2X" H 8797 6403 59  0000 L BNN
+F 2 "hub_keyboard:SOT143" H 9000 6800 50  0001 C CNN
+F 3 "" H 9000 6800 50  0001 C CNN
+F 4 "1727-3884-1-ND" H 9000 6800 59  0001 L BNN "DIGIKEY"
+F 5 "TRUE" H 9000 6800 59  0001 L BNN "EXTENDED"
+F 6 "1524157" H 9000 6800 59  0001 L BNN "FARNELL"
+F 7 "C384891" H 9000 6800 59  0001 L BNN "LCSC"
+	1    9000 6800
+	0    1    -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:PRTR5V0U2X D14
+U 1 1 72C1871A
+P 9100 9000
+AR Path="/72C1871A" Ref="D14"  Part="1" 
+AR Path="/5EFCC321/72C1871A" Ref="D14"  Part="1" 
+AR Path="/5F06AC00/72C1871A" Ref="D14"  Part="1" 
+F 0 "D14" H 8898 9400 59  0000 L BNN
+F 1 "PRTR5V0U2X" H 8898 8603 59  0000 L BNN
+F 2 "hub_keyboard:SOT143" H 9100 9000 50  0001 C CNN
+F 3 "" H 9100 9000 50  0001 C CNN
+F 4 "1727-3884-1-ND" H 9100 9000 59  0001 L BNN "DIGIKEY"
+F 5 "TRUE" H 9100 9000 59  0001 L BNN "EXTENDED"
+F 6 "1524157" H 9100 9000 59  0001 L BNN "FARNELL"
+F 7 "C384891" H 9100 9000 59  0001 L BNN "LCSC"
+	1    9100 9000
+	0    1    -1   0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R2
+U 1 1 D198352C
+P 7300 1100
+AR Path="/D198352C" Ref="R2"  Part="1" 
+AR Path="/5EFCC321/D198352C" Ref="R2"  Part="1" 
+AR Path="/5F06AC00/D198352C" Ref="R2"  Part="1" 
+F 0 "R2" H 7150 1159 59  0000 L BNN
+F 1 "5k1" H 7150 970 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 7300 1100 50  0001 C CNN
+F 3 "" H 7300 1100 50  0001 C CNN
+F 4 "C23186" H 7300 1100 59  0001 L BNN "LCSC"
+	1    7300 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R6
+U 1 1 7E60C7BA
+P 7000 1100
+AR Path="/7E60C7BA" Ref="R6"  Part="1" 
+AR Path="/5EFCC321/7E60C7BA" Ref="R6"  Part="1" 
+AR Path="/5F06AC00/7E60C7BA" Ref="R6"  Part="1" 
+F 0 "R6" H 6850 1159 59  0000 L BNN
+F 1 "5k1" H 6850 970 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 7000 1100 50  0001 C CNN
+F 3 "" H 7000 1100 50  0001 C CNN
+F 4 "C23186" H 7000 1100 59  0001 L BNN "LCSC"
+	1    7000 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R17
+U 1 1 4212B154
+P 9600 4400
+AR Path="/4212B154" Ref="R17"  Part="1" 
+AR Path="/5EFCC321/4212B154" Ref="R17"  Part="1" 
+AR Path="/5F06AC00/4212B154" Ref="R17"  Part="1" 
+F 0 "R17" H 9450 4459 59  0000 L BNN
+F 1 "22R" H 9450 4270 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 9600 4400 50  0001 C CNN
+F 3 "" H 9600 4400 50  0001 C CNN
+F 4 "C23345" H 9600 4400 59  0001 L BNN "LCSC"
+	1    9600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R18
+U 1 1 C87CEA22
+P 9300 4500
+AR Path="/C87CEA22" Ref="R18"  Part="1" 
+AR Path="/5EFCC321/C87CEA22" Ref="R18"  Part="1" 
+AR Path="/5F06AC00/C87CEA22" Ref="R18"  Part="1" 
+F 0 "R18" H 9150 4559 59  0000 L BNN
+F 1 "22R" H 9150 4370 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 9300 4500 50  0001 C CNN
+F 3 "" H 9300 4500 50  0001 C CNN
+F 4 "C23345" H 9300 4500 59  0001 L BNN "LCSC"
+	1    9300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R14
+U 1 1 EBD0106B
+P 9600 6200
+AR Path="/EBD0106B" Ref="R14"  Part="1" 
+AR Path="/5EFCC321/EBD0106B" Ref="R14"  Part="1" 
+AR Path="/5F06AC00/EBD0106B" Ref="R14"  Part="1" 
+F 0 "R14" H 9450 6259 59  0000 L BNN
+F 1 "22R" H 9450 6070 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 9600 6200 50  0001 C CNN
+F 3 "" H 9600 6200 50  0001 C CNN
+F 4 "C23345" H 9600 6200 59  0001 L BNN "LCSC"
+	1    9600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R15
+U 1 1 7AB92B1D
+P 9300 6300
+AR Path="/7AB92B1D" Ref="R15"  Part="1" 
+AR Path="/5EFCC321/7AB92B1D" Ref="R15"  Part="1" 
+AR Path="/5F06AC00/7AB92B1D" Ref="R15"  Part="1" 
+F 0 "R15" H 9150 6359 59  0000 L BNN
+F 1 "22R" H 9150 6170 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 9300 6300 50  0001 C CNN
+F 3 "" H 9300 6300 50  0001 C CNN
+F 4 "C23345" H 9300 6300 59  0001 L BNN "LCSC"
+	1    9300 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R11
+U 1 1 D5EFCBE0
+P 9600 7800
+AR Path="/D5EFCBE0" Ref="R11"  Part="1" 
+AR Path="/5EFCC321/D5EFCBE0" Ref="R11"  Part="1" 
+AR Path="/5F06AC00/D5EFCBE0" Ref="R11"  Part="1" 
+F 0 "R11" H 9450 7859 59  0000 L BNN
+F 1 "22R" H 9450 7670 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 9600 7800 50  0001 C CNN
+F 3 "" H 9600 7800 50  0001 C CNN
+F 4 "C23345" H 9600 7800 59  0001 L BNN "LCSC"
+	1    9600 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:R-EU_R0603 R12
+U 1 1 84C3B2F5
+P 9300 7900
+AR Path="/84C3B2F5" Ref="R12"  Part="1" 
+AR Path="/5EFCC321/84C3B2F5" Ref="R12"  Part="1" 
+AR Path="/5F06AC00/84C3B2F5" Ref="R12"  Part="1" 
+F 0 "R12" H 9150 7959 59  0000 L BNN
+F 1 "22R" H 9150 7770 59  0000 L BNN
+F 2 "hub_keyboard:R0603" H 9300 7900 50  0001 C CNN
+F 3 "" H 9300 7900 50  0001 C CNN
+F 4 "C23345" H 9300 7900 59  0001 L BNN "LCSC"
+	1    9300 7900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4800 2    50   Input ~ 0
+D+
+Text GLabel 5300 4900 2    50   Input ~ 0
+D-
+$Comp
+L power:GND #PWR?
+U 1 1 5FB691D5
+P 9400 9300
+F 0 "#PWR?" H 9400 9050 50  0001 C CNN
+F 1 "GND" H 9405 9127 50  0000 C CNN
+F 2 "" H 9400 9300 50  0001 C CNN
+F 3 "" H 9400 9300 50  0001 C CNN
+	1    9400 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB8CB70
+P 3800 2200
+F 0 "#PWR?" H 3800 1950 50  0001 C CNN
+F 1 "GND" H 3805 2027 50  0000 C CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB8CF42
+P 4700 2200
+F 0 "#PWR?" H 4700 1950 50  0001 C CNN
+F 1 "GND" H 4705 2027 50  0000 C CNN
+F 2 "" H 4700 2200 50  0001 C CNN
+F 3 "" H 4700 2200 50  0001 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB98DFC
+P 2200 3400
+F 0 "#PWR?" H 2200 3150 50  0001 C CNN
+F 1 "GND" H 2205 3227 50  0000 C CNN
+F 2 "" H 2200 3400 50  0001 C CNN
+F 3 "" H 2200 3400 50  0001 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBA5ADE
+P 1000 4300
+F 0 "#PWR?" H 1000 4050 50  0001 C CNN
+F 1 "GND" H 1005 4127 50  0000 C CNN
+F 2 "" H 1000 4300 50  0001 C CNN
+F 3 "" H 1000 4300 50  0001 C CNN
+	1    1000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBA5FAC
+P 1400 4300
+F 0 "#PWR?" H 1400 4050 50  0001 C CNN
+F 1 "GND" H 1405 4127 50  0000 C CNN
+F 2 "" H 1400 4300 50  0001 C CNN
+F 3 "" H 1400 4300 50  0001 C CNN
+	1    1400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBA63AE
+P 1900 4300
+F 0 "#PWR?" H 1900 4050 50  0001 C CNN
+F 1 "GND" H 1905 4127 50  0000 C CNN
+F 2 "" H 1900 4300 50  0001 C CNN
+F 3 "" H 1900 4300 50  0001 C CNN
+	1    1900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBA676C
+P 2200 4300
+F 0 "#PWR?" H 2200 4050 50  0001 C CNN
+F 1 "GND" H 2205 4127 50  0000 C CNN
+F 2 "" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB2494
+P 2600 4400
+F 0 "#PWR?" H 2600 4150 50  0001 C CNN
+F 1 "GND" H 2605 4227 50  0000 C CNN
+F 2 "" H 2600 4400 50  0001 C CNN
+F 3 "" H 2600 4400 50  0001 C CNN
+	1    2600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB28A7
+P 3000 4400
+F 0 "#PWR?" H 3000 4150 50  0001 C CNN
+F 1 "GND" H 3005 4227 50  0000 C CNN
+F 2 "" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBC987A
+P 3000 5400
+F 0 "#PWR?" H 3000 5150 50  0001 C CNN
+F 1 "GND" H 3005 5227 50  0000 C CNN
+F 2 "" H 3000 5400 50  0001 C CNN
+F 3 "" H 3000 5400 50  0001 C CNN
+	1    3000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBC9CF3
+P 3800 5400
+F 0 "#PWR?" H 3800 5150 50  0001 C CNN
+F 1 "GND" H 3805 5227 50  0000 C CNN
+F 2 "" H 3800 5400 50  0001 C CNN
+F 3 "" H 3800 5400 50  0001 C CNN
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE12A5
+P 6200 3200
+F 0 "#PWR?" H 6200 2950 50  0001 C CNN
+F 1 "GND" H 6205 3027 50  0000 C CNN
+F 2 "" H 6200 3200 50  0001 C CNN
+F 3 "" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE1630
+P 6500 3200
+F 0 "#PWR?" H 6500 2950 50  0001 C CNN
+F 1 "GND" H 6505 3027 50  0000 C CNN
+F 2 "" H 6500 3200 50  0001 C CNN
+F 3 "" H 6500 3200 50  0001 C CNN
+	1    6500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBED03B
+P 7000 900
+F 0 "#PWR?" H 7000 650 50  0001 C CNN
+F 1 "GND" V 7005 772 50  0000 R CNN
+F 2 "" H 7000 900 50  0001 C CNN
+F 3 "" H 7000 900 50  0001 C CNN
+	1    7000 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBED877
+P 7300 900
+F 0 "#PWR?" H 7300 650 50  0001 C CNN
+F 1 "GND" V 7305 772 50  0000 R CNN
+F 2 "" H 7300 900 50  0001 C CNN
+F 3 "" H 7300 900 50  0001 C CNN
+	1    7300 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBF9406
+P 7300 2500
+F 0 "#PWR?" H 7300 2250 50  0001 C CNN
+F 1 "GND" H 7305 2327 50  0000 C CNN
+F 2 "" H 7300 2500 50  0001 C CNN
+F 3 "" H 7300 2500 50  0001 C CNN
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC04D6F
+P 7400 3600
+F 0 "#PWR?" H 7400 3350 50  0001 C CNN
+F 1 "GND" H 7405 3427 50  0000 C CNN
+F 2 "" H 7400 3600 50  0001 C CNN
+F 3 "" H 7400 3600 50  0001 C CNN
+	1    7400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC1071C
+P 6100 5400
+F 0 "#PWR?" H 6100 5150 50  0001 C CNN
+F 1 "GND" H 6105 5227 50  0000 C CNN
+F 2 "" H 6100 5400 50  0001 C CNN
+F 3 "" H 6100 5400 50  0001 C CNN
+	1    6100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC1C085
+P 6300 7200
+F 0 "#PWR?" H 6300 6950 50  0001 C CNN
+F 1 "GND" H 6305 7027 50  0000 C CNN
+F 2 "" H 6300 7200 50  0001 C CNN
+F 3 "" H 6300 7200 50  0001 C CNN
+	1    6300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC27A57
+P 10200 3900
+F 0 "#PWR?" H 10200 3650 50  0001 C CNN
+F 1 "GND" H 10205 3727 50  0000 C CNN
+F 2 "" H 10200 3900 50  0001 C CNN
+F 3 "" H 10200 3900 50  0001 C CNN
+	1    10200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC33506
+P 12100 4500
+F 0 "#PWR?" H 12100 4250 50  0001 C CNN
+F 1 "GND" H 12105 4327 50  0000 C CNN
+F 2 "" H 12100 4500 50  0001 C CNN
+F 3 "" H 12100 4500 50  0001 C CNN
+	1    12100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC3EF4C
+P 9700 4600
+F 0 "#PWR?" H 9700 4350 50  0001 C CNN
+F 1 "GND" H 9705 4427 50  0000 C CNN
+F 2 "" H 9700 4600 50  0001 C CNN
+F 3 "" H 9700 4600 50  0001 C CNN
+	1    9700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC4A9E9
+P 9300 5300
+F 0 "#PWR?" H 9300 5050 50  0001 C CNN
+F 1 "GND" H 9305 5127 50  0000 C CNN
+F 2 "" H 9300 5300 50  0001 C CNN
+F 3 "" H 9300 5300 50  0001 C CNN
+	1    9300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC5616A
+P 10400 5700
+F 0 "#PWR?" H 10400 5450 50  0001 C CNN
+F 1 "GND" H 10405 5527 50  0000 C CNN
+F 2 "" H 10400 5700 50  0001 C CNN
+F 3 "" H 10400 5700 50  0001 C CNN
+	1    10400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC61D84
+P 12100 6300
+F 0 "#PWR?" H 12100 6050 50  0001 C CNN
+F 1 "GND" H 12105 6127 50  0000 C CNN
+F 2 "" H 12100 6300 50  0001 C CNN
+F 3 "" H 12100 6300 50  0001 C CNN
+	1    12100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC62285
+P 12100 7900
+F 0 "#PWR?" H 12100 7650 50  0001 C CNN
+F 1 "GND" H 12105 7727 50  0000 C CNN
+F 2 "" H 12100 7900 50  0001 C CNN
+F 3 "" H 12100 7900 50  0001 C CNN
+	1    12100 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC6DDBC
+P 10400 7300
+F 0 "#PWR?" H 10400 7050 50  0001 C CNN
+F 1 "GND" H 10405 7127 50  0000 C CNN
+F 2 "" H 10400 7300 50  0001 C CNN
+F 3 "" H 10400 7300 50  0001 C CNN
+	1    10400 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC797C1
+P 9700 6400
+F 0 "#PWR?" H 9700 6150 50  0001 C CNN
+F 1 "GND" H 9705 6227 50  0000 C CNN
+F 2 "" H 9700 6400 50  0001 C CNN
+F 3 "" H 9700 6400 50  0001 C CNN
+	1    9700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC851C5
+P 9300 7100
+F 0 "#PWR?" H 9300 6850 50  0001 C CNN
+F 1 "GND" H 9305 6927 50  0000 C CNN
+F 2 "" H 9300 7100 50  0001 C CNN
+F 3 "" H 9300 7100 50  0001 C CNN
+	1    9300 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC90B96
+P 9700 8000
+F 0 "#PWR?" H 9700 7750 50  0001 C CNN
+F 1 "GND" H 9705 7827 50  0000 C CNN
+F 2 "" H 9700 8000 50  0001 C CNN
+F 3 "" H 9700 8000 50  0001 C CNN
+	1    9700 8000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

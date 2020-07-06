@@ -1,0 +1,3895 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 23960 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2900 1000 2900 1900
+Wire Wire Line
+	2900 1900 2900 2700
+Wire Wire Line
+	2900 2700 2900 3500
+Wire Wire Line
+	2900 3500 2900 4300
+Wire Wire Line
+	2900 4300 2900 5100
+Wire Wire Line
+	2900 5100 2900 5900
+Wire Wire Line
+	2900 5900 2900 6500
+Wire Wire Line
+	2800 1900 2900 1900
+Wire Wire Line
+	2800 2700 2900 2700
+Wire Wire Line
+	2800 3500 2900 3500
+Wire Wire Line
+	2800 4300 2900 4300
+Wire Wire Line
+	2800 5100 2900 5100
+Wire Wire Line
+	2800 5900 2900 5900
+Connection ~ 2900 5900
+Connection ~ 2900 5100
+Connection ~ 2900 4300
+Connection ~ 2900 3500
+Connection ~ 2900 2700
+Connection ~ 2900 1900
+Text GLabel 2900 1000 0    50   BiDi ~ 0
+C1
+Wire Wire Line
+	4000 1000 4000 2700
+Wire Wire Line
+	4000 2700 4000 3500
+Wire Wire Line
+	4000 3500 4000 4300
+Wire Wire Line
+	4000 4300 4000 5100
+Wire Wire Line
+	4000 5100 4000 5900
+Wire Wire Line
+	4000 5900 4000 6500
+Wire Wire Line
+	3900 2700 4000 2700
+Wire Wire Line
+	3900 3500 4000 3500
+Wire Wire Line
+	3900 4300 4000 4300
+Wire Wire Line
+	3900 5900 4000 5900
+Wire Wire Line
+	3900 5100 4000 5100
+Connection ~ 4000 2700
+Connection ~ 4000 3500
+Connection ~ 4000 4300
+Connection ~ 4000 5900
+Text GLabel 4000 1000 0    50   BiDi ~ 0
+C2/SCK
+Connection ~ 4000 5100
+Wire Wire Line
+	5100 1000 5100 1900
+Wire Wire Line
+	5100 1900 5100 2700
+Wire Wire Line
+	5100 2700 5100 3500
+Wire Wire Line
+	5100 3500 5100 4300
+Wire Wire Line
+	5100 4300 5100 5100
+Wire Wire Line
+	5100 5100 5100 5900
+Wire Wire Line
+	5100 5900 5100 6500
+Wire Wire Line
+	5100 1900 5000 1900
+Wire Wire Line
+	5000 2700 5100 2700
+Wire Wire Line
+	5000 3500 5100 3500
+Wire Wire Line
+	5000 4300 5100 4300
+Wire Wire Line
+	5000 5900 5100 5900
+Wire Wire Line
+	5000 5100 5100 5100
+Connection ~ 5100 2700
+Connection ~ 5100 3500
+Connection ~ 5100 5900
+Connection ~ 5100 1900
+Connection ~ 5100 4300
+Text GLabel 5100 1000 0    50   BiDi ~ 0
+C3/MOSI
+Connection ~ 5100 5100
+Wire Wire Line
+	6200 1000 6200 1900
+Wire Wire Line
+	6200 1900 6200 2700
+Wire Wire Line
+	6200 2700 6200 3500
+Wire Wire Line
+	6200 3500 6200 4300
+Wire Wire Line
+	6200 4300 6200 5100
+Wire Wire Line
+	6200 5100 6200 5900
+Wire Wire Line
+	6200 5900 6200 6500
+Wire Wire Line
+	6100 1900 6200 1900
+Wire Wire Line
+	6100 2700 6200 2700
+Wire Wire Line
+	6100 3500 6200 3500
+Wire Wire Line
+	6100 4300 6200 4300
+Wire Wire Line
+	6100 5100 6200 5100
+Wire Wire Line
+	6100 5900 6200 5900
+Connection ~ 6200 2700
+Connection ~ 6200 3500
+Connection ~ 6200 4300
+Connection ~ 6200 1900
+Text GLabel 6200 1000 0    50   BiDi ~ 0
+C4/MISO
+Connection ~ 6200 5100
+Connection ~ 6200 5900
+Wire Wire Line
+	7300 1000 7300 1900
+Wire Wire Line
+	7300 1900 7300 2700
+Wire Wire Line
+	7300 2700 7300 3500
+Wire Wire Line
+	7300 3500 7300 4300
+Wire Wire Line
+	7300 4300 7300 5100
+Wire Wire Line
+	7300 5100 7300 5900
+Wire Wire Line
+	7300 5900 7300 6500
+Wire Wire Line
+	7200 1900 7300 1900
+Wire Wire Line
+	7200 2700 7300 2700
+Wire Wire Line
+	7200 3500 7300 3500
+Wire Wire Line
+	7200 4300 7300 4300
+Wire Wire Line
+	7200 5100 7300 5100
+Wire Wire Line
+	7200 5900 7300 5900
+Connection ~ 7300 3500
+Connection ~ 7300 4300
+Connection ~ 7300 2700
+Connection ~ 7300 1900
+Text GLabel 7300 1000 0    50   BiDi ~ 0
+C5
+Connection ~ 7300 5100
+Connection ~ 7300 5900
+Wire Wire Line
+	8400 1000 8400 1900
+Wire Wire Line
+	8400 1900 8400 2700
+Wire Wire Line
+	8400 2700 8400 3500
+Wire Wire Line
+	8400 3500 8400 4300
+Wire Wire Line
+	8400 4300 8400 5100
+Wire Wire Line
+	8400 5100 8400 6500
+Wire Wire Line
+	8300 1900 8400 1900
+Wire Wire Line
+	8300 2700 8400 2700
+Wire Wire Line
+	8300 3500 8400 3500
+Wire Wire Line
+	8300 4300 8400 4300
+Wire Wire Line
+	8400 5100 8300 5100
+Connection ~ 8400 4300
+Connection ~ 8400 3500
+Connection ~ 8400 2700
+Connection ~ 8400 1900
+Text GLabel 8400 1000 0    50   BiDi ~ 0
+C6
+Connection ~ 8400 5100
+Wire Wire Line
+	9500 1000 9500 1900
+Wire Wire Line
+	9500 1900 9500 2700
+Wire Wire Line
+	9500 2700 9500 3500
+Wire Wire Line
+	9500 3500 9500 4300
+Wire Wire Line
+	9500 4300 9500 5100
+Wire Wire Line
+	9500 5100 9500 5900
+Wire Wire Line
+	9500 5900 9500 6500
+Wire Wire Line
+	9500 1900 9400 1900
+Wire Wire Line
+	9400 2700 9500 2700
+Wire Wire Line
+	9400 3500 9500 3500
+Wire Wire Line
+	9400 4300 9500 4300
+Wire Wire Line
+	9400 5100 9500 5100
+Wire Wire Line
+	9500 5900 9400 5900
+Connection ~ 9500 3500
+Connection ~ 9500 4300
+Connection ~ 9500 2700
+Connection ~ 9500 1900
+Text GLabel 9500 1000 0    50   BiDi ~ 0
+C7
+Connection ~ 9500 5100
+Connection ~ 9500 5900
+Wire Wire Line
+	10600 1000 10600 1900
+Wire Wire Line
+	10600 1900 10600 2700
+Wire Wire Line
+	10600 2700 10600 3500
+Wire Wire Line
+	10600 3500 10600 4300
+Wire Wire Line
+	10600 4300 10600 5100
+Wire Wire Line
+	10600 5100 10600 5900
+Wire Wire Line
+	10600 5900 10600 6500
+Wire Wire Line
+	10500 1900 10600 1900
+Wire Wire Line
+	10500 2700 10600 2700
+Wire Wire Line
+	10500 3500 10600 3500
+Wire Wire Line
+	10500 4300 10600 4300
+Wire Wire Line
+	10600 5100 10500 5100
+Wire Wire Line
+	10500 5900 10600 5900
+Connection ~ 10600 4300
+Connection ~ 10600 3500
+Connection ~ 10600 2700
+Connection ~ 10600 1900
+Text GLabel 10600 1000 0    50   BiDi ~ 0
+C8
+Connection ~ 10600 5100
+Connection ~ 10600 5900
+Wire Wire Line
+	13000 1000 13000 1900
+Wire Wire Line
+	13000 1900 13000 2700
+Wire Wire Line
+	13000 2700 13000 3500
+Wire Wire Line
+	13000 3500 13000 4300
+Wire Wire Line
+	13000 4300 13000 5100
+Wire Wire Line
+	13000 5100 13000 5900
+Wire Wire Line
+	13000 5900 13000 6500
+Wire Wire Line
+	12800 1900 13000 1900
+Wire Wire Line
+	12800 2700 13000 2700
+Wire Wire Line
+	12800 3500 13000 3500
+Wire Wire Line
+	12800 4300 13000 4300
+Wire Wire Line
+	12800 5900 13000 5900
+Wire Wire Line
+	12800 5100 13000 5100
+Connection ~ 13000 2700
+Connection ~ 13000 3500
+Connection ~ 13000 4300
+Connection ~ 13000 5900
+Connection ~ 13000 1900
+Text GLabel 13000 1000 0    50   BiDi ~ 0
+C10
+Connection ~ 13000 5100
+Wire Wire Line
+	14200 1000 14200 1900
+Wire Wire Line
+	14200 1900 14200 2700
+Wire Wire Line
+	14200 2700 14200 3500
+Wire Wire Line
+	14200 3500 14200 4300
+Wire Wire Line
+	14200 4300 14200 5100
+Wire Wire Line
+	14200 5100 14200 5900
+Wire Wire Line
+	14200 5900 14200 6500
+Wire Wire Line
+	14000 1900 14200 1900
+Wire Wire Line
+	14000 2700 14200 2700
+Wire Wire Line
+	14000 3500 14200 3500
+Wire Wire Line
+	14000 4300 14200 4300
+Wire Wire Line
+	14000 5900 14200 5900
+Wire Wire Line
+	14000 5100 14200 5100
+Connection ~ 14200 4300
+Connection ~ 14200 3500
+Connection ~ 14200 2700
+Connection ~ 14200 5900
+Connection ~ 14200 1900
+Text GLabel 14200 1000 0    50   BiDi ~ 0
+C11
+Connection ~ 14200 5100
+Wire Wire Line
+	15400 1000 15400 1900
+Wire Wire Line
+	15400 1900 15400 2700
+Wire Wire Line
+	15400 2700 15400 3500
+Wire Wire Line
+	15400 3500 15400 4300
+Wire Wire Line
+	15400 4300 15400 5100
+Wire Wire Line
+	15400 5100 15400 6500
+Wire Wire Line
+	15200 1900 15400 1900
+Wire Wire Line
+	15200 2700 15400 2700
+Wire Wire Line
+	15200 3500 15400 3500
+Wire Wire Line
+	15200 4300 15400 4300
+Wire Wire Line
+	15200 5100 15400 5100
+Connection ~ 15400 4300
+Connection ~ 15400 3500
+Connection ~ 15400 2700
+Connection ~ 15400 1900
+Text GLabel 15400 1000 0    50   BiDi ~ 0
+C12
+Connection ~ 15400 5100
+Wire Wire Line
+	16500 1000 16500 1900
+Wire Wire Line
+	16500 1900 16500 2700
+Wire Wire Line
+	16500 2700 16500 3500
+Wire Wire Line
+	16500 3500 16500 5900
+Wire Wire Line
+	16500 5900 16500 6500
+Wire Wire Line
+	16400 1900 16500 1900
+Wire Wire Line
+	16400 2700 16500 2700
+Wire Wire Line
+	16400 3500 16500 3500
+Wire Wire Line
+	16400 5900 16500 5900
+Connection ~ 16500 5900
+Connection ~ 16500 2700
+Connection ~ 16500 3500
+Connection ~ 16500 1900
+Text GLabel 16500 1000 0    50   BiDi ~ 0
+C13
+Wire Wire Line
+	17700 1000 17700 1900
+Wire Wire Line
+	17700 1900 17700 2700
+Wire Wire Line
+	17700 2700 17700 3500
+Wire Wire Line
+	17700 3500 17700 4300
+Wire Wire Line
+	17700 4300 17700 5100
+Wire Wire Line
+	17700 5100 17700 5900
+Wire Wire Line
+	17700 5900 17700 6500
+Wire Wire Line
+	17500 1900 17700 1900
+Wire Wire Line
+	17500 2700 17700 2700
+Wire Wire Line
+	17500 3500 17700 3500
+Wire Wire Line
+	17500 4300 17700 4300
+Wire Wire Line
+	17500 5100 17700 5100
+Wire Wire Line
+	17500 5900 17700 5900
+Connection ~ 17700 5900
+Connection ~ 17700 5100
+Connection ~ 17700 4300
+Connection ~ 17700 3500
+Connection ~ 17700 2700
+Connection ~ 17700 1900
+Text GLabel 17700 1000 0    50   BiDi ~ 0
+C14
+Wire Wire Line
+	1100 2400 1900 2400
+Wire Wire Line
+	1900 2400 3000 2400
+Wire Wire Line
+	3000 2400 4100 2400
+Wire Wire Line
+	4100 2400 5200 2400
+Wire Wire Line
+	5200 2400 6300 2400
+Wire Wire Line
+	6300 2400 7400 2400
+Wire Wire Line
+	7400 2400 8500 2400
+Wire Wire Line
+	8500 2400 9600 2400
+Wire Wire Line
+	9600 2400 10700 2400
+Wire Wire Line
+	10700 2400 11900 2400
+Wire Wire Line
+	11900 2400 13100 2400
+Wire Wire Line
+	13100 2400 14300 2400
+Wire Wire Line
+	14300 2400 15500 2400
+Wire Wire Line
+	15500 2400 16600 2400
+Wire Wire Line
+	16600 2400 18200 2400
+Wire Wire Line
+	1900 2700 1900 2400
+Wire Wire Line
+	3000 2700 3000 2400
+Wire Wire Line
+	4100 2700 4100 2400
+Wire Wire Line
+	5200 2700 5200 2400
+Wire Wire Line
+	6300 2700 6300 2400
+Wire Wire Line
+	7400 2700 7400 2400
+Wire Wire Line
+	8500 2700 8500 2400
+Wire Wire Line
+	9600 2700 9600 2400
+Wire Wire Line
+	10700 2700 10700 2400
+Wire Wire Line
+	11900 2700 11900 2400
+Wire Wire Line
+	13100 2700 13100 2400
+Wire Wire Line
+	14300 2700 14300 2400
+Wire Wire Line
+	15500 2700 15500 2400
+Wire Wire Line
+	16600 2700 16600 2400
+Wire Wire Line
+	18200 2400 19400 2400
+Wire Wire Line
+	18200 2700 18200 2400
+Wire Wire Line
+	19400 2400 20600 2400
+Wire Wire Line
+	19400 2700 19400 2400
+Wire Wire Line
+	20600 2400 22000 2400
+Wire Wire Line
+	20600 2700 20600 2400
+Connection ~ 1900 2400
+Connection ~ 3000 2400
+Connection ~ 4100 2400
+Connection ~ 5200 2400
+Connection ~ 6300 2400
+Connection ~ 7400 2400
+Connection ~ 8500 2400
+Connection ~ 9600 2400
+Connection ~ 10700 2400
+Connection ~ 11900 2400
+Connection ~ 13100 2400
+Connection ~ 14300 2400
+Connection ~ 15500 2400
+Connection ~ 16600 2400
+Text GLabel 1100 2400 0    50   BiDi ~ 0
+R2
+Connection ~ 18200 2400
+Connection ~ 19400 2400
+Connection ~ 20600 2400
+Wire Wire Line
+	1100 3200 1900 3200
+Wire Wire Line
+	1900 3200 3000 3200
+Wire Wire Line
+	3000 3200 4100 3200
+Wire Wire Line
+	4100 3200 5200 3200
+Wire Wire Line
+	5200 3200 6300 3200
+Wire Wire Line
+	6300 3200 7400 3200
+Wire Wire Line
+	7400 3200 8500 3200
+Wire Wire Line
+	8500 3200 9600 3200
+Wire Wire Line
+	9600 3200 10700 3200
+Wire Wire Line
+	10700 3200 11900 3200
+Wire Wire Line
+	11900 3200 13100 3200
+Wire Wire Line
+	13100 3200 14300 3200
+Wire Wire Line
+	14300 3200 15500 3200
+Wire Wire Line
+	15500 3200 16600 3200
+Wire Wire Line
+	16600 3200 18200 3200
+Wire Wire Line
+	16600 3500 16600 3200
+Wire Wire Line
+	15500 3500 15500 3200
+Wire Wire Line
+	14300 3500 14300 3200
+Wire Wire Line
+	13100 3500 13100 3200
+Wire Wire Line
+	11900 3500 11900 3200
+Wire Wire Line
+	10700 3500 10700 3200
+Wire Wire Line
+	9600 3500 9600 3200
+Wire Wire Line
+	8500 3500 8500 3200
+Wire Wire Line
+	7400 3500 7400 3200
+Wire Wire Line
+	6300 3500 6300 3200
+Wire Wire Line
+	5200 3500 5200 3200
+Wire Wire Line
+	4100 3500 4100 3200
+Wire Wire Line
+	3000 3500 3000 3200
+Wire Wire Line
+	1900 3500 1900 3200
+Wire Wire Line
+	18200 3200 19400 3200
+Wire Wire Line
+	18200 3500 18200 3200
+Wire Wire Line
+	19400 3200 20600 3200
+Wire Wire Line
+	19400 3500 19400 3200
+Wire Wire Line
+	20600 3200 22000 3200
+Wire Wire Line
+	20600 3500 20600 3200
+Connection ~ 16600 3200
+Connection ~ 15500 3200
+Connection ~ 14300 3200
+Connection ~ 13100 3200
+Connection ~ 11900 3200
+Connection ~ 10700 3200
+Connection ~ 9600 3200
+Connection ~ 8500 3200
+Connection ~ 7400 3200
+Connection ~ 6300 3200
+Connection ~ 5200 3200
+Connection ~ 4100 3200
+Connection ~ 3000 3200
+Connection ~ 1900 3200
+Text GLabel 1100 3200 0    50   BiDi ~ 0
+R3
+Connection ~ 18200 3200
+Connection ~ 19400 3200
+Connection ~ 20600 3200
+Wire Wire Line
+	1100 4000 1900 4000
+Wire Wire Line
+	1900 4000 3000 4000
+Wire Wire Line
+	3000 4000 4100 4000
+Wire Wire Line
+	4100 4000 5200 4000
+Wire Wire Line
+	5200 4000 6300 4000
+Wire Wire Line
+	6300 4000 7400 4000
+Wire Wire Line
+	7400 4000 8500 4000
+Wire Wire Line
+	8500 4000 9600 4000
+Wire Wire Line
+	9600 4000 10700 4000
+Wire Wire Line
+	10700 4000 11900 4000
+Wire Wire Line
+	11900 4000 13100 4000
+Wire Wire Line
+	13100 4000 14300 4000
+Wire Wire Line
+	14300 4000 16600 4000
+Wire Wire Line
+	7400 4300 7400 4000
+Wire Wire Line
+	8500 4300 8500 4000
+Wire Wire Line
+	9600 4300 9600 4000
+Wire Wire Line
+	10700 4300 10700 4000
+Wire Wire Line
+	11900 4300 11900 4000
+Wire Wire Line
+	13100 4300 13100 4000
+Wire Wire Line
+	14300 4300 14300 4000
+Wire Wire Line
+	16600 4300 16600 4000
+Wire Wire Line
+	6300 4300 6300 4000
+Wire Wire Line
+	5200 4300 5200 4000
+Wire Wire Line
+	4100 4300 4100 4000
+Wire Wire Line
+	3000 4300 3000 4000
+Wire Wire Line
+	1900 4300 1900 4000
+Wire Wire Line
+	16600 4000 22000 4000
+Connection ~ 7400 4000
+Connection ~ 8500 4000
+Connection ~ 9600 4000
+Connection ~ 10700 4000
+Connection ~ 11900 4000
+Connection ~ 13100 4000
+Connection ~ 14300 4000
+Connection ~ 16600 4000
+Connection ~ 6300 4000
+Connection ~ 5200 4000
+Connection ~ 4100 4000
+Connection ~ 3000 4000
+Connection ~ 1900 4000
+Text GLabel 1100 4000 0    50   BiDi ~ 0
+R4
+Wire Wire Line
+	1100 4800 1200 4800
+Wire Wire Line
+	1200 4800 1900 4800
+Wire Wire Line
+	1900 4800 3000 4800
+Wire Wire Line
+	3000 4800 4100 4800
+Wire Wire Line
+	4100 4800 5200 4800
+Wire Wire Line
+	5200 4800 6300 4800
+Wire Wire Line
+	6300 4800 7400 4800
+Wire Wire Line
+	7400 4800 8500 4800
+Wire Wire Line
+	8500 4800 9600 4800
+Wire Wire Line
+	9600 4800 10700 4800
+Wire Wire Line
+	10700 4800 11900 4800
+Wire Wire Line
+	11900 4800 13100 4800
+Wire Wire Line
+	13100 4800 14300 4800
+Wire Wire Line
+	14300 4800 16600 4800
+Wire Wire Line
+	16600 5100 16600 4800
+Wire Wire Line
+	14300 5100 14300 4800
+Wire Wire Line
+	13100 5100 13100 4800
+Wire Wire Line
+	11900 5100 11900 4800
+Wire Wire Line
+	10700 5100 10700 4800
+Wire Wire Line
+	9600 5100 9600 4800
+Wire Wire Line
+	8500 5100 8500 4800
+Wire Wire Line
+	7400 5100 7400 4800
+Wire Wire Line
+	6300 5100 6300 4800
+Wire Wire Line
+	5200 5100 5200 4800
+Wire Wire Line
+	4100 5100 4100 4800
+Wire Wire Line
+	1900 5100 1900 4800
+Wire Wire Line
+	19400 4800 22000 4800
+Wire Wire Line
+	19400 5100 19400 4800
+Wire Wire Line
+	16600 4800 19400 4800
+Wire Wire Line
+	1200 5100 1200 4800
+Wire Wire Line
+	3000 5100 3000 4800
+Connection ~ 16600 4800
+Connection ~ 14300 4800
+Connection ~ 13100 4800
+Connection ~ 11900 4800
+Connection ~ 10700 4800
+Connection ~ 9600 4800
+Connection ~ 8500 4800
+Connection ~ 7400 4800
+Connection ~ 6300 4800
+Connection ~ 5200 4800
+Connection ~ 4100 4800
+Connection ~ 1900 4800
+Text GLabel 1100 4800 0    50   BiDi ~ 0
+R5
+Connection ~ 19400 4800
+Connection ~ 1200 4800
+Connection ~ 3000 4800
+Wire Wire Line
+	1100 5600 1900 5600
+Wire Wire Line
+	1900 5600 3000 5600
+Wire Wire Line
+	3000 5600 4100 5600
+Wire Wire Line
+	4100 5600 5200 5600
+Wire Wire Line
+	5200 5600 6300 5600
+Wire Wire Line
+	6300 5600 8500 5600
+Wire Wire Line
+	8500 5600 9600 5600
+Wire Wire Line
+	9600 5600 10700 5600
+Wire Wire Line
+	10700 5600 11900 5600
+Wire Wire Line
+	11900 5600 13100 5600
+Wire Wire Line
+	13100 5600 15500 5600
+Wire Wire Line
+	15500 5600 16600 5600
+Wire Wire Line
+	16600 5600 18200 5600
+Wire Wire Line
+	16600 5900 16600 5600
+Wire Wire Line
+	15500 5900 15500 5600
+Wire Wire Line
+	4100 5900 4100 5600
+Wire Wire Line
+	3000 5900 3000 5600
+Wire Wire Line
+	1900 5900 1900 5600
+Wire Wire Line
+	8500 5900 8500 5600
+Wire Wire Line
+	11900 5900 11900 5600
+Wire Wire Line
+	13100 5900 13100 5600
+Wire Wire Line
+	18200 5600 19400 5600
+Wire Wire Line
+	18200 5900 18200 5600
+Wire Wire Line
+	19400 5600 20600 5600
+Wire Wire Line
+	19400 5900 19400 5600
+Wire Wire Line
+	20600 5600 22000 5600
+Wire Wire Line
+	20600 5900 20600 5600
+Wire Wire Line
+	6300 5900 6300 5600
+Wire Wire Line
+	9600 5900 9600 5600
+Wire Wire Line
+	10700 5900 10700 5600
+Wire Wire Line
+	5200 5900 5200 5600
+Connection ~ 16600 5600
+Connection ~ 15500 5600
+Connection ~ 4100 5600
+Connection ~ 3000 5600
+Connection ~ 1900 5600
+Connection ~ 8500 5600
+Connection ~ 11900 5600
+Connection ~ 13100 5600
+Text GLabel 1100 5600 0    50   BiDi ~ 0
+R6
+Connection ~ 18200 5600
+Connection ~ 19400 5600
+Connection ~ 20600 5600
+Connection ~ 6300 5600
+Connection ~ 9600 5600
+Connection ~ 10700 5600
+Connection ~ 5200 5600
+Wire Wire Line
+	1100 1600 1900 1600
+Wire Wire Line
+	1900 1600 4100 1600
+Wire Wire Line
+	4100 1600 5200 1600
+Wire Wire Line
+	5200 1600 6300 1600
+Wire Wire Line
+	6300 1600 7400 1600
+Wire Wire Line
+	7400 1600 8500 1600
+Wire Wire Line
+	8500 1600 9600 1600
+Wire Wire Line
+	9600 1600 10700 1600
+Wire Wire Line
+	10700 1600 11900 1600
+Wire Wire Line
+	11900 1600 13100 1600
+Wire Wire Line
+	13100 1600 14300 1600
+Wire Wire Line
+	14300 1600 15500 1600
+Wire Wire Line
+	15500 1600 16600 1600
+Wire Wire Line
+	16600 1600 18200 1600
+Wire Wire Line
+	1900 1900 1900 1600
+Wire Wire Line
+	4100 1900 4100 1600
+Wire Wire Line
+	5200 1900 5200 1600
+Wire Wire Line
+	6300 1900 6300 1600
+Wire Wire Line
+	7400 1900 7400 1600
+Wire Wire Line
+	8500 1900 8500 1600
+Wire Wire Line
+	9600 1900 9600 1600
+Wire Wire Line
+	10700 1900 10700 1600
+Wire Wire Line
+	11900 1900 11900 1600
+Wire Wire Line
+	13100 1900 13100 1600
+Wire Wire Line
+	14300 1900 14300 1600
+Wire Wire Line
+	15500 1900 15500 1600
+Wire Wire Line
+	16600 1900 16600 1600
+Wire Wire Line
+	18200 1600 19400 1600
+Wire Wire Line
+	18200 1900 18200 1600
+Wire Wire Line
+	19400 1600 20600 1600
+Wire Wire Line
+	19400 1900 19400 1600
+Wire Wire Line
+	20600 1600 22000 1600
+Wire Wire Line
+	20600 1900 20600 1600
+Connection ~ 1900 1600
+Connection ~ 4100 1600
+Connection ~ 5200 1600
+Connection ~ 6300 1600
+Connection ~ 7400 1600
+Connection ~ 8500 1600
+Connection ~ 9600 1600
+Connection ~ 10700 1600
+Connection ~ 11900 1600
+Connection ~ 13100 1600
+Connection ~ 14300 1600
+Connection ~ 15500 1600
+Connection ~ 16600 1600
+Text GLabel 1100 1600 0    50   BiDi ~ 0
+R1
+Connection ~ 18200 1600
+Connection ~ 19400 1600
+Connection ~ 20600 1600
+Wire Wire Line
+	2500 1900 2600 1900
+Wire Wire Line
+	2500 2700 2600 2700
+Wire Wire Line
+	2500 3500 2600 3500
+Wire Wire Line
+	2500 4300 2600 4300
+Wire Wire Line
+	2500 5100 2600 5100
+Wire Wire Line
+	1800 5100 1800 5230
+Wire Wire Line
+	1800 5230 2500 5230
+Wire Wire Line
+	2500 5230 2500 5100
+Connection ~ 2500 5100
+Wire Wire Line
+	2500 5900 2600 5900
+Wire Wire Line
+	3600 2700 3700 2700
+Wire Wire Line
+	3600 3500 3700 3500
+Wire Wire Line
+	3600 4300 3700 4300
+Wire Wire Line
+	4700 5100 4800 5100
+Wire Wire Line
+	3600 5900 3700 5900
+Wire Wire Line
+	4800 1900 4700 1900
+Wire Wire Line
+	4700 2700 4800 2700
+Wire Wire Line
+	4700 3500 4800 3500
+Wire Wire Line
+	4700 4300 4800 4300
+Wire Wire Line
+	5800 5100 5900 5100
+Wire Wire Line
+	4700 5900 4800 5900
+Wire Wire Line
+	5800 1900 5900 1900
+Wire Wire Line
+	5800 2700 5900 2700
+Wire Wire Line
+	5800 3500 5900 3500
+Wire Wire Line
+	5800 4300 5900 4300
+Wire Wire Line
+	6900 5100 7000 5100
+Wire Wire Line
+	6900 1900 7000 1900
+Wire Wire Line
+	6900 2700 7000 2700
+Wire Wire Line
+	6900 3500 7000 3500
+Wire Wire Line
+	6900 4300 7000 4300
+Wire Wire Line
+	8000 5100 8100 5100
+Wire Wire Line
+	8000 1900 8100 1900
+Wire Wire Line
+	8000 2700 8100 2700
+Wire Wire Line
+	8000 3500 8100 3500
+Wire Wire Line
+	8000 4300 8100 4300
+Wire Wire Line
+	9100 5100 9200 5100
+Wire Wire Line
+	9100 5900 9200 5900
+Wire Wire Line
+	9200 1900 9100 1900
+Wire Wire Line
+	9100 2700 9200 2700
+Wire Wire Line
+	9100 3500 9200 3500
+Wire Wire Line
+	9100 4300 9200 4300
+Wire Wire Line
+	10200 5100 10300 5100
+Wire Wire Line
+	10200 1900 10300 1900
+Wire Wire Line
+	10200 2700 10300 2700
+Wire Wire Line
+	10200 3500 10300 3500
+Wire Wire Line
+	10200 4300 10300 4300
+Wire Wire Line
+	11300 5100 11400 5100
+Wire Wire Line
+	11300 1900 11400 1900
+Wire Wire Line
+	11300 2700 11400 2700
+Wire Wire Line
+	11300 3500 11400 3500
+Wire Wire Line
+	11300 4300 11400 4300
+Wire Wire Line
+	12600 5100 12500 5100
+Wire Wire Line
+	12500 1900 12600 1900
+Wire Wire Line
+	12500 2700 12600 2700
+Wire Wire Line
+	12500 3500 12600 3500
+Wire Wire Line
+	12500 4300 12600 4300
+Wire Wire Line
+	13700 5100 13800 5100
+Wire Wire Line
+	12500 5900 12600 5900
+Wire Wire Line
+	13700 1900 13800 1900
+Wire Wire Line
+	13700 2700 13800 2700
+Wire Wire Line
+	13700 3500 13800 3500
+Wire Wire Line
+	13700 4300 13800 4300
+Wire Wire Line
+	14900 5100 15000 5100
+Wire Wire Line
+	13700 5900 13800 5900
+Wire Wire Line
+	14900 1900 15000 1900
+Wire Wire Line
+	14900 2700 15000 2700
+Wire Wire Line
+	14900 3500 15000 3500
+Wire Wire Line
+	14900 4300 15000 4300
+Wire Wire Line
+	16100 1900 16200 1900
+Wire Wire Line
+	16100 2700 16200 2700
+Wire Wire Line
+	16100 3500 16200 3500
+Wire Wire Line
+	16100 5900 16200 5900
+Wire Wire Line
+	17200 1900 17300 1900
+Wire Wire Line
+	17200 2700 17300 2700
+Wire Wire Line
+	17200 3500 17300 3500
+Wire Wire Line
+	17200 4300 17300 4300
+Wire Wire Line
+	17200 5100 17300 5100
+Wire Wire Line
+	17200 5900 17300 5900
+Wire Wire Line
+	11800 1000 11800 1900
+Wire Wire Line
+	11800 1900 11800 2700
+Wire Wire Line
+	11800 2700 11800 3500
+Wire Wire Line
+	11800 3500 11800 4300
+Wire Wire Line
+	11800 4300 11800 5100
+Wire Wire Line
+	11800 5100 11800 5900
+Wire Wire Line
+	11800 5900 11800 6500
+Wire Wire Line
+	11600 1900 11800 1900
+Wire Wire Line
+	11600 2700 11800 2700
+Wire Wire Line
+	11600 3500 11800 3500
+Wire Wire Line
+	11600 4300 11800 4300
+Wire Wire Line
+	11600 5100 11800 5100
+Wire Wire Line
+	11600 5900 11800 5900
+Connection ~ 11800 2700
+Connection ~ 11800 3500
+Connection ~ 11800 4300
+Connection ~ 11800 1900
+Text GLabel 11800 1025 0    50   BiDi ~ 0
+C9
+Connection ~ 11800 5100
+Connection ~ 11800 5900
+Wire Wire Line
+	18800 1900 18900 1900
+Wire Wire Line
+	18800 2700 18900 2700
+Wire Wire Line
+	18800 3500 18900 3500
+Wire Wire Line
+	18800 5900 18900 5900
+Wire Wire Line
+	19300 1000 19300 1900
+Wire Wire Line
+	19300 1900 19300 2700
+Wire Wire Line
+	19300 2700 19300 3500
+Wire Wire Line
+	19300 3500 19300 5900
+Wire Wire Line
+	19300 5900 19300 6500
+Wire Wire Line
+	19100 1900 19300 1900
+Wire Wire Line
+	19100 2700 19300 2700
+Wire Wire Line
+	19100 3500 19300 3500
+Wire Wire Line
+	19100 5900 19300 5900
+Connection ~ 19300 5900
+Connection ~ 19300 3500
+Connection ~ 19300 2700
+Connection ~ 19300 1900
+Text GLabel 19300 1000 0    50   BiDi ~ 0
+C15
+Wire Wire Line
+	20000 1900 20100 1900
+Wire Wire Line
+	20000 2700 20100 2700
+Wire Wire Line
+	20000 3500 20100 3500
+Wire Wire Line
+	20000 5100 20100 5100
+Wire Wire Line
+	20000 5900 20100 5900
+Wire Wire Line
+	21200 1900 21300 1900
+Wire Wire Line
+	21200 2700 21300 2700
+Wire Wire Line
+	21200 3500 21300 3500
+Wire Wire Line
+	21200 5900 21300 5900
+Wire Wire Line
+	20500 1000 20500 1900
+Wire Wire Line
+	20500 1900 20500 2700
+Wire Wire Line
+	20500 2700 20500 3500
+Wire Wire Line
+	20500 3500 20500 5100
+Wire Wire Line
+	20500 5100 20500 5900
+Wire Wire Line
+	20500 5900 20500 6500
+Wire Wire Line
+	20300 1900 20500 1900
+Wire Wire Line
+	20300 2700 20500 2700
+Wire Wire Line
+	20300 3500 20500 3500
+Wire Wire Line
+	20300 5100 20500 5100
+Wire Wire Line
+	20300 5900 20500 5900
+Connection ~ 20500 5900
+Connection ~ 20500 5100
+Connection ~ 20500 3500
+Connection ~ 20500 2700
+Connection ~ 20500 1900
+Text GLabel 20500 1000 0    50   BiDi ~ 0
+C16
+Wire Wire Line
+	21700 1000 21700 1900
+Wire Wire Line
+	21700 1900 21700 2700
+Wire Wire Line
+	21700 2700 21700 3500
+Wire Wire Line
+	21700 3500 21700 5900
+Wire Wire Line
+	21700 5900 21700 6500
+Wire Wire Line
+	21500 1900 21700 1900
+Wire Wire Line
+	21500 2700 21700 2700
+Wire Wire Line
+	21500 3500 21700 3500
+Wire Wire Line
+	21500 5900 21700 5900
+Connection ~ 21700 5900
+Connection ~ 21700 3500
+Connection ~ 21700 2700
+Connection ~ 21700 1900
+Text GLabel 21700 1000 0    50   BiDi ~ 0
+C17
+Wire Wire Line
+	3600 5100 3700 5100
+Wire Wire Line
+	1900 4500 1800 4500
+Text GLabel 1800 4500 0    50   BiDi ~ 0
+CL_LED_A
+Wire Wire Line
+	2500 4500 2600 4500
+Text GLabel 2600 4500 2    50   BiDi ~ 0
+CL_LED_C
+Wire Wire Line
+	19400 2100 19400 2300
+Wire Wire Line
+	19400 2300 19500 2300
+Text GLabel 19500 2300 2    50   BiDi ~ 0
+SL_LED_A
+Wire Wire Line
+	20000 2100 20100 2100
+Text GLabel 20100 2100 2    50   BiDi ~ 0
+SL_LED_C
+Wire Wire Line
+	7000 5900 6900 5900
+Wire Wire Line
+	5900 5900 5800 5900
+Wire Wire Line
+	11400 5900 11300 5900
+Wire Wire Line
+	10300 5900 10200 5900
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U `/^
+U 1 1 F8AB3FEE
+P 2200 2800
+AR Path="/F8AB3FEE" Ref="`/^"  Part="1" 
+AR Path="/5EFCB5C9/F8AB3FEE" Ref="`/^1"  Part="1" 
+F 0 "`/^1" H 2200 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 2200 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 2200 2800 50  0001 C CNN
+F 3 "" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK1
+U 1 1 4E88A150
+P 3300 2800
+AR Path="/4E88A150" Ref="UNK1"  Part="1" 
+AR Path="/5EFCB5C9/4E88A150" Ref="UNK1"  Part="1" 
+F 0 "UNK1" H 3300 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 3300 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 3300 2800 50  0001 C CNN
+F 3 "" H 3300 2800 50  0001 C CNN
+	1    3300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK2
+U 1 1 0B74F2CC
+P 4400 2800
+AR Path="/0B74F2CC" Ref="UNK2"  Part="1" 
+AR Path="/5EFCB5C9/0B74F2CC" Ref="UNK2"  Part="1" 
+F 0 "UNK2" H 4400 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 4400 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK3
+U 1 1 637F6EFA
+P 5500 2800
+AR Path="/637F6EFA" Ref="UNK3"  Part="1" 
+AR Path="/5EFCB5C9/637F6EFA" Ref="UNK3"  Part="1" 
+F 0 "UNK3" H 5500 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 5500 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 5500 2800 50  0001 C CNN
+F 3 "" H 5500 2800 50  0001 C CNN
+	1    5500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK4
+U 1 1 E99194CB
+P 6600 2800
+AR Path="/E99194CB" Ref="UNK4"  Part="1" 
+AR Path="/5EFCB5C9/E99194CB" Ref="UNK4"  Part="1" 
+F 0 "UNK4" H 6600 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 6600 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 6600 2800 50  0001 C CNN
+F 3 "" H 6600 2800 50  0001 C CNN
+	1    6600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK5
+U 1 1 2DA988AB
+P 7700 2800
+AR Path="/2DA988AB" Ref="UNK5"  Part="1" 
+AR Path="/5EFCB5C9/2DA988AB" Ref="UNK5"  Part="1" 
+F 0 "UNK5" H 7700 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 7700 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 7700 2800 50  0001 C CNN
+F 3 "" H 7700 2800 50  0001 C CNN
+	1    7700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK6
+U 1 1 CC5D934F
+P 8800 2800
+AR Path="/CC5D934F" Ref="UNK6"  Part="1" 
+AR Path="/5EFCB5C9/CC5D934F" Ref="UNK6"  Part="1" 
+F 0 "UNK6" H 8800 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 8800 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 8800 2800 50  0001 C CNN
+F 3 "" H 8800 2800 50  0001 C CNN
+	1    8800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK7
+U 1 1 2FC1FA37
+P 9900 2800
+AR Path="/2FC1FA37" Ref="UNK7"  Part="1" 
+AR Path="/5EFCB5C9/2FC1FA37" Ref="UNK7"  Part="1" 
+F 0 "UNK7" H 9900 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 9900 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 9900 2800 50  0001 C CNN
+F 3 "" H 9900 2800 50  0001 C CNN
+	1    9900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK8
+U 1 1 165CD51B
+P 11000 2800
+AR Path="/165CD51B" Ref="UNK8"  Part="1" 
+AR Path="/5EFCB5C9/165CD51B" Ref="UNK8"  Part="1" 
+F 0 "UNK8" H 11000 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 11000 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 11000 2800 50  0001 C CNN
+F 3 "" H 11000 2800 50  0001 C CNN
+	1    11000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK9
+U 1 1 F2077DD2
+P 12200 2800
+AR Path="/F2077DD2" Ref="UNK9"  Part="1" 
+AR Path="/5EFCB5C9/F2077DD2" Ref="UNK9"  Part="1" 
+F 0 "UNK9" H 12200 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 12200 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 12200 2800 50  0001 C CNN
+F 3 "" H 12200 2800 50  0001 C CNN
+	1    12200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UNK0
+U 1 1 AB083D16
+P 13400 2800
+AR Path="/AB083D16" Ref="UNK0"  Part="1" 
+AR Path="/5EFCB5C9/AB083D16" Ref="UNK0"  Part="1" 
+F 0 "UNK0" H 13400 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 13400 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 13400 2800 50  0001 C CNN
+F 3 "" H 13400 2800 50  0001 C CNN
+	1    13400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U -/ß
+U 1 1 8DEC7138
+P 14600 2800
+AR Path="/8DEC7138" Ref="-/ß"  Part="1" 
+AR Path="/5EFCB5C9/8DEC7138" Ref="-/ß1"  Part="1" 
+F 0 "-/ß1" H 14600 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 14600 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 14600 2800 50  0001 C CNN
+F 3 "" H 14600 2800 50  0001 C CNN
+	1    14600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U =/´
+U 1 1 1B044FE6
+P 15800 2800
+AR Path="/1B044FE6" Ref="=/´"  Part="1" 
+AR Path="/5EFCB5C9/1B044FE6" Ref="=/´1"  Part="1" 
+F 0 "=/´1" H 15800 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 15800 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 15800 2800 50  0001 C CNN
+F 3 "" H 15800 2800 50  0001 C CNN
+	1    15800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD2U BACKSPACE
+U 1 1 5CFB8C9F
+P 16900 2800
+AR Path="/5CFB8C9F" Ref="BACKSPACE"  Part="1" 
+AR Path="/5EFCB5C9/5CFB8C9F" Ref="BACKSPACE1"  Part="1" 
+F 0 "BACKSPACE1" H 16900 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD2U" H 16900 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1X2U" H 16900 2800 50  0001 C CNN
+F 3 "" H 16900 2800 50  0001 C CNN
+	1    16900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.5U TAB
+U 1 1 9DED95C2
+P 2200 3600
+AR Path="/9DED95C2" Ref="TAB"  Part="1" 
+AR Path="/5EFCB5C9/9DED95C2" Ref="TAB1"  Part="1" 
+F 0 "TAB1" H 2200 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.5U" H 2200 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.5U" H 2200 3600 50  0001 C CNN
+F 3 "" H 2200 3600 50  0001 C CNN
+	1    2200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U Q
+U 1 1 1177D58B
+P 3300 3600
+AR Path="/1177D58B" Ref="Q"  Part="1" 
+AR Path="/5EFCB5C9/1177D58B" Ref="Q1"  Part="1" 
+F 0 "Q1" H 3300 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 3300 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 3300 3600 50  0001 C CNN
+F 3 "" H 3300 3600 50  0001 C CNN
+	1    3300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U W
+U 1 1 CEF8CB14
+P 4400 3600
+AR Path="/CEF8CB14" Ref="W"  Part="1" 
+AR Path="/5EFCB5C9/CEF8CB14" Ref="W1"  Part="1" 
+F 0 "W1" H 4400 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 4400 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 4400 3600 50  0001 C CNN
+F 3 "" H 4400 3600 50  0001 C CNN
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U E
+U 1 1 9B3D91C3
+P 5500 3600
+AR Path="/9B3D91C3" Ref="E"  Part="1" 
+AR Path="/5EFCB5C9/9B3D91C3" Ref="E1"  Part="1" 
+F 0 "E1" H 5500 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 5500 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 5500 3600 50  0001 C CNN
+F 3 "" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U R
+U 1 1 2657DE26
+P 6600 3600
+AR Path="/2657DE26" Ref="R"  Part="1" 
+AR Path="/5EFCB5C9/2657DE26" Ref="R34"  Part="1" 
+F 0 "R34" H 6600 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 6600 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 6600 3600 50  0001 C CNN
+F 3 "" H 6600 3600 50  0001 C CNN
+	1    6600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U T
+U 1 1 A842D1ED
+P 7700 3600
+AR Path="/A842D1ED" Ref="T"  Part="1" 
+AR Path="/5EFCB5C9/A842D1ED" Ref="T1"  Part="1" 
+F 0 "T1" H 7700 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 7700 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 7700 3600 50  0001 C CNN
+F 3 "" H 7700 3600 50  0001 C CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U Z/Y
+U 1 1 EBEF5E8F
+P 8800 3600
+AR Path="/EBEF5E8F" Ref="Z/Y"  Part="1" 
+AR Path="/5EFCB5C9/EBEF5E8F" Ref="Z/Y1"  Part="1" 
+F 0 "Z/Y1" H 8800 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 8800 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 8800 3600 50  0001 C CNN
+F 3 "" H 8800 3600 50  0001 C CNN
+	1    8800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U U
+U 1 1 8319FB91
+P 9900 3600
+AR Path="/8319FB91" Ref="U"  Part="1" 
+AR Path="/5EFCB5C9/8319FB91" Ref="U1"  Part="1" 
+F 0 "U1" H 9900 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 9900 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 9900 3600 50  0001 C CNN
+F 3 "" H 9900 3600 50  0001 C CNN
+	1    9900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U I
+U 1 1 C059477B
+P 11000 3600
+AR Path="/C059477B" Ref="I"  Part="1" 
+AR Path="/5EFCB5C9/C059477B" Ref="I1"  Part="1" 
+F 0 "I1" H 11000 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 11000 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 11000 3600 50  0001 C CNN
+F 3 "" H 11000 3600 50  0001 C CNN
+	1    11000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U O
+U 1 1 4D96CF14
+P 12200 3600
+AR Path="/4D96CF14" Ref="O"  Part="1" 
+AR Path="/5EFCB5C9/4D96CF14" Ref="O1"  Part="1" 
+F 0 "O1" H 12200 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 12200 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 12200 3600 50  0001 C CNN
+F 3 "" H 12200 3600 50  0001 C CNN
+	1    12200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U P
+U 1 1 E34F05A0
+P 13400 3600
+AR Path="/E34F05A0" Ref="P"  Part="1" 
+AR Path="/5EFCB5C9/E34F05A0" Ref="P1"  Part="1" 
+F 0 "P1" H 13400 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 13400 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 13400 3600 50  0001 C CNN
+F 3 "" H 13400 3600 50  0001 C CNN
+	1    13400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U [/Ü
+U 1 1 80B8A8C5
+P 14600 3600
+AR Path="/80B8A8C5" Ref="[/Ü"  Part="1" 
+AR Path="/5EFCB5C9/80B8A8C5" Ref="[/Ü1"  Part="1" 
+F 0 "[/Ü1" H 14600 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 14600 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 14600 3600 50  0001 C CNN
+F 3 "" H 14600 3600 50  0001 C CNN
+	1    14600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U ]/+
+U 1 1 00456B85
+P 15800 3600
+AR Path="/00456B85" Ref="]/+"  Part="1" 
+AR Path="/5EFCB5C9/00456B85" Ref="]/+1"  Part="1" 
+F 0 "]/+1" H 15800 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 15800 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 15800 3600 50  0001 C CNN
+F 3 "" H 15800 3600 50  0001 C CNN
+	1    15800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.5U \\/#
+U 1 1 5998A50E
+P 16900 3600
+AR Path="/5998A50E" Ref="\\/#"  Part="1" 
+AR Path="/5EFCB5C9/5998A50E" Ref="\\/#1"  Part="1" 
+F 0 "\\\\/#1" H 16900 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.5U" H 16900 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.5U" H 16900 3600 50  0001 C CNN
+F 3 "" H 16900 3600 50  0001 C CNN
+	1    16900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.75U CAPSLOCK
+U 1 1 2117B94D
+P 2200 4400
+AR Path="/2117B94D" Ref="CAPSLOCK"  Part="1" 
+AR Path="/5EFCB5C9/2117B94D" Ref="CAPSLOCK1"  Part="1" 
+F 0 "CAPSLOCK1" H 2200 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.75U" H 2200 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.75U" H 2200 4400 50  0001 C CNN
+F 3 "" H 2200 4400 50  0001 C CNN
+	1    2200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U A
+U 1 1 7C8A7C94
+P 3300 4400
+AR Path="/7C8A7C94" Ref="A"  Part="1" 
+AR Path="/5EFCB5C9/7C8A7C94" Ref="A1"  Part="1" 
+F 0 "A1" H 3300 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 3300 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 3300 4400 50  0001 C CNN
+F 3 "" H 3300 4400 50  0001 C CNN
+	1    3300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U S
+U 1 1 CE7A699B
+P 4400 4400
+AR Path="/CE7A699B" Ref="S"  Part="1" 
+AR Path="/5EFCB5C9/CE7A699B" Ref="S6"  Part="1" 
+F 0 "S6" H 4400 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 4400 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 4400 4400 50  0001 C CNN
+F 3 "" H 4400 4400 50  0001 C CNN
+	1    4400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U D
+U 1 1 73C6B3BC
+P 5500 4400
+AR Path="/73C6B3BC" Ref="D"  Part="1" 
+AR Path="/5EFCB5C9/73C6B3BC" Ref="D96"  Part="1" 
+F 0 "D96" H 5500 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 5500 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 5500 4400 50  0001 C CNN
+F 3 "" H 5500 4400 50  0001 C CNN
+	1    5500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F
+U 1 1 22F906C6
+P 6600 4400
+AR Path="/22F906C6" Ref="F"  Part="1" 
+AR Path="/5EFCB5C9/22F906C6" Ref="F2"  Part="1" 
+F 0 "F2" H 6600 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 6600 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 6600 4400 50  0001 C CNN
+F 3 "" H 6600 4400 50  0001 C CNN
+	1    6600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U G
+U 1 1 F2511193
+P 7700 4400
+AR Path="/F2511193" Ref="G"  Part="1" 
+AR Path="/5EFCB5C9/F2511193" Ref="G1"  Part="1" 
+F 0 "G1" H 7700 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 7700 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 7700 4400 50  0001 C CNN
+F 3 "" H 7700 4400 50  0001 C CNN
+	1    7700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U H
+U 1 1 565374E5
+P 8800 4400
+AR Path="/565374E5" Ref="H"  Part="1" 
+AR Path="/5EFCB5C9/565374E5" Ref="H8"  Part="1" 
+F 0 "H8" H 8800 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 8800 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 8800 4400 50  0001 C CNN
+F 3 "" H 8800 4400 50  0001 C CNN
+	1    8800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U J
+U 1 1 87B94F67
+P 9900 4400
+AR Path="/87B94F67" Ref="J"  Part="1" 
+AR Path="/5EFCB5C9/87B94F67" Ref="J5"  Part="1" 
+F 0 "J5" H 9900 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 9900 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 9900 4400 50  0001 C CNN
+F 3 "" H 9900 4400 50  0001 C CNN
+	1    9900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U K
+U 1 1 6C2F1280
+P 11000 4400
+AR Path="/6C2F1280" Ref="K"  Part="1" 
+AR Path="/5EFCB5C9/6C2F1280" Ref="K1"  Part="1" 
+F 0 "K1" H 11000 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 11000 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 11000 4400 50  0001 C CNN
+F 3 "" H 11000 4400 50  0001 C CNN
+	1    11000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U L
+U 1 1 31012745
+P 12200 4400
+AR Path="/31012745" Ref="L"  Part="1" 
+AR Path="/5EFCB5C9/31012745" Ref="L1"  Part="1" 
+F 0 "L1" H 12200 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 12200 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 12200 4400 50  0001 C CNN
+F 3 "" H 12200 4400 50  0001 C CNN
+	1    12200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U .
+U 1 1 DF34BCD5
+P 13400 4400
+AR Path="/DF34BCD5" Ref="."  Part="1" 
+AR Path="/5EFCB5C9/DF34BCD5" Ref=".1"  Part="1" 
+F 0 ".1" H 13400 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 13400 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 13400 4400 50  0001 C CNN
+F 3 "" H 13400 4400 50  0001 C CNN
+	1    13400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U ,/Ä
+U 1 1 635E5CDA
+P 14600 4400
+AR Path="/635E5CDA" Ref=",/Ä"  Part="1" 
+AR Path="/5EFCB5C9/635E5CDA" Ref=",/Ä1"  Part="1" 
+F 0 ",/Ä1" H 14600 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 14600 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 14600 4400 50  0001 C CNN
+F 3 "" H 14600 4400 50  0001 C CNN
+	1    14600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD2.25U RETURN
+U 1 1 0D7144C7
+P 16900 4400
+AR Path="/0D7144C7" Ref="RETURN"  Part="1" 
+AR Path="/5EFCB5C9/0D7144C7" Ref="RETURN1"  Part="1" 
+F 0 "RETURN1" H 16900 4610 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD2.25U" H 16900 4190 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1X2.25" H 16900 4400 50  0001 C CNN
+F 3 "" H 16900 4400 50  0001 C CNN
+	1    16900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD2.25U L-SHIFT
+U 1 1 1A385A86
+P 2200 5200
+AR Path="/1A385A86" Ref="L-SHIFT"  Part="1" 
+AR Path="/5EFCB5C9/1A385A86" Ref="L-SHIFT2"  Part="1" 
+F 0 "L-SHIFT2" H 2200 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD2.25U" H 2200 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1X2.25" H 2200 5200 50  0001 C CNN
+F 3 "" H 2200 5200 50  0001 C CNN
+	1    2200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U Y/Z
+U 1 1 86EE6395
+P 4400 5200
+AR Path="/86EE6395" Ref="Y/Z"  Part="1" 
+AR Path="/5EFCB5C9/86EE6395" Ref="Y/Z1"  Part="1" 
+F 0 "Y/Z1" H 4400 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 4400 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 4400 5200 50  0001 C CNN
+F 3 "" H 4400 5200 50  0001 C CNN
+	1    4400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U X
+U 1 1 BA01841A
+P 5500 5200
+AR Path="/BA01841A" Ref="X"  Part="1" 
+AR Path="/5EFCB5C9/BA01841A" Ref="X3"  Part="1" 
+F 0 "X3" H 5500 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 5500 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 5500 5200 50  0001 C CNN
+F 3 "" H 5500 5200 50  0001 C CNN
+	1    5500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U C
+U 1 1 EC64A855
+P 6600 5200
+AR Path="/EC64A855" Ref="C"  Part="1" 
+AR Path="/5EFCB5C9/EC64A855" Ref="C21"  Part="1" 
+F 0 "C21" H 6600 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 6600 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 6600 5200 50  0001 C CNN
+F 3 "" H 6600 5200 50  0001 C CNN
+	1    6600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U V
+U 1 1 B054DFBB
+P 7700 5200
+AR Path="/B054DFBB" Ref="V"  Part="1" 
+AR Path="/5EFCB5C9/B054DFBB" Ref="V1"  Part="1" 
+F 0 "V1" H 7700 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 7700 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 7700 5200 50  0001 C CNN
+F 3 "" H 7700 5200 50  0001 C CNN
+	1    7700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U B
+U 1 1 DD1C2966
+P 8800 5200
+AR Path="/DD1C2966" Ref="B"  Part="1" 
+AR Path="/5EFCB5C9/DD1C2966" Ref="B1"  Part="1" 
+F 0 "B1" H 8800 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 8800 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 8800 5200 50  0001 C CNN
+F 3 "" H 8800 5200 50  0001 C CNN
+	1    8800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U N
+U 1 1 5D2E9EAC
+P 9900 5200
+AR Path="/5D2E9EAC" Ref="N"  Part="1" 
+AR Path="/5EFCB5C9/5D2E9EAC" Ref="N1"  Part="1" 
+F 0 "N1" H 9900 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 9900 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 9900 5200 50  0001 C CNN
+F 3 "" H 9900 5200 50  0001 C CNN
+	1    9900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U M
+U 1 1 661A50A3
+P 11000 5200
+AR Path="/661A50A3" Ref="M"  Part="1" 
+AR Path="/5EFCB5C9/661A50A3" Ref="M1"  Part="1" 
+F 0 "M1" H 11000 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 11000 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 11000 5200 50  0001 C CNN
+F 3 "" H 11000 5200 50  0001 C CNN
+	1    11000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U </,
+U 1 1 0638095A
+P 12200 5200
+AR Path="/0638095A" Ref="</,"  Part="1" 
+AR Path="/5EFCB5C9/0638095A" Ref="</,1"  Part="1" 
+F 0 "</,1" H 12200 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 12200 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 12200 5200 50  0001 C CNN
+F 3 "" H 12200 5200 50  0001 C CNN
+	1    12200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U >/.
+U 1 1 716ED8C7
+P 13400 5200
+AR Path="/716ED8C7" Ref=">/."  Part="1" 
+AR Path="/5EFCB5C9/716ED8C7" Ref=">/.1"  Part="1" 
+F 0 ">/.1" H 13400 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 13400 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 13400 5200 50  0001 C CNN
+F 3 "" H 13400 5200 50  0001 C CNN
+	1    13400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U //-
+U 1 1 4F4B3498
+P 14600 5200
+AR Path="/4F4B3498" Ref="//-"  Part="1" 
+AR Path="/5EFCB5C9/4F4B3498" Ref="//-1"  Part="1" 
+F 0 "//-1" H 14600 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 14600 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 14600 5200 50  0001 C CNN
+F 3 "" H 14600 5200 50  0001 C CNN
+	1    14600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD2.75U R-SHIFT
+U 1 1 A8C1D631
+P 16900 5200
+AR Path="/A8C1D631" Ref="R-SHIFT"  Part="1" 
+AR Path="/5EFCB5C9/A8C1D631" Ref="R-SHIFT1"  Part="1" 
+F 0 "R-SHIFT1" H 16900 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD2.75U" H 16900 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1X2.75" H 16900 5200 50  0001 C CNN
+F 3 "" H 16900 5200 50  0001 C CNN
+	1    16900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U L-CTRL
+U 1 1 F4376485
+P 2200 6000
+AR Path="/F4376485" Ref="L-CTRL"  Part="1" 
+AR Path="/5EFCB5C9/F4376485" Ref="L-CTRL1"  Part="1" 
+F 0 "L-CTRL1" H 2200 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 2200 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 2200 6000 50  0001 C CNN
+F 3 "" H 2200 6000 50  0001 C CNN
+	1    2200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U L-OS
+U 1 1 96A73005
+P 3300 6000
+AR Path="/96A73005" Ref="L-OS"  Part="1" 
+AR Path="/5EFCB5C9/96A73005" Ref="L-OS1"  Part="1" 
+F 0 "L-OS1" H 3300 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 3300 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 3300 6000 50  0001 C CNN
+F 3 "" H 3300 6000 50  0001 C CNN
+	1    3300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U L-ALT
+U 1 1 9D3249E9
+P 4400 6000
+AR Path="/9D3249E9" Ref="L-ALT"  Part="1" 
+AR Path="/5EFCB5C9/9D3249E9" Ref="L-ALT1"  Part="1" 
+F 0 "L-ALT1" H 4400 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 4400 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 4400 6000 50  0001 C CNN
+F 3 "" H 4400 6000 50  0001 C CNN
+	1    4400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD6.25U SPACE
+U 1 1 62524F9C
+P 8800 6000
+AR Path="/62524F9C" Ref="SPACE"  Part="1" 
+AR Path="/5EFCB5C9/62524F9C" Ref="SPACE1"  Part="1" 
+F 0 "SPACE1" H 8800 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD6.25U" H 8800 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1X6.25" H 8800 6000 50  0001 C CNN
+F 3 "" H 8800 6000 50  0001 C CNN
+	1    8800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U R-OS
+U 1 1 8BD07AF7
+P 13400 6000
+AR Path="/8BD07AF7" Ref="R-OS"  Part="1" 
+AR Path="/5EFCB5C9/8BD07AF7" Ref="R-OS1"  Part="1" 
+F 0 "R-OS1" H 13400 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 13400 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 13400 6000 50  0001 C CNN
+F 3 "" H 13400 6000 50  0001 C CNN
+	1    13400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U MENU
+U 1 1 5692F475
+P 15800 6000
+AR Path="/5692F475" Ref="MENU"  Part="1" 
+AR Path="/5EFCB5C9/5692F475" Ref="MENU1"  Part="1" 
+F 0 "MENU1" H 15800 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 15800 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 15800 6000 50  0001 C CNN
+F 3 "" H 15800 6000 50  0001 C CNN
+	1    15800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U R-CTRL
+U 1 1 273256D8
+P 16900 6000
+AR Path="/273256D8" Ref="R-CTRL"  Part="1" 
+AR Path="/5EFCB5C9/273256D8" Ref="R-CTRL1"  Part="1" 
+F 0 "R-CTRL1" H 16900 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 16900 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 16900 6000 50  0001 C CNN
+F 3 "" H 16900 6000 50  0001 C CNN
+	1    16900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U R-ALT
+U 1 1 8C02B000
+P 12200 6000
+AR Path="/8C02B000" Ref="R-ALT"  Part="1" 
+AR Path="/5EFCB5C9/8C02B000" Ref="R-ALT1"  Part="1" 
+F 0 "R-ALT1" H 12200 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 12200 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 12200 6000 50  0001 C CNN
+F 3 "" H 12200 6000 50  0001 C CNN
+	1    12200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U ESC
+U 1 1 2E11C656
+P 2200 2000
+AR Path="/2E11C656" Ref="ESC"  Part="1" 
+AR Path="/5EFCB5C9/2E11C656" Ref="ESC1"  Part="1" 
+F 0 "ESC1" H 2200 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 2200 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 2200 2000 50  0001 C CNN
+F 3 "" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_1
+U 1 1 C6037561
+P 4400 2000
+AR Path="/C6037561" Ref="F_1"  Part="1" 
+AR Path="/5EFCB5C9/C6037561" Ref="F_1"  Part="1" 
+F 0 "F_1" H 4400 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 4400 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 4400 2000 50  0001 C CNN
+F 3 "" H 4400 2000 50  0001 C CNN
+	1    4400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_2
+U 1 1 DC842193
+P 5500 2000
+AR Path="/DC842193" Ref="F_2"  Part="1" 
+AR Path="/5EFCB5C9/DC842193" Ref="F_2"  Part="1" 
+F 0 "F_2" H 5500 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 5500 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 5500 2000 50  0001 C CNN
+F 3 "" H 5500 2000 50  0001 C CNN
+	1    5500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_3
+U 1 1 AE2161BF
+P 6600 2000
+AR Path="/AE2161BF" Ref="F_3"  Part="1" 
+AR Path="/5EFCB5C9/AE2161BF" Ref="F_3"  Part="1" 
+F 0 "F_3" H 6600 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 6600 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 6600 2000 50  0001 C CNN
+F 3 "" H 6600 2000 50  0001 C CNN
+	1    6600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_4
+U 1 1 F42DD894
+P 7700 2000
+AR Path="/F42DD894" Ref="F_4"  Part="1" 
+AR Path="/5EFCB5C9/F42DD894" Ref="F_4"  Part="1" 
+F 0 "F_4" H 7700 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 7700 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 7700 2000 50  0001 C CNN
+F 3 "" H 7700 2000 50  0001 C CNN
+	1    7700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_5
+U 1 1 A57CF0DE
+P 8800 2000
+AR Path="/A57CF0DE" Ref="F_5"  Part="1" 
+AR Path="/5EFCB5C9/A57CF0DE" Ref="F_5"  Part="1" 
+F 0 "F_5" H 8800 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 8800 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 8800 2000 50  0001 C CNN
+F 3 "" H 8800 2000 50  0001 C CNN
+	1    8800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_6
+U 1 1 E548E9D3
+P 9900 2000
+AR Path="/E548E9D3" Ref="F_6"  Part="1" 
+AR Path="/5EFCB5C9/E548E9D3" Ref="F_6"  Part="1" 
+F 0 "F_6" H 9900 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 9900 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 9900 2000 50  0001 C CNN
+F 3 "" H 9900 2000 50  0001 C CNN
+	1    9900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_7
+U 1 1 A27E7072
+P 11000 2000
+AR Path="/A27E7072" Ref="F_7"  Part="1" 
+AR Path="/5EFCB5C9/A27E7072" Ref="F_7"  Part="1" 
+F 0 "F_7" H 11000 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 11000 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 11000 2000 50  0001 C CNN
+F 3 "" H 11000 2000 50  0001 C CNN
+	1    11000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_8
+U 1 1 DE0E8CEA
+P 12200 2000
+AR Path="/DE0E8CEA" Ref="F_8"  Part="1" 
+AR Path="/5EFCB5C9/DE0E8CEA" Ref="F_8"  Part="1" 
+F 0 "F_8" H 12200 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 12200 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 12200 2000 50  0001 C CNN
+F 3 "" H 12200 2000 50  0001 C CNN
+	1    12200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_9
+U 1 1 1389D11E
+P 13400 2000
+AR Path="/1389D11E" Ref="F_9"  Part="1" 
+AR Path="/5EFCB5C9/1389D11E" Ref="F_9"  Part="1" 
+F 0 "F_9" H 13400 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 13400 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 13400 2000 50  0001 C CNN
+F 3 "" H 13400 2000 50  0001 C CNN
+	1    13400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_10
+U 1 1 DA73FCC3
+P 14600 2000
+AR Path="/DA73FCC3" Ref="F_10"  Part="1" 
+AR Path="/5EFCB5C9/DA73FCC3" Ref="F_10"  Part="1" 
+F 0 "F_10" H 14600 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 14600 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 14600 2000 50  0001 C CNN
+F 3 "" H 14600 2000 50  0001 C CNN
+	1    14600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_11
+U 1 1 B87D3314
+P 15800 2000
+AR Path="/B87D3314" Ref="F_11"  Part="1" 
+AR Path="/5EFCB5C9/B87D3314" Ref="F_11"  Part="1" 
+F 0 "F_11" H 15800 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 15800 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 15800 2000 50  0001 C CNN
+F 3 "" H 15800 2000 50  0001 C CNN
+	1    15800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U F_12
+U 1 1 5E3B480E
+P 16900 2000
+AR Path="/5E3B480E" Ref="F_12"  Part="1" 
+AR Path="/5EFCB5C9/5E3B480E" Ref="F_12"  Part="1" 
+F 0 "F_12" H 16900 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 16900 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 16900 2000 50  0001 C CNN
+F 3 "" H 16900 2000 50  0001 C CNN
+	1    16900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D1
+U 1 1 4DF527AB
+P 2700 1900
+AR Path="/4DF527AB" Ref="D1"  Part="1" 
+AR Path="/5EFCB5C9/4DF527AB" Ref="D1"  Part="1" 
+F 0 "D1" H 2600 2019 59  0000 L BNN
+F 1 "1N4148" H 2520 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 2700 1900 50  0001 C CNN
+F 3 "" H 2700 1900 50  0001 C CNN
+F 4 "C81598" H 2700 1900 59  0001 L BNN "LCSC"
+	1    2700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D20
+U 1 1 CC0930BD
+P 2700 2700
+AR Path="/CC0930BD" Ref="D20"  Part="1" 
+AR Path="/5EFCB5C9/CC0930BD" Ref="D20"  Part="1" 
+F 0 "D20" H 2600 2819 59  0000 L BNN
+F 1 "1N4148" H 2520 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 2700 2700 50  0001 C CNN
+F 3 "" H 2700 2700 50  0001 C CNN
+F 4 "C81598" H 2700 2700 59  0001 L BNN "LCSC"
+	1    2700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D37
+U 1 1 EC5B321D
+P 2700 3500
+AR Path="/EC5B321D" Ref="D37"  Part="1" 
+AR Path="/5EFCB5C9/EC5B321D" Ref="D37"  Part="1" 
+F 0 "D37" H 2600 3619 59  0000 L BNN
+F 1 "1N4148" H 2520 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 2700 3500 50  0001 C CNN
+F 3 "" H 2700 3500 50  0001 C CNN
+F 4 "C81598" H 2700 3500 59  0001 L BNN "LCSC"
+	1    2700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D54
+U 1 1 D6FDC0FD
+P 2700 4300
+AR Path="/D6FDC0FD" Ref="D54"  Part="1" 
+AR Path="/5EFCB5C9/D6FDC0FD" Ref="D54"  Part="1" 
+F 0 "D54" H 2600 4419 59  0000 L BNN
+F 1 "1N4148" H 2520 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 2700 4300 50  0001 C CNN
+F 3 "" H 2700 4300 50  0001 C CNN
+F 4 "C81598" H 2700 4300 59  0001 L BNN "LCSC"
+	1    2700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D67
+U 1 1 41DD57E5
+P 2700 5100
+AR Path="/41DD57E5" Ref="D67"  Part="1" 
+AR Path="/5EFCB5C9/41DD57E5" Ref="D67"  Part="1" 
+F 0 "D67" H 2600 5219 59  0000 L BNN
+F 1 "1N4148" H 2520 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 2700 5100 50  0001 C CNN
+F 3 "" H 2700 5100 50  0001 C CNN
+F 4 "C81598" H 2700 5100 59  0001 L BNN "LCSC"
+	1    2700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D81
+U 1 1 AEB2EE38
+P 2700 5900
+AR Path="/AEB2EE38" Ref="D81"  Part="1" 
+AR Path="/5EFCB5C9/AEB2EE38" Ref="D81"  Part="1" 
+F 0 "D81" H 2600 6019 59  0000 L BNN
+F 1 "1N4148" H 2520 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 2700 5900 50  0001 C CNN
+F 3 "" H 2700 5900 50  0001 C CNN
+F 4 "C81598" H 2700 5900 59  0001 L BNN "LCSC"
+	1    2700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D21
+U 1 1 B98D1091
+P 3800 2700
+AR Path="/B98D1091" Ref="D21"  Part="1" 
+AR Path="/5EFCB5C9/B98D1091" Ref="D21"  Part="1" 
+F 0 "D21" H 3700 2819 59  0000 L BNN
+F 1 "1N4148" H 3620 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 3800 2700 50  0001 C CNN
+F 3 "" H 3800 2700 50  0001 C CNN
+F 4 "C81598" H 3800 2700 59  0001 L BNN "LCSC"
+	1    3800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D38
+U 1 1 2C82FADE
+P 3800 3500
+AR Path="/2C82FADE" Ref="D38"  Part="1" 
+AR Path="/5EFCB5C9/2C82FADE" Ref="D38"  Part="1" 
+F 0 "D38" H 3700 3619 59  0000 L BNN
+F 1 "1N4148" H 3620 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 3800 3500 50  0001 C CNN
+F 3 "" H 3800 3500 50  0001 C CNN
+F 4 "C81598" H 3800 3500 59  0001 L BNN "LCSC"
+	1    3800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D55
+U 1 1 17349CCC
+P 3800 4300
+AR Path="/17349CCC" Ref="D55"  Part="1" 
+AR Path="/5EFCB5C9/17349CCC" Ref="D55"  Part="1" 
+F 0 "D55" H 3700 4419 59  0000 L BNN
+F 1 "1N4148" H 3620 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 3800 4300 50  0001 C CNN
+F 3 "" H 3800 4300 50  0001 C CNN
+F 4 "C81598" H 3800 4300 59  0001 L BNN "LCSC"
+	1    3800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D69
+U 1 1 766FFE28
+P 4900 5100
+AR Path="/766FFE28" Ref="D69"  Part="1" 
+AR Path="/5EFCB5C9/766FFE28" Ref="D69"  Part="1" 
+F 0 "D69" H 4800 5219 59  0000 L BNN
+F 1 "1N4148" H 4720 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 4900 5100 50  0001 C CNN
+F 3 "" H 4900 5100 50  0001 C CNN
+F 4 "C81598" H 4900 5100 59  0001 L BNN "LCSC"
+	1    4900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D82
+U 1 1 E41AAF26
+P 3800 5900
+AR Path="/E41AAF26" Ref="D82"  Part="1" 
+AR Path="/5EFCB5C9/E41AAF26" Ref="D82"  Part="1" 
+F 0 "D82" H 3700 6019 59  0000 L BNN
+F 1 "1N4148" H 3620 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 3800 5900 50  0001 C CNN
+F 3 "" H 3800 5900 50  0001 C CNN
+F 4 "C81598" H 3800 5900 59  0001 L BNN "LCSC"
+	1    3800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D2
+U 1 1 E3018A2C
+P 4900 1900
+AR Path="/E3018A2C" Ref="D2"  Part="1" 
+AR Path="/5EFCB5C9/E3018A2C" Ref="D2"  Part="1" 
+F 0 "D2" H 4800 2019 59  0000 L BNN
+F 1 "1N4148" H 4720 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 4900 1900 50  0001 C CNN
+F 3 "" H 4900 1900 50  0001 C CNN
+F 4 "C81598" H 4900 1900 59  0001 L BNN "LCSC"
+	1    4900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D22
+U 1 1 F07BEEAF
+P 4900 2700
+AR Path="/F07BEEAF" Ref="D22"  Part="1" 
+AR Path="/5EFCB5C9/F07BEEAF" Ref="D22"  Part="1" 
+F 0 "D22" H 4800 2819 59  0000 L BNN
+F 1 "1N4148" H 4720 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 4900 2700 50  0001 C CNN
+F 3 "" H 4900 2700 50  0001 C CNN
+F 4 "C81598" H 4900 2700 59  0001 L BNN "LCSC"
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D39
+U 1 1 85281AC1
+P 4900 3500
+AR Path="/85281AC1" Ref="D39"  Part="1" 
+AR Path="/5EFCB5C9/85281AC1" Ref="D39"  Part="1" 
+F 0 "D39" H 4800 3619 59  0000 L BNN
+F 1 "1N4148" H 4720 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+F 4 "C81598" H 4900 3500 59  0001 L BNN "LCSC"
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D56
+U 1 1 E314B391
+P 4900 4300
+AR Path="/E314B391" Ref="D56"  Part="1" 
+AR Path="/5EFCB5C9/E314B391" Ref="D56"  Part="1" 
+F 0 "D56" H 4800 4419 59  0000 L BNN
+F 1 "1N4148" H 4720 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 4900 4300 50  0001 C CNN
+F 3 "" H 4900 4300 50  0001 C CNN
+F 4 "C81598" H 4900 4300 59  0001 L BNN "LCSC"
+	1    4900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D70
+U 1 1 71295FDD
+P 6000 5100
+AR Path="/71295FDD" Ref="D70"  Part="1" 
+AR Path="/5EFCB5C9/71295FDD" Ref="D70"  Part="1" 
+F 0 "D70" H 5900 5219 59  0000 L BNN
+F 1 "1N4148" H 5820 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 6000 5100 50  0001 C CNN
+F 3 "" H 6000 5100 50  0001 C CNN
+F 4 "C81598" H 6000 5100 59  0001 L BNN "LCSC"
+	1    6000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D83
+U 1 1 E8CB1DD6
+P 4900 5900
+AR Path="/E8CB1DD6" Ref="D83"  Part="1" 
+AR Path="/5EFCB5C9/E8CB1DD6" Ref="D83"  Part="1" 
+F 0 "D83" H 4800 6019 59  0000 L BNN
+F 1 "1N4148" H 4720 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 4900 5900 50  0001 C CNN
+F 3 "" H 4900 5900 50  0001 C CNN
+F 4 "C81598" H 4900 5900 59  0001 L BNN "LCSC"
+	1    4900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D3
+U 1 1 8170C27B
+P 6000 1900
+AR Path="/8170C27B" Ref="D3"  Part="1" 
+AR Path="/5EFCB5C9/8170C27B" Ref="D3"  Part="1" 
+F 0 "D3" H 5900 2019 59  0000 L BNN
+F 1 "1N4148" H 5820 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 6000 1900 50  0001 C CNN
+F 3 "" H 6000 1900 50  0001 C CNN
+F 4 "C81598" H 6000 1900 59  0001 L BNN "LCSC"
+	1    6000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D23
+U 1 1 3F1BA752
+P 6000 2700
+AR Path="/3F1BA752" Ref="D23"  Part="1" 
+AR Path="/5EFCB5C9/3F1BA752" Ref="D23"  Part="1" 
+F 0 "D23" H 5900 2819 59  0000 L BNN
+F 1 "1N4148" H 5820 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 6000 2700 50  0001 C CNN
+F 3 "" H 6000 2700 50  0001 C CNN
+F 4 "C81598" H 6000 2700 59  0001 L BNN "LCSC"
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D40
+U 1 1 E1761978
+P 6000 3500
+AR Path="/E1761978" Ref="D40"  Part="1" 
+AR Path="/5EFCB5C9/E1761978" Ref="D40"  Part="1" 
+F 0 "D40" H 5900 3619 59  0000 L BNN
+F 1 "1N4148" H 5820 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 6000 3500 50  0001 C CNN
+F 3 "" H 6000 3500 50  0001 C CNN
+F 4 "C81598" H 6000 3500 59  0001 L BNN "LCSC"
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D57
+U 1 1 4F038838
+P 6000 4300
+AR Path="/4F038838" Ref="D57"  Part="1" 
+AR Path="/5EFCB5C9/4F038838" Ref="D57"  Part="1" 
+F 0 "D57" H 5900 4419 59  0000 L BNN
+F 1 "1N4148" H 5820 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 6000 4300 50  0001 C CNN
+F 3 "" H 6000 4300 50  0001 C CNN
+F 4 "C81598" H 6000 4300 59  0001 L BNN "LCSC"
+	1    6000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D71
+U 1 1 F4AEF678
+P 7100 5100
+AR Path="/F4AEF678" Ref="D71"  Part="1" 
+AR Path="/5EFCB5C9/F4AEF678" Ref="D71"  Part="1" 
+F 0 "D71" H 7000 5219 59  0000 L BNN
+F 1 "1N4148" H 6920 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 7100 5100 50  0001 C CNN
+F 3 "" H 7100 5100 50  0001 C CNN
+F 4 "C81598" H 7100 5100 59  0001 L BNN "LCSC"
+	1    7100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D4
+U 1 1 62AEB81D
+P 7100 1900
+AR Path="/62AEB81D" Ref="D4"  Part="1" 
+AR Path="/5EFCB5C9/62AEB81D" Ref="D4"  Part="1" 
+F 0 "D4" H 7000 2019 59  0000 L BNN
+F 1 "1N4148" H 6920 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 7100 1900 50  0001 C CNN
+F 3 "" H 7100 1900 50  0001 C CNN
+F 4 "C81598" H 7100 1900 59  0001 L BNN "LCSC"
+	1    7100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D24
+U 1 1 220B9CA7
+P 7100 2700
+AR Path="/220B9CA7" Ref="D24"  Part="1" 
+AR Path="/5EFCB5C9/220B9CA7" Ref="D24"  Part="1" 
+F 0 "D24" H 7000 2819 59  0000 L BNN
+F 1 "1N4148" H 6920 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 7100 2700 50  0001 C CNN
+F 3 "" H 7100 2700 50  0001 C CNN
+F 4 "C81598" H 7100 2700 59  0001 L BNN "LCSC"
+	1    7100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D41
+U 1 1 67A5454F
+P 7100 3500
+AR Path="/67A5454F" Ref="D41"  Part="1" 
+AR Path="/5EFCB5C9/67A5454F" Ref="D41"  Part="1" 
+F 0 "D41" H 7000 3619 59  0000 L BNN
+F 1 "1N4148" H 6920 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 7100 3500 50  0001 C CNN
+F 3 "" H 7100 3500 50  0001 C CNN
+F 4 "C81598" H 7100 3500 59  0001 L BNN "LCSC"
+	1    7100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D58
+U 1 1 56A4AE09
+P 7100 4300
+AR Path="/56A4AE09" Ref="D58"  Part="1" 
+AR Path="/5EFCB5C9/56A4AE09" Ref="D58"  Part="1" 
+F 0 "D58" H 7000 4419 59  0000 L BNN
+F 1 "1N4148" H 6920 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 7100 4300 50  0001 C CNN
+F 3 "" H 7100 4300 50  0001 C CNN
+F 4 "C81598" H 7100 4300 59  0001 L BNN "LCSC"
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D72
+U 1 1 0611B415
+P 8200 5100
+AR Path="/0611B415" Ref="D72"  Part="1" 
+AR Path="/5EFCB5C9/0611B415" Ref="D72"  Part="1" 
+F 0 "D72" H 8100 5219 59  0000 L BNN
+F 1 "1N4148" H 8020 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 8200 5100 50  0001 C CNN
+F 3 "" H 8200 5100 50  0001 C CNN
+F 4 "C81598" H 8200 5100 59  0001 L BNN "LCSC"
+	1    8200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D15
+U 1 1 AB5885AE
+P 8200 1900
+AR Path="/AB5885AE" Ref="D15"  Part="1" 
+AR Path="/5EFCB5C9/AB5885AE" Ref="D15"  Part="1" 
+F 0 "D15" H 8100 2019 59  0000 L BNN
+F 1 "1N4148" H 8020 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 8200 1900 50  0001 C CNN
+F 3 "" H 8200 1900 50  0001 C CNN
+F 4 "C81598" H 8200 1900 59  0001 L BNN "LCSC"
+	1    8200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D25
+U 1 1 805ABFB0
+P 8200 2700
+AR Path="/805ABFB0" Ref="D25"  Part="1" 
+AR Path="/5EFCB5C9/805ABFB0" Ref="D25"  Part="1" 
+F 0 "D25" H 8100 2819 59  0000 L BNN
+F 1 "1N4148" H 8020 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 8200 2700 50  0001 C CNN
+F 3 "" H 8200 2700 50  0001 C CNN
+F 4 "C81598" H 8200 2700 59  0001 L BNN "LCSC"
+	1    8200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D42
+U 1 1 C86A4D8C
+P 8200 3500
+AR Path="/C86A4D8C" Ref="D42"  Part="1" 
+AR Path="/5EFCB5C9/C86A4D8C" Ref="D42"  Part="1" 
+F 0 "D42" H 8100 3619 59  0000 L BNN
+F 1 "1N4148" H 8020 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 8200 3500 50  0001 C CNN
+F 3 "" H 8200 3500 50  0001 C CNN
+F 4 "C81598" H 8200 3500 59  0001 L BNN "LCSC"
+	1    8200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D59
+U 1 1 650BDA21
+P 8200 4300
+AR Path="/650BDA21" Ref="D59"  Part="1" 
+AR Path="/5EFCB5C9/650BDA21" Ref="D59"  Part="1" 
+F 0 "D59" H 8100 4419 59  0000 L BNN
+F 1 "1N4148" H 8020 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 8200 4300 50  0001 C CNN
+F 3 "" H 8200 4300 50  0001 C CNN
+F 4 "C81598" H 8200 4300 59  0001 L BNN "LCSC"
+	1    8200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D73
+U 1 1 EF370ECC
+P 9300 5100
+AR Path="/EF370ECC" Ref="D73"  Part="1" 
+AR Path="/5EFCB5C9/EF370ECC" Ref="D73"  Part="1" 
+F 0 "D73" H 9200 5219 59  0000 L BNN
+F 1 "1N4148" H 9120 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 9300 5100 50  0001 C CNN
+F 3 "" H 9300 5100 50  0001 C CNN
+F 4 "C81598" H 9300 5100 59  0001 L BNN "LCSC"
+	1    9300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D86
+U 1 1 85572061
+P 9300 5900
+AR Path="/85572061" Ref="D86"  Part="1" 
+AR Path="/5EFCB5C9/85572061" Ref="D86"  Part="1" 
+F 0 "D86" H 9200 6019 59  0000 L BNN
+F 1 "1N4148" H 9120 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 9300 5900 50  0001 C CNN
+F 3 "" H 9300 5900 50  0001 C CNN
+F 4 "C81598" H 9300 5900 59  0001 L BNN "LCSC"
+	1    9300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D5
+U 1 1 09A3DC3A
+P 9300 1900
+AR Path="/09A3DC3A" Ref="D5"  Part="1" 
+AR Path="/5EFCB5C9/09A3DC3A" Ref="D5"  Part="1" 
+F 0 "D5" H 9200 2019 59  0000 L BNN
+F 1 "1N4148" H 9120 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 9300 1900 50  0001 C CNN
+F 3 "" H 9300 1900 50  0001 C CNN
+F 4 "C81598" H 9300 1900 59  0001 L BNN "LCSC"
+	1    9300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D26
+U 1 1 2B89C143
+P 9300 2700
+AR Path="/2B89C143" Ref="D26"  Part="1" 
+AR Path="/5EFCB5C9/2B89C143" Ref="D26"  Part="1" 
+F 0 "D26" H 9200 2819 59  0000 L BNN
+F 1 "1N4148" H 9120 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 9300 2700 50  0001 C CNN
+F 3 "" H 9300 2700 50  0001 C CNN
+F 4 "C81598" H 9300 2700 59  0001 L BNN "LCSC"
+	1    9300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D43
+U 1 1 F2BEB797
+P 9300 3500
+AR Path="/F2BEB797" Ref="D43"  Part="1" 
+AR Path="/5EFCB5C9/F2BEB797" Ref="D43"  Part="1" 
+F 0 "D43" H 9200 3619 59  0000 L BNN
+F 1 "1N4148" H 9120 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 9300 3500 50  0001 C CNN
+F 3 "" H 9300 3500 50  0001 C CNN
+F 4 "C81598" H 9300 3500 59  0001 L BNN "LCSC"
+	1    9300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D60
+U 1 1 C9C20B57
+P 9300 4300
+AR Path="/C9C20B57" Ref="D60"  Part="1" 
+AR Path="/5EFCB5C9/C9C20B57" Ref="D60"  Part="1" 
+F 0 "D60" H 9200 4419 59  0000 L BNN
+F 1 "1N4148" H 9120 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 9300 4300 50  0001 C CNN
+F 3 "" H 9300 4300 50  0001 C CNN
+F 4 "C81598" H 9300 4300 59  0001 L BNN "LCSC"
+	1    9300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D74
+U 1 1 FA68D144
+P 10400 5100
+AR Path="/FA68D144" Ref="D74"  Part="1" 
+AR Path="/5EFCB5C9/FA68D144" Ref="D74"  Part="1" 
+F 0 "D74" H 10300 5219 59  0000 L BNN
+F 1 "1N4148" H 10220 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 10400 5100 50  0001 C CNN
+F 3 "" H 10400 5100 50  0001 C CNN
+F 4 "C81598" H 10400 5100 59  0001 L BNN "LCSC"
+	1    10400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D6
+U 1 1 360A282A
+P 10400 1900
+AR Path="/360A282A" Ref="D6"  Part="1" 
+AR Path="/5EFCB5C9/360A282A" Ref="D6"  Part="1" 
+F 0 "D6" H 10300 2019 59  0000 L BNN
+F 1 "1N4148" H 10220 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 10400 1900 50  0001 C CNN
+F 3 "" H 10400 1900 50  0001 C CNN
+F 4 "C81598" H 10400 1900 59  0001 L BNN "LCSC"
+	1    10400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D27
+U 1 1 D2C627F1
+P 10400 2700
+AR Path="/D2C627F1" Ref="D27"  Part="1" 
+AR Path="/5EFCB5C9/D2C627F1" Ref="D27"  Part="1" 
+F 0 "D27" H 10300 2819 59  0000 L BNN
+F 1 "1N4148" H 10220 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 10400 2700 50  0001 C CNN
+F 3 "" H 10400 2700 50  0001 C CNN
+F 4 "C81598" H 10400 2700 59  0001 L BNN "LCSC"
+	1    10400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D44
+U 1 1 C25A8C65
+P 10400 3500
+AR Path="/C25A8C65" Ref="D44"  Part="1" 
+AR Path="/5EFCB5C9/C25A8C65" Ref="D44"  Part="1" 
+F 0 "D44" H 10300 3619 59  0000 L BNN
+F 1 "1N4148" H 10220 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 10400 3500 50  0001 C CNN
+F 3 "" H 10400 3500 50  0001 C CNN
+F 4 "C81598" H 10400 3500 59  0001 L BNN "LCSC"
+	1    10400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D61
+U 1 1 77395EF6
+P 10400 4300
+AR Path="/77395EF6" Ref="D61"  Part="1" 
+AR Path="/5EFCB5C9/77395EF6" Ref="D61"  Part="1" 
+F 0 "D61" H 10300 4419 59  0000 L BNN
+F 1 "1N4148" H 10220 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 10400 4300 50  0001 C CNN
+F 3 "" H 10400 4300 50  0001 C CNN
+F 4 "C81598" H 10400 4300 59  0001 L BNN "LCSC"
+	1    10400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D75
+U 1 1 54C99B12
+P 11500 5100
+AR Path="/54C99B12" Ref="D75"  Part="1" 
+AR Path="/5EFCB5C9/54C99B12" Ref="D75"  Part="1" 
+F 0 "D75" H 11400 5219 59  0000 L BNN
+F 1 "1N4148" H 11320 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 11500 5100 50  0001 C CNN
+F 3 "" H 11500 5100 50  0001 C CNN
+F 4 "C81598" H 11500 5100 59  0001 L BNN "LCSC"
+	1    11500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D7
+U 1 1 E23C0B44
+P 11500 1900
+AR Path="/E23C0B44" Ref="D7"  Part="1" 
+AR Path="/5EFCB5C9/E23C0B44" Ref="D7"  Part="1" 
+F 0 "D7" H 11400 2019 59  0000 L BNN
+F 1 "1N4148" H 11320 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 11500 1900 50  0001 C CNN
+F 3 "" H 11500 1900 50  0001 C CNN
+F 4 "C81598" H 11500 1900 59  0001 L BNN "LCSC"
+	1    11500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D28
+U 1 1 9CE7CB10
+P 11500 2700
+AR Path="/9CE7CB10" Ref="D28"  Part="1" 
+AR Path="/5EFCB5C9/9CE7CB10" Ref="D28"  Part="1" 
+F 0 "D28" H 11400 2819 59  0000 L BNN
+F 1 "1N4148" H 11320 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 11500 2700 50  0001 C CNN
+F 3 "" H 11500 2700 50  0001 C CNN
+F 4 "C81598" H 11500 2700 59  0001 L BNN "LCSC"
+	1    11500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D45
+U 1 1 1CC6B76A
+P 11500 3500
+AR Path="/1CC6B76A" Ref="D45"  Part="1" 
+AR Path="/5EFCB5C9/1CC6B76A" Ref="D45"  Part="1" 
+F 0 "D45" H 11400 3619 59  0000 L BNN
+F 1 "1N4148" H 11320 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 11500 3500 50  0001 C CNN
+F 3 "" H 11500 3500 50  0001 C CNN
+F 4 "C81598" H 11500 3500 59  0001 L BNN "LCSC"
+	1    11500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D62
+U 1 1 0B7F8166
+P 11500 4300
+AR Path="/0B7F8166" Ref="D62"  Part="1" 
+AR Path="/5EFCB5C9/0B7F8166" Ref="D62"  Part="1" 
+F 0 "D62" H 11400 4419 59  0000 L BNN
+F 1 "1N4148" H 11320 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 11500 4300 50  0001 C CNN
+F 3 "" H 11500 4300 50  0001 C CNN
+F 4 "C81598" H 11500 4300 59  0001 L BNN "LCSC"
+	1    11500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D76
+U 1 1 E209E082
+P 12700 5100
+AR Path="/E209E082" Ref="D76"  Part="1" 
+AR Path="/5EFCB5C9/E209E082" Ref="D76"  Part="1" 
+F 0 "D76" H 12600 5219 59  0000 L BNN
+F 1 "1N4148" H 12520 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 12700 5100 50  0001 C CNN
+F 3 "" H 12700 5100 50  0001 C CNN
+F 4 "C81598" H 12700 5100 59  0001 L BNN "LCSC"
+	1    12700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D17
+U 1 1 69227B59
+P 12700 1900
+AR Path="/69227B59" Ref="D17"  Part="1" 
+AR Path="/5EFCB5C9/69227B59" Ref="D17"  Part="1" 
+F 0 "D17" H 12600 2019 59  0000 L BNN
+F 1 "1N4148" H 12520 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 12700 1900 50  0001 C CNN
+F 3 "" H 12700 1900 50  0001 C CNN
+F 4 "C81598" H 12700 1900 59  0001 L BNN "LCSC"
+	1    12700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D29
+U 1 1 50A11B88
+P 12700 2700
+AR Path="/50A11B88" Ref="D29"  Part="1" 
+AR Path="/5EFCB5C9/50A11B88" Ref="D29"  Part="1" 
+F 0 "D29" H 12600 2819 59  0000 L BNN
+F 1 "1N4148" H 12520 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 12700 2700 50  0001 C CNN
+F 3 "" H 12700 2700 50  0001 C CNN
+F 4 "C81598" H 12700 2700 59  0001 L BNN "LCSC"
+	1    12700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D46
+U 1 1 869C2AAF
+P 12700 3500
+AR Path="/869C2AAF" Ref="D46"  Part="1" 
+AR Path="/5EFCB5C9/869C2AAF" Ref="D46"  Part="1" 
+F 0 "D46" H 12600 3619 59  0000 L BNN
+F 1 "1N4148" H 12520 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 12700 3500 50  0001 C CNN
+F 3 "" H 12700 3500 50  0001 C CNN
+F 4 "C81598" H 12700 3500 59  0001 L BNN "LCSC"
+	1    12700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D63
+U 1 1 102273E7
+P 12700 4300
+AR Path="/102273E7" Ref="D63"  Part="1" 
+AR Path="/5EFCB5C9/102273E7" Ref="D63"  Part="1" 
+F 0 "D63" H 12600 4419 59  0000 L BNN
+F 1 "1N4148" H 12520 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 12700 4300 50  0001 C CNN
+F 3 "" H 12700 4300 50  0001 C CNN
+F 4 "C81598" H 12700 4300 59  0001 L BNN "LCSC"
+	1    12700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D77
+U 1 1 5BB97EC3
+P 13900 5100
+AR Path="/5BB97EC3" Ref="D77"  Part="1" 
+AR Path="/5EFCB5C9/5BB97EC3" Ref="D77"  Part="1" 
+F 0 "D77" H 13800 5219 59  0000 L BNN
+F 1 "1N4148" H 13720 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 13900 5100 50  0001 C CNN
+F 3 "" H 13900 5100 50  0001 C CNN
+F 4 "C81598" H 13900 5100 59  0001 L BNN "LCSC"
+	1    13900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D89
+U 1 1 32F1166C
+P 12700 5900
+AR Path="/32F1166C" Ref="D89"  Part="1" 
+AR Path="/5EFCB5C9/32F1166C" Ref="D89"  Part="1" 
+F 0 "D89" H 12600 6019 59  0000 L BNN
+F 1 "1N4148" H 12520 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 12700 5900 50  0001 C CNN
+F 3 "" H 12700 5900 50  0001 C CNN
+F 4 "C81598" H 12700 5900 59  0001 L BNN "LCSC"
+	1    12700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D8
+U 1 1 253AB098
+P 13900 1900
+AR Path="/253AB098" Ref="D8"  Part="1" 
+AR Path="/5EFCB5C9/253AB098" Ref="D8"  Part="1" 
+F 0 "D8" H 13800 2019 59  0000 L BNN
+F 1 "1N4148" H 13720 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 13900 1900 50  0001 C CNN
+F 3 "" H 13900 1900 50  0001 C CNN
+F 4 "C81598" H 13900 1900 59  0001 L BNN "LCSC"
+	1    13900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D30
+U 1 1 DA8F13B6
+P 13900 2700
+AR Path="/DA8F13B6" Ref="D30"  Part="1" 
+AR Path="/5EFCB5C9/DA8F13B6" Ref="D30"  Part="1" 
+F 0 "D30" H 13800 2819 59  0000 L BNN
+F 1 "1N4148" H 13720 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 13900 2700 50  0001 C CNN
+F 3 "" H 13900 2700 50  0001 C CNN
+F 4 "C81598" H 13900 2700 59  0001 L BNN "LCSC"
+	1    13900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D47
+U 1 1 47EFC45A
+P 13900 3500
+AR Path="/47EFC45A" Ref="D47"  Part="1" 
+AR Path="/5EFCB5C9/47EFC45A" Ref="D47"  Part="1" 
+F 0 "D47" H 13800 3619 59  0000 L BNN
+F 1 "1N4148" H 13720 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 13900 3500 50  0001 C CNN
+F 3 "" H 13900 3500 50  0001 C CNN
+F 4 "C81598" H 13900 3500 59  0001 L BNN "LCSC"
+	1    13900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D64
+U 1 1 2712688B
+P 13900 4300
+AR Path="/2712688B" Ref="D64"  Part="1" 
+AR Path="/5EFCB5C9/2712688B" Ref="D64"  Part="1" 
+F 0 "D64" H 13800 4419 59  0000 L BNN
+F 1 "1N4148" H 13720 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 13900 4300 50  0001 C CNN
+F 3 "" H 13900 4300 50  0001 C CNN
+F 4 "C81598" H 13900 4300 59  0001 L BNN "LCSC"
+	1    13900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D78
+U 1 1 8E5A2BFD
+P 15100 5100
+AR Path="/8E5A2BFD" Ref="D78"  Part="1" 
+AR Path="/5EFCB5C9/8E5A2BFD" Ref="D78"  Part="1" 
+F 0 "D78" H 15000 5219 59  0000 L BNN
+F 1 "1N4148" H 14920 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 15100 5100 50  0001 C CNN
+F 3 "" H 15100 5100 50  0001 C CNN
+F 4 "C81598" H 15100 5100 59  0001 L BNN "LCSC"
+	1    15100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D90
+U 1 1 769888BA
+P 13900 5900
+AR Path="/769888BA" Ref="D90"  Part="1" 
+AR Path="/5EFCB5C9/769888BA" Ref="D90"  Part="1" 
+F 0 "D90" H 13800 6019 59  0000 L BNN
+F 1 "1N4148" H 13720 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 13900 5900 50  0001 C CNN
+F 3 "" H 13900 5900 50  0001 C CNN
+F 4 "C81598" H 13900 5900 59  0001 L BNN "LCSC"
+	1    13900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D9
+U 1 1 C9058996
+P 15100 1900
+AR Path="/C9058996" Ref="D9"  Part="1" 
+AR Path="/5EFCB5C9/C9058996" Ref="D9"  Part="1" 
+F 0 "D9" H 15000 2019 59  0000 L BNN
+F 1 "1N4148" H 14920 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 15100 1900 50  0001 C CNN
+F 3 "" H 15100 1900 50  0001 C CNN
+F 4 "C81598" H 15100 1900 59  0001 L BNN "LCSC"
+	1    15100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D31
+U 1 1 2B435E1F
+P 15100 2700
+AR Path="/2B435E1F" Ref="D31"  Part="1" 
+AR Path="/5EFCB5C9/2B435E1F" Ref="D31"  Part="1" 
+F 0 "D31" H 15000 2819 59  0000 L BNN
+F 1 "1N4148" H 14920 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 15100 2700 50  0001 C CNN
+F 3 "" H 15100 2700 50  0001 C CNN
+F 4 "C81598" H 15100 2700 59  0001 L BNN "LCSC"
+	1    15100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D48
+U 1 1 BE973CFE
+P 15100 3500
+AR Path="/BE973CFE" Ref="D48"  Part="1" 
+AR Path="/5EFCB5C9/BE973CFE" Ref="D48"  Part="1" 
+F 0 "D48" H 15000 3619 59  0000 L BNN
+F 1 "1N4148" H 14920 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 15100 3500 50  0001 C CNN
+F 3 "" H 15100 3500 50  0001 C CNN
+F 4 "C81598" H 15100 3500 59  0001 L BNN "LCSC"
+	1    15100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D65
+U 1 1 AD2FE281
+P 15100 4300
+AR Path="/AD2FE281" Ref="D65"  Part="1" 
+AR Path="/5EFCB5C9/AD2FE281" Ref="D65"  Part="1" 
+F 0 "D65" H 15000 4419 59  0000 L BNN
+F 1 "1N4148" H 14920 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 15100 4300 50  0001 C CNN
+F 3 "" H 15100 4300 50  0001 C CNN
+F 4 "C81598" H 15100 4300 59  0001 L BNN "LCSC"
+	1    15100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D10
+U 1 1 DDD22081
+P 16300 1900
+AR Path="/DDD22081" Ref="D10"  Part="1" 
+AR Path="/5EFCB5C9/DDD22081" Ref="D10"  Part="1" 
+F 0 "D10" H 16200 2019 59  0000 L BNN
+F 1 "1N4148" H 16120 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 16300 1900 50  0001 C CNN
+F 3 "" H 16300 1900 50  0001 C CNN
+F 4 "C81598" H 16300 1900 59  0001 L BNN "LCSC"
+	1    16300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D32
+U 1 1 07C03EC5
+P 16300 2700
+AR Path="/07C03EC5" Ref="D32"  Part="1" 
+AR Path="/5EFCB5C9/07C03EC5" Ref="D32"  Part="1" 
+F 0 "D32" H 16200 2819 59  0000 L BNN
+F 1 "1N4148" H 16120 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 16300 2700 50  0001 C CNN
+F 3 "" H 16300 2700 50  0001 C CNN
+F 4 "C81598" H 16300 2700 59  0001 L BNN "LCSC"
+	1    16300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D49
+U 1 1 4E14A6F0
+P 16300 3500
+AR Path="/4E14A6F0" Ref="D49"  Part="1" 
+AR Path="/5EFCB5C9/4E14A6F0" Ref="D49"  Part="1" 
+F 0 "D49" H 16200 3619 59  0000 L BNN
+F 1 "1N4148" H 16120 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 16300 3500 50  0001 C CNN
+F 3 "" H 16300 3500 50  0001 C CNN
+F 4 "C81598" H 16300 3500 59  0001 L BNN "LCSC"
+	1    16300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D91
+U 1 1 8F2B9A3A
+P 16300 5900
+AR Path="/8F2B9A3A" Ref="D91"  Part="1" 
+AR Path="/5EFCB5C9/8F2B9A3A" Ref="D91"  Part="1" 
+F 0 "D91" H 16200 6019 59  0000 L BNN
+F 1 "1N4148" H 16120 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 16300 5900 50  0001 C CNN
+F 3 "" H 16300 5900 50  0001 C CNN
+F 4 "C81598" H 16300 5900 59  0001 L BNN "LCSC"
+	1    16300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D19
+U 1 1 1D9D3492
+P 17400 1900
+AR Path="/1D9D3492" Ref="D19"  Part="1" 
+AR Path="/5EFCB5C9/1D9D3492" Ref="D19"  Part="1" 
+F 0 "D19" H 17300 2019 59  0000 L BNN
+F 1 "1N4148" H 17220 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 17400 1900 50  0001 C CNN
+F 3 "" H 17400 1900 50  0001 C CNN
+F 4 "C81598" H 17400 1900 59  0001 L BNN "LCSC"
+	1    17400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D33
+U 1 1 54CADCEE
+P 17400 2700
+AR Path="/54CADCEE" Ref="D33"  Part="1" 
+AR Path="/5EFCB5C9/54CADCEE" Ref="D33"  Part="1" 
+F 0 "D33" H 17300 2819 59  0000 L BNN
+F 1 "1N4148" H 17220 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 17400 2700 50  0001 C CNN
+F 3 "" H 17400 2700 50  0001 C CNN
+F 4 "C81598" H 17400 2700 59  0001 L BNN "LCSC"
+	1    17400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D50
+U 1 1 5E3D4DE3
+P 17400 3500
+AR Path="/5E3D4DE3" Ref="D50"  Part="1" 
+AR Path="/5EFCB5C9/5E3D4DE3" Ref="D50"  Part="1" 
+F 0 "D50" H 17300 3619 59  0000 L BNN
+F 1 "1N4148" H 17220 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 17400 3500 50  0001 C CNN
+F 3 "" H 17400 3500 50  0001 C CNN
+F 4 "C81598" H 17400 3500 59  0001 L BNN "LCSC"
+	1    17400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D66
+U 1 1 037CB779
+P 17400 4300
+AR Path="/037CB779" Ref="D66"  Part="1" 
+AR Path="/5EFCB5C9/037CB779" Ref="D66"  Part="1" 
+F 0 "D66" H 17300 4419 59  0000 L BNN
+F 1 "1N4148" H 17220 4169 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 17400 4300 50  0001 C CNN
+F 3 "" H 17400 4300 50  0001 C CNN
+F 4 "C81598" H 17400 4300 59  0001 L BNN "LCSC"
+	1    17400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D79
+U 1 1 AA17F311
+P 17400 5100
+AR Path="/AA17F311" Ref="D79"  Part="1" 
+AR Path="/5EFCB5C9/AA17F311" Ref="D79"  Part="1" 
+F 0 "D79" H 17300 5219 59  0000 L BNN
+F 1 "1N4148" H 17220 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 17400 5100 50  0001 C CNN
+F 3 "" H 17400 5100 50  0001 C CNN
+F 4 "C81598" H 17400 5100 59  0001 L BNN "LCSC"
+	1    17400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D92
+U 1 1 32575CB8
+P 17400 5900
+AR Path="/32575CB8" Ref="D92"  Part="1" 
+AR Path="/5EFCB5C9/32575CB8" Ref="D92"  Part="1" 
+F 0 "D92" H 17300 6019 59  0000 L BNN
+F 1 "1N4148" H 17220 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 17400 5900 50  0001 C CNN
+F 3 "" H 17400 5900 50  0001 C CNN
+F 4 "C81598" H 17400 5900 59  0001 L BNN "LCSC"
+	1    17400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U INSERT
+U 1 1 0E40C8E5
+P 18500 2800
+AR Path="/0E40C8E5" Ref="INSERT"  Part="1" 
+AR Path="/5EFCB5C9/0E40C8E5" Ref="INSERT1"  Part="1" 
+F 0 "INSERT1" H 18500 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 18500 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 18500 2800 50  0001 C CNN
+F 3 "" H 18500 2800 50  0001 C CNN
+	1    18500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U DELETE
+U 1 1 D36547B0
+P 18500 3600
+AR Path="/D36547B0" Ref="DELETE"  Part="1" 
+AR Path="/5EFCB5C9/D36547B0" Ref="DELETE1"  Part="1" 
+F 0 "DELETE1" H 18500 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 18500 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 18500 3600 50  0001 C CNN
+F 3 "" H 18500 3600 50  0001 C CNN
+	1    18500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U L_ARR
+U 1 1 24B95D0F
+P 18500 6000
+AR Path="/24B95D0F" Ref="L_ARR"  Part="1" 
+AR Path="/5EFCB5C9/24B95D0F" Ref="L_ARR1"  Part="1" 
+F 0 "L_ARR1" H 18500 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 18500 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 18500 6000 50  0001 C CNN
+F 3 "" H 18500 6000 50  0001 C CNN
+	1    18500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U PRINT
+U 1 1 2D6FC846
+P 18500 2000
+AR Path="/2D6FC846" Ref="PRINT"  Part="1" 
+AR Path="/5EFCB5C9/2D6FC846" Ref="PRINT1"  Part="1" 
+F 0 "PRINT1" H 18500 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 18500 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 18500 2000 50  0001 C CNN
+F 3 "" H 18500 2000 50  0001 C CNN
+	1    18500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D11
+U 1 1 529224A7
+P 19000 1900
+AR Path="/529224A7" Ref="D11"  Part="1" 
+AR Path="/5EFCB5C9/529224A7" Ref="D11"  Part="1" 
+F 0 "D11" H 18900 2019 59  0000 L BNN
+F 1 "1N4148" H 18820 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 19000 1900 50  0001 C CNN
+F 3 "" H 19000 1900 50  0001 C CNN
+F 4 "C81598" H 19000 1900 59  0001 L BNN "LCSC"
+	1    19000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D34
+U 1 1 624FC990
+P 19000 2700
+AR Path="/624FC990" Ref="D34"  Part="1" 
+AR Path="/5EFCB5C9/624FC990" Ref="D34"  Part="1" 
+F 0 "D34" H 18900 2819 59  0000 L BNN
+F 1 "1N4148" H 18820 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 19000 2700 50  0001 C CNN
+F 3 "" H 19000 2700 50  0001 C CNN
+F 4 "C81598" H 19000 2700 59  0001 L BNN "LCSC"
+	1    19000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D51
+U 1 1 EE4300DC
+P 19000 3500
+AR Path="/EE4300DC" Ref="D51"  Part="1" 
+AR Path="/5EFCB5C9/EE4300DC" Ref="D51"  Part="1" 
+F 0 "D51" H 18900 3619 59  0000 L BNN
+F 1 "1N4148" H 18820 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 19000 3500 50  0001 C CNN
+F 3 "" H 19000 3500 50  0001 C CNN
+F 4 "C81598" H 19000 3500 59  0001 L BNN "LCSC"
+	1    19000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D93
+U 1 1 C134D052
+P 19000 5900
+AR Path="/C134D052" Ref="D93"  Part="1" 
+AR Path="/5EFCB5C9/C134D052" Ref="D93"  Part="1" 
+F 0 "D93" H 18900 6019 59  0000 L BNN
+F 1 "1N4148" H 18820 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 19000 5900 50  0001 C CNN
+F 3 "" H 19000 5900 50  0001 C CNN
+F 4 "C81598" H 19000 5900 59  0001 L BNN "LCSC"
+	1    19000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U HOME
+U 1 1 606CDEB3
+P 19700 2800
+AR Path="/606CDEB3" Ref="HOME"  Part="1" 
+AR Path="/5EFCB5C9/606CDEB3" Ref="HOME1"  Part="1" 
+F 0 "HOME1" H 19700 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 19700 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 19700 2800 50  0001 C CNN
+F 3 "" H 19700 2800 50  0001 C CNN
+	1    19700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U END
+U 1 1 7D0EDBE2
+P 19700 3600
+AR Path="/7D0EDBE2" Ref="END"  Part="1" 
+AR Path="/5EFCB5C9/7D0EDBE2" Ref="END1"  Part="1" 
+F 0 "END1" H 19700 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 19700 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 19700 3600 50  0001 C CNN
+F 3 "" H 19700 3600 50  0001 C CNN
+	1    19700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U U_ARR
+U 1 1 B6C50836
+P 19700 5200
+AR Path="/B6C50836" Ref="U_ARR"  Part="1" 
+AR Path="/5EFCB5C9/B6C50836" Ref="U_ARR1"  Part="1" 
+F 0 "U_ARR1" H 19700 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 19700 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 19700 5200 50  0001 C CNN
+F 3 "" H 19700 5200 50  0001 C CNN
+	1    19700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U D-ARR
+U 1 1 1421E880
+P 19700 6000
+AR Path="/1421E880" Ref="D-ARR"  Part="1" 
+AR Path="/5EFCB5C9/1421E880" Ref="D-ARR1"  Part="1" 
+F 0 "D-ARR1" H 19700 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 19700 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 19700 6000 50  0001 C CNN
+F 3 "" H 19700 6000 50  0001 C CNN
+	1    19700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U SCROLL
+U 1 1 95EE4646
+P 19700 2000
+AR Path="/95EE4646" Ref="SCROLL"  Part="1" 
+AR Path="/5EFCB5C9/95EE4646" Ref="SCROLL1"  Part="1" 
+F 0 "SCROLL1" H 19700 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 19700 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 19700 2000 50  0001 C CNN
+F 3 "" H 19700 2000 50  0001 C CNN
+	1    19700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D12
+U 1 1 BFFFC984
+P 20200 1900
+AR Path="/BFFFC984" Ref="D12"  Part="1" 
+AR Path="/5EFCB5C9/BFFFC984" Ref="D12"  Part="1" 
+F 0 "D12" H 20100 2019 59  0000 L BNN
+F 1 "1N4148" H 20020 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 20200 1900 50  0001 C CNN
+F 3 "" H 20200 1900 50  0001 C CNN
+F 4 "C81598" H 20200 1900 59  0001 L BNN "LCSC"
+	1    20200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D35
+U 1 1 B5332579
+P 20200 2700
+AR Path="/B5332579" Ref="D35"  Part="1" 
+AR Path="/5EFCB5C9/B5332579" Ref="D35"  Part="1" 
+F 0 "D35" H 20100 2819 59  0000 L BNN
+F 1 "1N4148" H 20020 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 20200 2700 50  0001 C CNN
+F 3 "" H 20200 2700 50  0001 C CNN
+F 4 "C81598" H 20200 2700 59  0001 L BNN "LCSC"
+	1    20200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D52
+U 1 1 48A86290
+P 20200 3500
+AR Path="/48A86290" Ref="D52"  Part="1" 
+AR Path="/5EFCB5C9/48A86290" Ref="D52"  Part="1" 
+F 0 "D52" H 20100 3619 59  0000 L BNN
+F 1 "1N4148" H 20020 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 20200 3500 50  0001 C CNN
+F 3 "" H 20200 3500 50  0001 C CNN
+F 4 "C81598" H 20200 3500 59  0001 L BNN "LCSC"
+	1    20200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D80
+U 1 1 08F8C9F1
+P 20200 5100
+AR Path="/08F8C9F1" Ref="D80"  Part="1" 
+AR Path="/5EFCB5C9/08F8C9F1" Ref="D80"  Part="1" 
+F 0 "D80" H 20100 5219 59  0000 L BNN
+F 1 "1N4148" H 20020 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 20200 5100 50  0001 C CNN
+F 3 "" H 20200 5100 50  0001 C CNN
+F 4 "C81598" H 20200 5100 59  0001 L BNN "LCSC"
+	1    20200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D94
+U 1 1 C110AF7C
+P 20200 5900
+AR Path="/C110AF7C" Ref="D94"  Part="1" 
+AR Path="/5EFCB5C9/C110AF7C" Ref="D94"  Part="1" 
+F 0 "D94" H 20100 6019 59  0000 L BNN
+F 1 "1N4148" H 20020 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 20200 5900 50  0001 C CNN
+F 3 "" H 20200 5900 50  0001 C CNN
+F 4 "C81598" H 20200 5900 59  0001 L BNN "LCSC"
+	1    20200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U UP
+U 1 1 9DE2437D
+P 20900 2800
+AR Path="/9DE2437D" Ref="UP"  Part="1" 
+AR Path="/5EFCB5C9/9DE2437D" Ref="UP1"  Part="1" 
+F 0 "UP1" H 20900 3010 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 20900 2590 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 20900 2800 50  0001 C CNN
+F 3 "" H 20900 2800 50  0001 C CNN
+	1    20900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U DOWN
+U 1 1 3F3691CA
+P 20900 3600
+AR Path="/3F3691CA" Ref="DOWN"  Part="1" 
+AR Path="/5EFCB5C9/3F3691CA" Ref="DOWN1"  Part="1" 
+F 0 "DOWN1" H 20900 3810 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 20900 3390 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 20900 3600 50  0001 C CNN
+F 3 "" H 20900 3600 50  0001 C CNN
+	1    20900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U R_ARR
+U 1 1 72A62851
+P 20900 6000
+AR Path="/72A62851" Ref="R_ARR"  Part="1" 
+AR Path="/5EFCB5C9/72A62851" Ref="R_ARR1"  Part="1" 
+F 0 "R_ARR1" H 20900 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 20900 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 20900 6000 50  0001 C CNN
+F 3 "" H 20900 6000 50  0001 C CNN
+	1    20900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U PAUSE
+U 1 1 E446574D
+P 20900 2000
+AR Path="/E446574D" Ref="PAUSE"  Part="1" 
+AR Path="/5EFCB5C9/E446574D" Ref="PAUSE1"  Part="1" 
+F 0 "PAUSE1" H 20900 2210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 20900 1790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 20900 2000 50  0001 C CNN
+F 3 "" H 20900 2000 50  0001 C CNN
+	1    20900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D13
+U 1 1 3E0D7620
+P 21400 1900
+AR Path="/3E0D7620" Ref="D13"  Part="1" 
+AR Path="/5EFCB5C9/3E0D7620" Ref="D13"  Part="1" 
+F 0 "D13" H 21300 2019 59  0000 L BNN
+F 1 "1N4148" H 21220 1769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 21400 1900 50  0001 C CNN
+F 3 "" H 21400 1900 50  0001 C CNN
+F 4 "C81598" H 21400 1900 59  0001 L BNN "LCSC"
+	1    21400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D36
+U 1 1 850E4794
+P 21400 2700
+AR Path="/850E4794" Ref="D36"  Part="1" 
+AR Path="/5EFCB5C9/850E4794" Ref="D36"  Part="1" 
+F 0 "D36" H 21300 2819 59  0000 L BNN
+F 1 "1N4148" H 21220 2569 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 21400 2700 50  0001 C CNN
+F 3 "" H 21400 2700 50  0001 C CNN
+F 4 "C81598" H 21400 2700 59  0001 L BNN "LCSC"
+	1    21400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D53
+U 1 1 9A0D8812
+P 21400 3500
+AR Path="/9A0D8812" Ref="D53"  Part="1" 
+AR Path="/5EFCB5C9/9A0D8812" Ref="D53"  Part="1" 
+F 0 "D53" H 21300 3619 59  0000 L BNN
+F 1 "1N4148" H 21220 3369 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 21400 3500 50  0001 C CNN
+F 3 "" H 21400 3500 50  0001 C CNN
+F 4 "C81598" H 21400 3500 59  0001 L BNN "LCSC"
+	1    21400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D95
+U 1 1 9D963B8E
+P 21400 5900
+AR Path="/9D963B8E" Ref="D95"  Part="1" 
+AR Path="/5EFCB5C9/9D963B8E" Ref="D95"  Part="1" 
+F 0 "D95" H 21300 6019 59  0000 L BNN
+F 1 "1N4148" H 21220 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 21400 5900 50  0001 C CNN
+F 3 "" H 21400 5900 50  0001 C CNN
+F 4 "C81598" H 21400 5900 59  0001 L BNN "LCSC"
+	1    21400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MOUNT-PAD-ROUND3.2 H6
+U 1 1 FF736030
+P 1100 6500
+AR Path="/FF736030" Ref="H6"  Part="1" 
+AR Path="/5EFCB5C9/FF736030" Ref="H6"  Part="1" 
+F 0 "H6" H 1210 6523 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 1210 6403 59  0000 L BNN
+F 2 "hub_keyboard:3,2-PAD" H 1100 6500 50  0001 C CNN
+F 3 "" H 1100 6500 50  0001 C CNN
+	1    1100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MOUNT-PAD-ROUND3.2 H1
+U 1 1 EC459546
+P 1100 1000
+AR Path="/EC459546" Ref="H1"  Part="1" 
+AR Path="/5EFCB5C9/EC459546" Ref="H1"  Part="1" 
+F 0 "H1" H 1210 1023 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 1210 903 59  0000 L BNN
+F 2 "hub_keyboard:3,2-PAD" H 1100 1000 50  0001 C CNN
+F 3 "" H 1100 1000 50  0001 C CNN
+	1    1100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MOUNT-PAD-ROUND3.2 H7
+U 1 1 C10F4432
+P 22000 6500
+AR Path="/C10F4432" Ref="H7"  Part="1" 
+AR Path="/5EFCB5C9/C10F4432" Ref="H7"  Part="1" 
+F 0 "H7" H 22110 6523 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 22110 6403 59  0000 L BNN
+F 2 "hub_keyboard:3,2-PAD" H 22000 6500 50  0001 C CNN
+F 3 "" H 22000 6500 50  0001 C CNN
+	1    22000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MOUNT-PAD-ROUND3.2 H2
+U 1 1 A5E23240
+P 22000 1000
+AR Path="/A5E23240" Ref="H2"  Part="1" 
+AR Path="/5EFCB5C9/A5E23240" Ref="H2"  Part="1" 
+F 0 "H2" H 22110 1023 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 22110 903 59  0000 L BNN
+F 2 "hub_keyboard:3,2-PAD" H 22000 1000 50  0001 C CNN
+F 3 "" H 22000 1000 50  0001 C CNN
+	1    22000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MOUNT-PAD-ROUND3.2 H5
+U 1 1 54908F71
+P 18600 5100
+AR Path="/54908F71" Ref="H5"  Part="1" 
+AR Path="/5EFCB5C9/54908F71" Ref="H5"  Part="1" 
+F 0 "H5" H 18710 5123 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 18710 5003 59  0000 L BNN
+F 2 "hub_keyboard:3,2-PAD" H 18600 5100 50  0001 C CNN
+F 3 "" H 18600 5100 50  0001 C CNN
+	1    18600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1U <>
+U 1 1 C38DBEE9
+P 3300 5200
+AR Path="/C38DBEE9" Ref="<>"  Part="1" 
+AR Path="/5EFCB5C9/C38DBEE9" Ref="<>1"  Part="1" 
+F 0 "<>1" H 3300 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1U" H 3300 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1U" H 3300 5200 50  0001 C CNN
+F 3 "" H 3300 5200 50  0001 C CNN
+	1    3300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U L-SHIFT1
+U 1 1 8B353516
+P 1500 5200
+AR Path="/8B353516" Ref="L-SHIFT1"  Part="1" 
+AR Path="/5EFCB5C9/8B353516" Ref="L-SHIFT1"  Part="1" 
+F 0 "L-SHIFT1" H 1500 5410 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 1500 4990 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 1500 5200 50  0001 C CNN
+F 3 "" H 1500 5200 50  0001 C CNN
+	1    1500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D68
+U 1 1 C6B3C9B2
+P 3800 5100
+AR Path="/C6B3C9B2" Ref="D68"  Part="1" 
+AR Path="/5EFCB5C9/C6B3C9B2" Ref="D68"  Part="1" 
+F 0 "D68" H 3700 5219 59  0000 L BNN
+F 1 "1N4148" H 3620 4969 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 3800 5100 50  0001 C CNN
+F 3 "" H 3800 5100 50  0001 C CNN
+F 4 "C81598" H 3800 5100 59  0001 L BNN "LCSC"
+	1    3800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MOUNT-PAD-ROUND3.2 H3
+U 1 1 DF741C4C
+P 18600 4300
+AR Path="/DF741C4C" Ref="H3"  Part="1" 
+AR Path="/5EFCB5C9/DF741C4C" Ref="H3"  Part="1" 
+F 0 "H3" H 18710 4323 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 18710 4203 59  0000 L BNN
+F 2 "hub_keyboard:3,2-PAD" H 18600 4300 50  0001 C CNN
+F 3 "" H 18600 4300 50  0001 C CNN
+	1    18600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MOUNT-PAD-ROUND3.2 H4
+U 1 1 9105E348
+P 6800 7100
+AR Path="/9105E348" Ref="H4"  Part="1" 
+AR Path="/5EFCB5C9/9105E348" Ref="H4"  Part="1" 
+F 0 "H4" H 6910 7123 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 6910 7003 59  0000 L BNN
+F 2 "hub_keyboard:3,2-PAD" H 6800 7100 50  0001 C CNN
+F 3 "" H 6800 7100 50  0001 C CNN
+	1    6800 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:STABILIZER-1X2U S1
+U 1 1 CB7C1894
+P 16900 3100
+AR Path="/CB7C1894" Ref="S1"  Part="1" 
+AR Path="/5EFCB5C9/CB7C1894" Ref="S1"  Part="1" 
+F 0 "S1" H 16800 3100 59  0000 L BNN
+F 1 "STABILIZER-1X2U" H 16710 3180 8   0000 L BNN
+F 2 "hub_keyboard:STABILIZER_1X2U" H 16900 3100 50  0001 C CNN
+F 3 "" H 16900 3100 50  0001 C CNN
+	1    16900 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:STABILIZER-1X2.25U S3
+U 1 1 181626CD
+P 16900 4600
+AR Path="/181626CD" Ref="S3"  Part="1" 
+AR Path="/5EFCB5C9/181626CD" Ref="S3"  Part="1" 
+F 0 "S3" H 16800 4600 59  0000 L BNN
+F 1 "STABILIZER-1X2.25U" H 16710 4680 8   0000 L BNN
+F 2 "hub_keyboard:STABILIZER_1X2.25U" H 16900 4600 50  0001 C CNN
+F 3 "" H 16900 4600 50  0001 C CNN
+	1    16900 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:STABILIZER-1X2.25U S2
+U 1 1 ADA08F87
+P 2200 5400
+AR Path="/ADA08F87" Ref="S2"  Part="1" 
+AR Path="/5EFCB5C9/ADA08F87" Ref="S2"  Part="1" 
+F 0 "S2" H 2100 5400 59  0000 L BNN
+F 1 "STABILIZER-1X2.25U" H 2010 5480 8   0000 L BNN
+F 2 "hub_keyboard:STABILIZER_1X2.25U" H 2200 5400 50  0001 C CNN
+F 3 "" H 2200 5400 50  0001 C CNN
+	1    2200 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:STABILIZER-1X2.75U S4
+U 1 1 B06180F3
+P 16900 5400
+AR Path="/B06180F3" Ref="S4"  Part="1" 
+AR Path="/5EFCB5C9/B06180F3" Ref="S4"  Part="1" 
+F 0 "S4" H 16800 5400 59  0000 L BNN
+F 1 "STABILIZER-1X2.75U" H 16710 5480 8   0000 L BNN
+F 2 "hub_keyboard:STABILIZER_1X2.75U" H 16900 5400 50  0001 C CNN
+F 3 "" H 16900 5400 50  0001 C CNN
+	1    16900 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:STABILIZER-1X6.25U S5
+U 1 1 251BA34D
+P 8800 6200
+AR Path="/251BA34D" Ref="S5"  Part="1" 
+AR Path="/5EFCB5C9/251BA34D" Ref="S5"  Part="1" 
+F 0 "S5" H 8700 6200 59  0000 L BNN
+F 1 "STABILIZER-1X6.25U" H 8610 6280 8   0000 L BNN
+F 2 "hub_keyboard:STABILIZER_1X6.25U" H 8800 6200 50  0001 C CNN
+F 3 "" H 8800 6200 50  0001 C CNN
+	1    8800 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U LS1
+U 1 1 AC7323E4
+P 5500 6000
+AR Path="/AC7323E4" Ref="LS1"  Part="1" 
+AR Path="/5EFCB5C9/AC7323E4" Ref="LS1"  Part="1" 
+F 0 "LS1" H 5500 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 5500 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 5500 6000 50  0001 C CNN
+F 3 "" H 5500 6000 50  0001 C CNN
+	1    5500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U LS2
+U 1 1 12A68B4D
+P 6600 6000
+AR Path="/12A68B4D" Ref="LS2"  Part="1" 
+AR Path="/5EFCB5C9/12A68B4D" Ref="LS2"  Part="1" 
+F 0 "LS2" H 6600 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 6600 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 6600 6000 50  0001 C CNN
+F 3 "" H 6600 6000 50  0001 C CNN
+	1    6600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U RS1
+U 1 1 0D81B339
+P 9900 6000
+AR Path="/0D81B339" Ref="RS1"  Part="1" 
+AR Path="/5EFCB5C9/0D81B339" Ref="RS1"  Part="1" 
+F 0 "RS1" H 9900 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 9900 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 9900 6000 50  0001 C CNN
+F 3 "" H 9900 6000 50  0001 C CNN
+	1    9900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:MECHANICAL-KEYBOARD1.25U RS2
+U 1 1 2CD43189
+P 11000 6000
+AR Path="/2CD43189" Ref="RS2"  Part="1" 
+AR Path="/5EFCB5C9/2CD43189" Ref="RS2"  Part="1" 
+F 0 "RS2" H 11000 6210 70  0000 C BNN
+F 1 "MECHANICAL-KEYBOARD1.25U" H 11000 5790 70  0001 C TNN
+F 2 "hub_keyboard:CHERRY-MX-LED-1.25U" H 11000 6000 50  0001 C CNN
+F 3 "" H 11000 6000 50  0001 C CNN
+	1    11000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D84
+U 1 1 424664D9
+P 6000 5900
+AR Path="/424664D9" Ref="D84"  Part="1" 
+AR Path="/5EFCB5C9/424664D9" Ref="D84"  Part="1" 
+F 0 "D84" H 5900 6019 59  0000 L BNN
+F 1 "1N4148" H 5820 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 6000 5900 50  0001 C CNN
+F 3 "" H 6000 5900 50  0001 C CNN
+F 4 "C81598" H 6000 5900 59  0001 L BNN "LCSC"
+	1    6000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D85
+U 1 1 C6D45F97
+P 7100 5900
+AR Path="/C6D45F97" Ref="D85"  Part="1" 
+AR Path="/5EFCB5C9/C6D45F97" Ref="D85"  Part="1" 
+F 0 "D85" H 7000 6019 59  0000 L BNN
+F 1 "1N4148" H 6920 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 7100 5900 50  0001 C CNN
+F 3 "" H 7100 5900 50  0001 C CNN
+F 4 "C81598" H 7100 5900 59  0001 L BNN "LCSC"
+	1    7100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D87
+U 1 1 283D209D
+P 10400 5900
+AR Path="/283D209D" Ref="D87"  Part="1" 
+AR Path="/5EFCB5C9/283D209D" Ref="D87"  Part="1" 
+F 0 "D87" H 10300 6019 59  0000 L BNN
+F 1 "1N4148" H 10220 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 10400 5900 50  0001 C CNN
+F 3 "" H 10400 5900 50  0001 C CNN
+F 4 "C81598" H 10400 5900 59  0001 L BNN "LCSC"
+	1    10400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hub_keyboard-eagle-import:DIODE-SOD123 D88
+U 1 1 6863366E
+P 11500 5900
+AR Path="/6863366E" Ref="D88"  Part="1" 
+AR Path="/5EFCB5C9/6863366E" Ref="D88"  Part="1" 
+F 0 "D88" H 11400 6019 59  0000 L BNN
+F 1 "1N4148" H 11320 5769 59  0000 L BNN
+F 2 "hub_keyboard:SOD123" H 11500 5900 50  0001 C CNN
+F 3 "" H 11500 5900 50  0001 C CNN
+F 4 "C81598" H 11500 5900 59  0001 L BNN "LCSC"
+	1    11500 5900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
