@@ -38,7 +38,7 @@ $EndComp
 Wire Wire Line
 	8400 1750 8250 1750
 $Comp
-L keyboard_parts:R R?
+L Apex-rev1-rescue:R-keyboard_parts R?
 U 1 1 5EFE3710
 P 8250 1500
 F 0 "R?" H 8321 1546 50  0000 L CNN
@@ -52,7 +52,7 @@ Wire Wire Line
 	8250 1750 8100 1750
 Connection ~ 8250 1750
 $Comp
-L keyboard_parts:SW_PUSH SW?
+L Apex-rev1-rescue:SW_PUSH-keyboard_parts SW?
 U 1 1 5EFE4C93
 P 7800 1750
 F 0 "SW?" H 7800 2005 50  0000 C CNN
@@ -336,4 +336,57 @@ U 5F109FA8
 F0 "Key Matrix" 50
 F1 "Key Matrix.sch" 50
 $EndSheet
+Wire Wire Line
+	8400 3050 7650 3050
+$Comp
+L Device:C C?
+U 1 1 5F07097E
+P 7650 3200
+F 0 "C?" H 7765 3246 50  0000 L CNN
+F 1 "1uF" H 7765 3155 50  0000 L CNN
+F 2 "" H 7688 3050 50  0001 C CNN
+F 3 "~" H 7650 3200 50  0001 C CNN
+	1    7650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3350 7650 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5F071BD0
+P 7650 3450
+F 0 "#PWR?" H 7650 3200 50  0001 C CNN
+F 1 "GND" H 7655 3277 50  0000 C CNN
+F 2 "" H 7650 3450 50  0001 C CNN
+F 3 "" H 7650 3450 50  0001 C CNN
+	1    7650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2550 7950 2550
+Connection ~ 7950 2550
+Wire Wire Line
+	7950 2550 7150 2550
+$Comp
+L power:VCC #PWR?
+U 1 1 5F073B72
+P 7150 2550
+F 0 "#PWR?" H 7150 2400 50  0001 C CNN
+F 1 "VCC" H 7165 2723 50  0000 C CNN
+F 2 "" H 7150 2550 50  0001 C CNN
+F 3 "" H 7150 2550 50  0001 C CNN
+	1    7150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder SW?
+U 1 1 5F0786F9
+P 11700 2950
+F 0 "SW?" H 11930 2996 50  0000 L CNN
+F 1 "Rotary_Encoder" H 11930 2905 50  0000 L CNN
+F 2 "" H 11550 3110 50  0001 C CNN
+F 3 "~" H 11700 3210 50  0001 C CNN
+	1    11700 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
