@@ -9,7 +9,7 @@ Implement pogo pins on exterior to link numpad?
 
 Bluetooth?
 
-Reference:
+## Reference:
 
 https://github.com/ruiqimao/keyboard-pcb-guide
 
@@ -19,7 +19,7 @@ https://wiki.ai03.com/books/pcb-design
 
 http://builder.swillkb.com/
 
-Resources:
+## Resources:
 
 https://github.com/CaninoDev/MechanicalKeyboardKiCADTemplates
 
@@ -29,4 +29,14 @@ https://github.com/BenRoe/awesome-mechanical-keyboard
 
 https://github.com/di0ib/Misc
 
+https://github.com/CaninoDev/MechanicalKeyboardKiCADTemplates
+
 http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+
+https://kb.xyz.is/
+
+https://builder.mrkeebs.com/
+
+https://github.com/adamws/kicad-kbplacer
+
+https://github.com/AcheronProject
