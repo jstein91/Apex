@@ -663,4 +663,47 @@ F 3 "" H 12950 4250 50  0001 C CNN
 	1    12950 4250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8400 2350
+NoConn ~ 8400 3550
+NoConn ~ 8400 3650
+NoConn ~ 8400 3850
+NoConn ~ 8400 3950
+NoConn ~ 8400 4050
+NoConn ~ 8400 4150
+NoConn ~ 8400 4250
+NoConn ~ 8400 4450
+NoConn ~ 8400 4550
+NoConn ~ 8400 4650
+NoConn ~ 8400 4750
+NoConn ~ 8400 4850
+NoConn ~ 8400 4950
+NoConn ~ 8400 5050
+NoConn ~ 8400 5150
+NoConn ~ 9600 5150
+NoConn ~ 9600 5050
+NoConn ~ 9600 4950
+NoConn ~ 9600 4850
+NoConn ~ 9600 4750
+NoConn ~ 9600 4650
+NoConn ~ 9600 4250
+NoConn ~ 9600 4150
+NoConn ~ 9600 4050
+NoConn ~ 9600 3950
+NoConn ~ 9600 3850
+NoConn ~ 9600 3750
+NoConn ~ 9600 3650
+NoConn ~ 9600 3550
+NoConn ~ 9600 3350
+NoConn ~ 9600 3250
+NoConn ~ 9600 3150
+NoConn ~ 9600 3050
+NoConn ~ 9600 2650
+NoConn ~ 9600 2450
+NoConn ~ 9600 1750
+NoConn ~ 9600 1850
+NoConn ~ 9600 1950
+NoConn ~ 9600 2050
+NoConn ~ 9600 2150
+NoConn ~ 9600 2250
+NoConn ~ 9600 2350
 $EndSCHEMATC
