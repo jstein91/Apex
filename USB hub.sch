@@ -506,13 +506,13 @@ Wire Wire Line
 Wire Wire Line
 	9900 7900 9500 7900
 $Comp
-L hub_keyboard-eagle-import:FE1.1S IC1
+L hub_keyboard-eagle-import:FE1.1S IC?
 U 1 1 70C115B1
 P 4600 4400
-AR Path="/70C115B1" Ref="IC1"  Part="1" 
-AR Path="/5EFCC321/70C115B1" Ref="IC1"  Part="1" 
-AR Path="/5F06AC00/70C115B1" Ref="IC1"  Part="1" 
-F 0 "IC1" H 4000 5550 59  0000 L BNN
+AR Path="/70C115B1" Ref="IC?"  Part="1" 
+AR Path="/5EFCC321/70C115B1" Ref="IC?"  Part="1" 
+AR Path="/5F06AC00/70C115B1" Ref="IC2"  Part="1" 
+F 0 "IC2" H 4000 5550 59  0000 L BNN
 F 1 "FE1.1S" H 4000 3300 59  0000 L BNN
 F 2 "hub_keyboard:SSOP28" H 4600 4400 50  0001 C CNN
 F 3 "" H 4600 4400 50  0001 C CNN
@@ -522,11 +522,11 @@ F 5 "C9359" H 4600 4400 59  0001 L BNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J3
+L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J?
 U 1 1 83A3164B
 P 10200 4500
-AR Path="/83A3164B" Ref="J3"  Part="1" 
-AR Path="/5EFCC321/83A3164B" Ref="J3"  Part="1" 
+AR Path="/83A3164B" Ref="J?"  Part="1" 
+AR Path="/5EFCC321/83A3164B" Ref="J?"  Part="1" 
 AR Path="/5F06AC00/83A3164B" Ref="J3"  Part="1" 
 F 0 "J3" H 10000 4810 70  0000 L BNN
 F 1 "USB_A_SMT_FEMALE" H 10000 4290 70  0000 L TNN
@@ -537,13 +537,13 @@ F 4 "609-4946-1-ND" H 10200 4500 70  0001 L BNN "DIGIKEY"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J2
+L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J?
 U 1 1 F1780596
 P 10200 6300
-AR Path="/F1780596" Ref="J2"  Part="1" 
-AR Path="/5EFCC321/F1780596" Ref="J2"  Part="1" 
-AR Path="/5F06AC00/F1780596" Ref="J2"  Part="1" 
-F 0 "J2" H 10000 6610 70  0000 L BNN
+AR Path="/F1780596" Ref="J?"  Part="1" 
+AR Path="/5EFCC321/F1780596" Ref="J?"  Part="1" 
+AR Path="/5F06AC00/F1780596" Ref="J4"  Part="1" 
+F 0 "J4" H 10000 6610 70  0000 L BNN
 F 1 "USB_A_SMT_FEMALE" H 10000 6090 70  0000 L TNN
 F 2 "hub_keyboard:USB-A-S-SILK-FEMALE" H 10200 6300 50  0001 C CNN
 F 3 "" H 10200 6300 50  0001 C CNN
@@ -552,13 +552,13 @@ F 4 "609-4946-1-ND" H 10200 6300 70  0001 L BNN "DIGIKEY"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J1
+L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J?
 U 1 1 92202B0B
 P 10200 7900
-AR Path="/92202B0B" Ref="J1"  Part="1" 
-AR Path="/5EFCC321/92202B0B" Ref="J1"  Part="1" 
-AR Path="/5F06AC00/92202B0B" Ref="J1"  Part="1" 
-F 0 "J1" H 10000 8210 70  0000 L BNN
+AR Path="/92202B0B" Ref="J?"  Part="1" 
+AR Path="/5EFCC321/92202B0B" Ref="J?"  Part="1" 
+AR Path="/5F06AC00/92202B0B" Ref="J5"  Part="1" 
+F 0 "J5" H 10000 8210 70  0000 L BNN
 F 1 "USB_A_SMT_FEMALE" H 10000 7690 70  0000 L TNN
 F 2 "hub_keyboard:USB-A-S-SILK-FEMALE" H 10200 7900 50  0001 C CNN
 F 3 "" H 10200 7900 50  0001 C CNN
@@ -567,13 +567,13 @@ F 4 "609-4946-1-ND" H 10200 7900 70  0001 L BNN "DIGIKEY"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:USB_C2-LAYER J4
+L hub_keyboard-eagle-import:USB_C2-LAYER J?
 U 1 1 5FA14143
 P 8000 2200
-AR Path="/5FA14143" Ref="J4"  Part="1" 
-AR Path="/5EFCC321/5FA14143" Ref="J4"  Part="1" 
-AR Path="/5F06AC00/5FA14143" Ref="J4"  Part="1" 
-F 0 "J4" H 7900 2610 70  0000 L BNN
+AR Path="/5FA14143" Ref="J?"  Part="1" 
+AR Path="/5EFCC321/5FA14143" Ref="J?"  Part="1" 
+AR Path="/5F06AC00/5FA14143" Ref="J2"  Part="1" 
+F 0 "J2" H 7900 2610 70  0000 L BNN
 F 1 "USB_C2-LAYER" H 7900 1710 70  0000 L BNN
 F 2 "hub_keyboard:USB-C-16P" H 8000 2200 50  0001 C CNN
 F 3 "" H 8000 2200 50  0001 C CNN
@@ -582,15 +582,15 @@ F 4 "2073-USB4105-GF-ACT-ND" H 8000 2200 70  0001 L BNN "DIGIKEY"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C8
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 12A4064C
 P 11600 4500
-AR Path="/12A4064C" Ref="C8"  Part="1" 
-AR Path="/5EFCC321/12A4064C" Ref="C8"  Part="1" 
-AR Path="/5F06AC00/12A4064C" Ref="C8"  Part="1" 
-F 0 "C8" V 11585 4560 59  0000 L BNN
+AR Path="/12A4064C" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/12A4064C" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/12A4064C" Ref="C19"  Part="1" 
+F 0 "C19" V 11585 4560 59  0000 L BNN
 F 1 "10n 100V" V 11585 3960 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 11600 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11600 4500 50  0001 C CNN
 F 3 "" H 11600 4500 50  0001 C CNN
 F 4 "TRUE" H 11600 4500 59  0001 L BNN "EXTENDED"
 F 5 "C84709" H 11600 4500 59  0001 L BNN "LCSC"
@@ -598,30 +598,30 @@ F 5 "C84709" H 11600 4500 59  0001 L BNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R16
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 947D9E31
 P 11600 4300
-AR Path="/947D9E31" Ref="R16"  Part="1" 
-AR Path="/5EFCC321/947D9E31" Ref="R16"  Part="1" 
-AR Path="/5F06AC00/947D9E31" Ref="R16"  Part="1" 
-F 0 "R16" H 11450 4359 59  0000 L BNN
+AR Path="/947D9E31" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/947D9E31" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/947D9E31" Ref="R13"  Part="1" 
+F 0 "R13" H 11450 4359 59  0000 L BNN
 F 1 "1M" H 11750 4370 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 11600 4300 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 11600 4300 50  0001 C CNN
 F 3 "" H 11600 4300 50  0001 C CNN
 F 4 "C22935" H 11600 4300 59  0001 L BNN "LCSC"
 	1    11600 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C6
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 2F4C8C48
 P 11600 6300
-AR Path="/2F4C8C48" Ref="C6"  Part="1" 
-AR Path="/5EFCC321/2F4C8C48" Ref="C6"  Part="1" 
-AR Path="/5F06AC00/2F4C8C48" Ref="C6"  Part="1" 
-F 0 "C6" V 11585 6360 59  0000 L BNN
+AR Path="/2F4C8C48" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/2F4C8C48" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/2F4C8C48" Ref="C21"  Part="1" 
+F 0 "C21" V 11585 6360 59  0000 L BNN
 F 1 "10n 100V" V 11585 5760 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 11600 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11600 6300 50  0001 C CNN
 F 3 "" H 11600 6300 50  0001 C CNN
 F 4 "TRUE" H 11600 6300 59  0001 L BNN "EXTENDED"
 F 5 "C84709" H 11600 6300 59  0001 L BNN "LCSC"
@@ -629,30 +629,30 @@ F 5 "C84709" H 11600 6300 59  0001 L BNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R13
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 BE3D42EC
 P 11600 6100
-AR Path="/BE3D42EC" Ref="R13"  Part="1" 
-AR Path="/5EFCC321/BE3D42EC" Ref="R13"  Part="1" 
-AR Path="/5F06AC00/BE3D42EC" Ref="R13"  Part="1" 
-F 0 "R13" H 11450 6159 59  0000 L BNN
+AR Path="/BE3D42EC" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/BE3D42EC" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/BE3D42EC" Ref="R19"  Part="1" 
+F 0 "R19" H 11450 6159 59  0000 L BNN
 F 1 "1M" H 11750 6170 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 11600 6100 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 11600 6100 50  0001 C CNN
 F 3 "" H 11600 6100 50  0001 C CNN
 F 4 "C22935" H 11600 6100 59  0001 L BNN "LCSC"
 	1    11600 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C4
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 3C437C10
 P 11600 7900
-AR Path="/3C437C10" Ref="C4"  Part="1" 
-AR Path="/5EFCC321/3C437C10" Ref="C4"  Part="1" 
-AR Path="/5F06AC00/3C437C10" Ref="C4"  Part="1" 
-F 0 "C4" V 11585 7960 59  0000 L BNN
+AR Path="/3C437C10" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/3C437C10" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/3C437C10" Ref="C24"  Part="1" 
+F 0 "C24" V 11585 7960 59  0000 L BNN
 F 1 "10n 100V" V 11585 7360 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 11600 7900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11600 7900 50  0001 C CNN
 F 3 "" H 11600 7900 50  0001 C CNN
 F 4 "TRUE" H 11600 7900 59  0001 L BNN "EXTENDED"
 F 5 "C84709" H 11600 7900 59  0001 L BNN "LCSC"
@@ -660,30 +660,30 @@ F 5 "C84709" H 11600 7900 59  0001 L BNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R10
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 99B5315F
 P 11600 7700
-AR Path="/99B5315F" Ref="R10"  Part="1" 
-AR Path="/5EFCC321/99B5315F" Ref="R10"  Part="1" 
-AR Path="/5F06AC00/99B5315F" Ref="R10"  Part="1" 
-F 0 "R10" H 11450 7759 59  0000 L BNN
+AR Path="/99B5315F" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/99B5315F" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/99B5315F" Ref="R23"  Part="1" 
+F 0 "R23" H 11450 7759 59  0000 L BNN
 F 1 "1M" H 11750 7770 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 11600 7700 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 11600 7700 50  0001 C CNN
 F 3 "" H 11600 7700 50  0001 C CNN
 F 4 "C22935" H 11600 7700 59  0001 L BNN "LCSC"
 	1    11600 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C1
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 F9BE43E8
 P 7400 3100
-AR Path="/F9BE43E8" Ref="C1"  Part="1" 
-AR Path="/5EFCC321/F9BE43E8" Ref="C1"  Part="1" 
-AR Path="/5F06AC00/F9BE43E8" Ref="C1"  Part="1" 
-F 0 "C1" V 7385 3160 59  0000 L BNN
+AR Path="/F9BE43E8" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/F9BE43E8" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/F9BE43E8" Ref="C10"  Part="1" 
+F 0 "C10" V 7385 3160 59  0000 L BNN
 F 1 "10n 100V" V 7515 3440 59  0000 R TNN
-F 2 "hub_keyboard:C0603" H 7400 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7400 3100 50  0001 C CNN
 F 3 "" H 7400 3100 50  0001 C CNN
 F 4 "TRUE" H 7400 3100 59  0001 L BNN "EXTENDED"
 F 5 "C84709" H 7400 3100 59  0001 L BNN "LCSC"
@@ -691,118 +691,118 @@ F 5 "C84709" H 7400 3100 59  0001 L BNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R8
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 3A4A3C5E
 P 7600 3100
-AR Path="/3A4A3C5E" Ref="R8"  Part="1" 
-AR Path="/5EFCC321/3A4A3C5E" Ref="R8"  Part="1" 
-AR Path="/5F06AC00/3A4A3C5E" Ref="R8"  Part="1" 
-F 0 "R8" H 7450 3159 59  0000 L BNN
+AR Path="/3A4A3C5E" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/3A4A3C5E" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/3A4A3C5E" Ref="R10"  Part="1" 
+F 0 "R10" H 7450 3159 59  0000 L BNN
 F 1 "1M" H 7750 3170 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 7600 3100 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 7600 3100 50  0001 C CNN
 F 3 "" H 7600 3100 50  0001 C CNN
 F 4 "C22935" H 7600 3100 59  0001 L BNN "LCSC"
 	1    7600 3100
 	0    1    1    0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R3
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 060502EA
 P 6700 3500
-AR Path="/060502EA" Ref="R3"  Part="1" 
-AR Path="/5EFCC321/060502EA" Ref="R3"  Part="1" 
-AR Path="/5F06AC00/060502EA" Ref="R3"  Part="1" 
-F 0 "R3" H 6550 3559 59  0000 L BNN
+AR Path="/060502EA" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/060502EA" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/060502EA" Ref="R11"  Part="1" 
+F 0 "R11" H 6550 3559 59  0000 L BNN
 F 1 "22R" H 6550 3370 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 6700 3500 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 6700 3500 50  0001 C CNN
 F 3 "" H 6700 3500 50  0001 C CNN
 F 4 "C23345" H 6700 3500 59  0001 L BNN "LCSC"
 	1    6700 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R4
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 05997AF9
 P 6400 3600
-AR Path="/05997AF9" Ref="R4"  Part="1" 
-AR Path="/5EFCC321/05997AF9" Ref="R4"  Part="1" 
-AR Path="/5F06AC00/05997AF9" Ref="R4"  Part="1" 
-F 0 "R4" H 6250 3659 59  0000 L BNN
+AR Path="/05997AF9" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/05997AF9" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/05997AF9" Ref="R12"  Part="1" 
+F 0 "R12" H 6250 3659 59  0000 L BNN
 F 1 "22R" H 6250 3470 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 6400 3600 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 6400 3600 50  0001 C CNN
 F 3 "" H 6400 3600 50  0001 C CNN
 F 4 "C23345" H 6400 3600 59  0001 L BNN "LCSC"
 	1    6400 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C11
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 FA01A6D6
 P 1900 4100
-AR Path="/FA01A6D6" Ref="C11"  Part="1" 
-AR Path="/5EFCC321/FA01A6D6" Ref="C11"  Part="1" 
-AR Path="/5F06AC00/FA01A6D6" Ref="C11"  Part="1" 
-F 0 "C11" H 1960 4115 59  0000 L BNN
+AR Path="/FA01A6D6" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/FA01A6D6" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/FA01A6D6" Ref="C15"  Part="1" 
+F 0 "C15" H 1960 4115 59  0000 L BNN
 F 1 "10u" H 1960 3915 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 1900 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 4100 50  0001 C CNN
 F 3 "" H 1900 4100 50  0001 C CNN
 F 4 "C19702" H 1900 4100 59  0001 L BNN "LCSC"
 	1    1900 4100
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C13
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 32508C8E
 P 1000 4100
-AR Path="/32508C8E" Ref="C13"  Part="1" 
-AR Path="/5EFCC321/32508C8E" Ref="C13"  Part="1" 
-AR Path="/5F06AC00/32508C8E" Ref="C13"  Part="1" 
-F 0 "C13" H 1060 4115 59  0000 L BNN
+AR Path="/32508C8E" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/32508C8E" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/32508C8E" Ref="C14"  Part="1" 
+F 0 "C14" H 1060 4115 59  0000 L BNN
 F 1 "10u" H 1060 3915 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 1000 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1000 4100 50  0001 C CNN
 F 3 "" H 1000 4100 50  0001 C CNN
 F 4 "C19702" H 1000 4100 59  0001 L BNN "LCSC"
 	1    1000 4100
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R1
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 E66EC926
 P 3300 5000
-AR Path="/E66EC926" Ref="R1"  Part="1" 
-AR Path="/5EFCC321/E66EC926" Ref="R1"  Part="1" 
-AR Path="/5F06AC00/E66EC926" Ref="R1"  Part="1" 
-F 0 "R1" H 3150 5059 59  0000 L BNN
+AR Path="/E66EC926" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/E66EC926" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/E66EC926" Ref="R17"  Part="1" 
+F 0 "R17" H 3150 5059 59  0000 L BNN
 F 1 "2k7" H 3150 4870 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 3300 5000 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 3300 5000 50  0001 C CNN
 F 3 "" H 3300 5000 50  0001 C CNN
 F 4 "C13167" H 3300 5000 59  0001 L BNN "LCSC"
 	1    3300 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R20
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 0C3AE8E0
 P 5700 5100
-AR Path="/0C3AE8E0" Ref="R20"  Part="1" 
-AR Path="/5EFCC321/0C3AE8E0" Ref="R20"  Part="1" 
-AR Path="/5F06AC00/0C3AE8E0" Ref="R20"  Part="1" 
-F 0 "R20" H 5550 5159 59  0000 L BNN
+AR Path="/0C3AE8E0" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/0C3AE8E0" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/0C3AE8E0" Ref="R18"  Part="1" 
+F 0 "R18" H 5550 5159 59  0000 L BNN
 F 1 "10k" H 5550 4970 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 5700 5100 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 5700 5100 50  0001 C CNN
 F 3 "" H 5700 5100 50  0001 C CNN
 F 4 "C25804" H 5700 5100 59  0001 L BNN "LCSC"
 	1    5700 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0805 R9
+L hub_keyboard-eagle-import:R-EU_R0805 R?
 U 1 1 0CE4963D
 P 6500 1900
-AR Path="/0CE4963D" Ref="R9"  Part="1" 
-AR Path="/5EFCC321/0CE4963D" Ref="R9"  Part="1" 
-AR Path="/5F06AC00/0CE4963D" Ref="R9"  Part="1" 
-F 0 "R9" H 6350 1959 59  0000 L BNN
+AR Path="/0CE4963D" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/0CE4963D" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/0CE4963D" Ref="R7"  Part="1" 
+F 0 "R7" H 6350 1959 59  0000 L BNN
 F 1 "Ferrite 2A" H 6350 1770 59  0000 L BNN
 F 2 "hub_keyboard:R0805" H 6500 1900 50  0001 C CNN
 F 3 "" H 6500 1900 50  0001 C CNN
@@ -812,28 +812,28 @@ F 5 "C44361" H 6500 1900 59  0001 L BNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:KX-7 X1
+L hub_keyboard-eagle-import:KX-7 X?
 U 1 1 AA320E17
 P 3500 4100
-AR Path="/AA320E17" Ref="X1"  Part="1" 
-AR Path="/5EFCC321/AA320E17" Ref="X1"  Part="1" 
+AR Path="/AA320E17" Ref="X?"  Part="1" 
+AR Path="/5EFCC321/AA320E17" Ref="X?"  Part="1" 
 AR Path="/5F06AC00/AA320E17" Ref="X1"  Part="1" 
 F 0 "X1" V 3650 4050 59  0000 R TNN
 F 1 "12MHz" V 3500 3950 59  0000 R TNN
-F 2 "hub_keyboard:3.2X2.5_KX-7" H 3500 4100 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3500 4100 50  0001 C CNN
 F 3 "" H 3500 4100 50  0001 C CNN
 F 4 "C9002" H 3500 4100 59  0001 L BNN "LCSC"
 	1    3500 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:CPOL-EUCT3528 C3
+L hub_keyboard-eagle-import:CPOL-EUCT3528 C?
 U 1 1 F17AA65A
 P 10000 3900
-AR Path="/F17AA65A" Ref="C3"  Part="1" 
-AR Path="/5EFCC321/F17AA65A" Ref="C3"  Part="1" 
-AR Path="/5F06AC00/F17AA65A" Ref="C3"  Part="1" 
-F 0 "C3" H 10045 3919 59  0000 L BNN
+AR Path="/F17AA65A" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/F17AA65A" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/F17AA65A" Ref="C12"  Part="1" 
+F 0 "C12" H 10045 3919 59  0000 L BNN
 F 1 "100uF" H 10045 3719 59  0000 L BNN
 F 2 "hub_keyboard:CT3528" H 10000 3900 50  0001 C CNN
 F 3 "" H 10000 3900 50  0001 C CNN
@@ -842,13 +842,13 @@ F 4 "C16133" H 10000 3900 59  0001 L BNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:CPOL-EUCT3528 C5
+L hub_keyboard-eagle-import:CPOL-EUCT3528 C?
 U 1 1 DF433A60
 P 10200 5700
-AR Path="/DF433A60" Ref="C5"  Part="1" 
-AR Path="/5EFCC321/DF433A60" Ref="C5"  Part="1" 
-AR Path="/5F06AC00/DF433A60" Ref="C5"  Part="1" 
-F 0 "C5" H 10245 5719 59  0000 L BNN
+AR Path="/DF433A60" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/DF433A60" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/DF433A60" Ref="C20"  Part="1" 
+F 0 "C20" H 10245 5719 59  0000 L BNN
 F 1 "100uF" H 10245 5519 59  0000 L BNN
 F 2 "hub_keyboard:CT3528" H 10200 5700 50  0001 C CNN
 F 3 "" H 10200 5700 50  0001 C CNN
@@ -857,13 +857,13 @@ F 4 "C16133" H 10200 5700 59  0001 L BNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:CPOL-EUCT3528 C7
+L hub_keyboard-eagle-import:CPOL-EUCT3528 C?
 U 1 1 CD35B308
 P 10200 7300
-AR Path="/CD35B308" Ref="C7"  Part="1" 
-AR Path="/5EFCC321/CD35B308" Ref="C7"  Part="1" 
-AR Path="/5F06AC00/CD35B308" Ref="C7"  Part="1" 
-F 0 "C7" H 10245 7319 59  0000 L BNN
+AR Path="/CD35B308" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/CD35B308" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/CD35B308" Ref="C23"  Part="1" 
+F 0 "C23" H 10245 7319 59  0000 L BNN
 F 1 "100uF" H 10245 7119 59  0000 L BNN
 F 2 "hub_keyboard:CT3528" H 10200 7300 50  0001 C CNN
 F 3 "" H 10200 7300 50  0001 C CNN
@@ -872,43 +872,43 @@ F 4 "C16133" H 10200 7300 59  0001 L BNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R5
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 C02F8B5D
 P 3600 4800
-AR Path="/C02F8B5D" Ref="R5"  Part="1" 
-AR Path="/5EFCC321/C02F8B5D" Ref="R5"  Part="1" 
-AR Path="/5F06AC00/C02F8B5D" Ref="R5"  Part="1" 
-F 0 "R5" H 3450 4859 59  0000 L BNN
+AR Path="/C02F8B5D" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/C02F8B5D" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/C02F8B5D" Ref="R16"  Part="1" 
+F 0 "R16" H 3450 4859 59  0000 L BNN
 F 1 "20k" H 3450 4670 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 3600 4800 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 3600 4800 50  0001 C CNN
 F 3 "" H 3600 4800 50  0001 C CNN
 F 4 "C4184" H 3600 4800 59  0001 L BNN "LCSC"
 	1    3600 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R7
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 6B7D5417
 P 6200 2300
-AR Path="/6B7D5417" Ref="R7"  Part="1" 
-AR Path="/5EFCC321/6B7D5417" Ref="R7"  Part="1" 
-AR Path="/5F06AC00/6B7D5417" Ref="R7"  Part="1" 
-F 0 "R7" H 6050 2359 59  0000 L BNN
+AR Path="/6B7D5417" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/6B7D5417" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/6B7D5417" Ref="R8"  Part="1" 
+F 0 "R8" H 6050 2359 59  0000 L BNN
 F 1 "10k" H 6050 2170 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 6200 2300 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 6200 2300 50  0001 C CNN
 F 3 "" H 6200 2300 50  0001 C CNN
 F 4 "C25804" H 6200 2300 59  0001 L BNN "LCSC"
 	1    6200 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:VCC #P+04
+L hub_keyboard-eagle-import:VCC #P+?
 U 1 1 40DCAEBA
 P 6200 1700
-AR Path="/40DCAEBA" Ref="#P+04"  Part="1" 
-AR Path="/5EFCC321/40DCAEBA" Ref="#P+04"  Part="1" 
-AR Path="/5F06AC00/40DCAEBA" Ref="#P+04"  Part="1" 
-F 0 "#P+04" H 6200 1700 50  0001 C CNN
+AR Path="/40DCAEBA" Ref="#P+?"  Part="1" 
+AR Path="/5EFCC321/40DCAEBA" Ref="#P+?"  Part="1" 
+AR Path="/5F06AC00/40DCAEBA" Ref="#P+0101"  Part="1" 
+F 0 "#P+0101" H 6200 1700 50  0001 C CNN
 F 1 "VCC" V 6100 1600 59  0000 L BNN
 F 2 "" H 6200 1700 50  0001 C CNN
 F 3 "" H 6200 1700 50  0001 C CNN
@@ -916,75 +916,75 @@ F 3 "" H 6200 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C2
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 A7D0BF53
 P 6200 2900
-AR Path="/A7D0BF53" Ref="C2"  Part="1" 
-AR Path="/5EFCC321/A7D0BF53" Ref="C2"  Part="1" 
-AR Path="/5F06AC00/A7D0BF53" Ref="C2"  Part="1" 
-F 0 "C2" V 6185 2960 59  0000 L BNN
+AR Path="/A7D0BF53" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/A7D0BF53" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/A7D0BF53" Ref="C9"  Part="1" 
+F 0 "C9" V 6185 2960 59  0000 L BNN
 F 1 "100nF" V 6315 3240 59  0000 R TNN
-F 2 "hub_keyboard:C0603" H 6200 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 2900 50  0001 C CNN
 F 3 "" H 6200 2900 50  0001 C CNN
 F 4 "C14663" H 6200 2900 59  0001 L BNN "LCSC"
 	1    6200 2900
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R19
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 54BBC83C
 P 6500 2900
-AR Path="/54BBC83C" Ref="R19"  Part="1" 
-AR Path="/5EFCC321/54BBC83C" Ref="R19"  Part="1" 
-AR Path="/5F06AC00/54BBC83C" Ref="R19"  Part="1" 
-F 0 "R19" H 6350 2959 59  0000 L BNN
+AR Path="/54BBC83C" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/54BBC83C" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/54BBC83C" Ref="R9"  Part="1" 
+F 0 "R9" H 6350 2959 59  0000 L BNN
 F 1 "100k" H 6350 2770 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 6500 2900 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 6500 2900 50  0001 C CNN
 F 3 "" H 6500 2900 50  0001 C CNN
 F 4 "C25803" H 6500 2900 59  0001 L BNN "LCSC"
 	1    6500 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C10
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 283A4AC9
 P 1400 4000
-AR Path="/283A4AC9" Ref="C10"  Part="1" 
-AR Path="/5EFCC321/283A4AC9" Ref="C10"  Part="1" 
-AR Path="/5F06AC00/283A4AC9" Ref="C10"  Part="1" 
-F 0 "C10" V 1385 4060 59  0000 L BNN
+AR Path="/283A4AC9" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/283A4AC9" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/283A4AC9" Ref="C13"  Part="1" 
+F 0 "C13" V 1385 4060 59  0000 L BNN
 F 1 "100nF" V 1515 4240 59  0000 R TNN
-F 2 "hub_keyboard:C0603" H 1400 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1400 4000 50  0001 C CNN
 F 3 "" H 1400 4000 50  0001 C CNN
 F 4 "C14663" H 1400 4000 59  0001 L BNN "LCSC"
 	1    1400 4000
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C15
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 1DB0A341
 P 2200 4100
-AR Path="/1DB0A341" Ref="C15"  Part="1" 
-AR Path="/5EFCC321/1DB0A341" Ref="C15"  Part="1" 
-AR Path="/5F06AC00/1DB0A341" Ref="C15"  Part="1" 
-F 0 "C15" V 2185 4160 59  0000 L BNN
+AR Path="/1DB0A341" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/1DB0A341" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/1DB0A341" Ref="C16"  Part="1" 
+F 0 "C16" V 2185 4160 59  0000 L BNN
 F 1 "100nF" V 2315 4340 59  0000 R TNN
-F 2 "hub_keyboard:C0603" H 2200 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2200 4100 50  0001 C CNN
 F 3 "" H 2200 4100 50  0001 C CNN
 F 4 "C14663" H 2200 4100 59  0001 L BNN "LCSC"
 	1    2200 4100
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R1210 F1
+L hub_keyboard-eagle-import:R-EU_R1210 F?
 U 1 1 0367ED63
 P 8300 3600
-AR Path="/0367ED63" Ref="F1"  Part="1" 
-AR Path="/5EFCC321/0367ED63" Ref="F1"  Part="1" 
+AR Path="/0367ED63" Ref="F?"  Part="1" 
+AR Path="/5EFCC321/0367ED63" Ref="F?"  Part="1" 
 AR Path="/5F06AC00/0367ED63" Ref="F1"  Part="1" 
 F 0 "F1" H 8150 3659 59  0000 L BNN
 F 1 "1.1A Hold" H 8150 3470 59  0000 L BNN
-F 2 "hub_keyboard:R1210" H 8300 3600 50  0001 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 8300 3600 50  0001 C CNN
 F 3 "" H 8300 3600 50  0001 C CNN
 F 4 "TRUE" H 8300 3600 59  0001 L BNN "EXTENDED"
 F 5 "C70100" H 8300 3600 59  0001 L BNN "LCSC"
@@ -992,43 +992,43 @@ F 5 "C70100" H 8300 3600 59  0001 L BNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R21
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 AC84AD9C
 P 6600 6500
-AR Path="/AC84AD9C" Ref="R21"  Part="1" 
-AR Path="/5EFCC321/AC84AD9C" Ref="R21"  Part="1" 
-AR Path="/5F06AC00/AC84AD9C" Ref="R21"  Part="1" 
-F 0 "R21" H 6450 6559 59  0000 L BNN
+AR Path="/AC84AD9C" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/AC84AD9C" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/AC84AD9C" Ref="R22"  Part="1" 
+F 0 "R22" H 6450 6559 59  0000 L BNN
 F 1 "10k" H 6450 6370 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 6600 6500 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 6600 6500 50  0001 C CNN
 F 3 "" H 6600 6500 50  0001 C CNN
 F 4 "C25804" H 6600 6500 59  0001 L BNN "LCSC"
 	1    6600 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C14
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 B3A3920B
 P 6300 6800
-AR Path="/B3A3920B" Ref="C14"  Part="1" 
-AR Path="/5EFCC321/B3A3920B" Ref="C14"  Part="1" 
-AR Path="/5F06AC00/B3A3920B" Ref="C14"  Part="1" 
-F 0 "C14" V 6285 6860 59  0000 L BNN
+AR Path="/B3A3920B" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/B3A3920B" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/B3A3920B" Ref="C22"  Part="1" 
+F 0 "C22" V 6285 6860 59  0000 L BNN
 F 1 "10n" V 6415 7040 59  0000 R TNN
-F 2 "hub_keyboard:C0603" H 6300 6800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6300 6800 50  0001 C CNN
 F 3 "" H 6300 6800 50  0001 C CNN
 F 4 "C57112" H 6300 6800 59  0001 L BNN "LCSC"
 	1    6300 6800
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:VCC #P+08
+L hub_keyboard-eagle-import:VCC #P+?
 U 1 1 615237C0
 P 3800 2900
-AR Path="/615237C0" Ref="#P+08"  Part="1" 
-AR Path="/5EFCC321/615237C0" Ref="#P+08"  Part="1" 
-AR Path="/5F06AC00/615237C0" Ref="#P+08"  Part="1" 
-F 0 "#P+08" H 3800 2900 50  0001 C CNN
+AR Path="/615237C0" Ref="#P+?"  Part="1" 
+AR Path="/5EFCC321/615237C0" Ref="#P+?"  Part="1" 
+AR Path="/5F06AC00/615237C0" Ref="#P+0102"  Part="1" 
+F 0 "#P+0102" H 3800 2900 50  0001 C CNN
 F 1 "VCC" V 3700 2800 59  0000 L BNN
 F 2 "" H 3800 2900 50  0001 C CNN
 F 3 "" H 3800 2900 50  0001 C CNN
@@ -1036,28 +1036,28 @@ F 3 "" H 3800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C12
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 EF5A8354
 P 2200 3300
-AR Path="/EF5A8354" Ref="C12"  Part="1" 
-AR Path="/5EFCC321/EF5A8354" Ref="C12"  Part="1" 
-AR Path="/5F06AC00/EF5A8354" Ref="C12"  Part="1" 
-F 0 "C12" H 2260 3315 59  0000 L BNN
+AR Path="/EF5A8354" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/EF5A8354" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/EF5A8354" Ref="C11"  Part="1" 
+F 0 "C11" H 2260 3315 59  0000 L BNN
 F 1 "10u" H 2260 3115 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 2200 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2200 3300 50  0001 C CNN
 F 3 "" H 2200 3300 50  0001 C CNN
 F 4 "C19702" H 2200 3300 59  0001 L BNN "LCSC"
 	1    2200 3300
 	-1   0    0    1   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:24SN IC2
+L hub_keyboard-eagle-import:24SN IC?
 U 1 1 3C0E41D9
 P 4400 1800
-AR Path="/3C0E41D9" Ref="IC2"  Part="1" 
-AR Path="/5EFCC321/3C0E41D9" Ref="IC2"  Part="1" 
-AR Path="/5F06AC00/3C0E41D9" Ref="IC2"  Part="1" 
-F 0 "IC2" H 4000 2250 59  0000 L BNN
+AR Path="/3C0E41D9" Ref="IC?"  Part="1" 
+AR Path="/5EFCC321/3C0E41D9" Ref="IC?"  Part="1" 
+AR Path="/5F06AC00/3C0E41D9" Ref="IC1"  Part="1" 
+F 0 "IC1" H 4000 2250 59  0000 L BNN
 F 1 "24SN" H 4000 1400 59  0000 L BNN
 F 2 "hub_keyboard:SO-08" H 4400 1800 50  0001 C CNN
 F 3 "" H 4400 1800 50  0001 C CNN
@@ -1067,13 +1067,13 @@ F 5 "C184083" H 4400 1800 59  0001 L BNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:PRTR5V0U2X D18
+L hub_keyboard-eagle-import:PRTR5V0U2X D?
 U 1 1 DB78B421
 P 9000 5000
-AR Path="/DB78B421" Ref="D18"  Part="1" 
-AR Path="/5EFCC321/DB78B421" Ref="D18"  Part="1" 
-AR Path="/5F06AC00/DB78B421" Ref="D18"  Part="1" 
-F 0 "D18" H 8797 5400 59  0000 L BNN
+AR Path="/DB78B421" Ref="D?"  Part="1" 
+AR Path="/5EFCC321/DB78B421" Ref="D?"  Part="1" 
+AR Path="/5F06AC00/DB78B421" Ref="D1"  Part="1" 
+F 0 "D1" H 8797 5400 59  0000 L BNN
 F 1 "PRTR5V0U2X" H 8797 4603 59  0000 L BNN
 F 2 "hub_keyboard:SOT143" H 9000 5000 50  0001 C CNN
 F 3 "" H 9000 5000 50  0001 C CNN
@@ -1085,43 +1085,43 @@ F 7 "C384891" H 9000 5000 59  0001 L BNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C16
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 08D174DD
 P 3000 4200
-AR Path="/08D174DD" Ref="C16"  Part="1" 
-AR Path="/5EFCC321/08D174DD" Ref="C16"  Part="1" 
-AR Path="/5F06AC00/08D174DD" Ref="C16"  Part="1" 
-F 0 "C16" H 3060 4215 59  0000 L BNN
+AR Path="/08D174DD" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/08D174DD" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/08D174DD" Ref="C18"  Part="1" 
+F 0 "C18" H 3060 4215 59  0000 L BNN
 F 1 "12pF" H 3060 4015 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 3000 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 4200 50  0001 C CNN
 F 3 "" H 3000 4200 50  0001 C CNN
 F 4 "C38523" H 3000 4200 59  0001 L BNN "LCSC"
 	1    3000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:C-EUC0603 C9
+L hub_keyboard-eagle-import:C-EUC0603 C?
 U 1 1 7AC36122
 P 2600 4100
-AR Path="/7AC36122" Ref="C9"  Part="1" 
-AR Path="/5EFCC321/7AC36122" Ref="C9"  Part="1" 
-AR Path="/5F06AC00/7AC36122" Ref="C9"  Part="1" 
-F 0 "C9" H 2660 4115 59  0000 L BNN
+AR Path="/7AC36122" Ref="C?"  Part="1" 
+AR Path="/5EFCC321/7AC36122" Ref="C?"  Part="1" 
+AR Path="/5F06AC00/7AC36122" Ref="C17"  Part="1" 
+F 0 "C17" H 2660 4115 59  0000 L BNN
 F 1 "12pF" H 2660 3915 59  0000 L BNN
-F 2 "hub_keyboard:C0603" H 2600 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2600 4100 50  0001 C CNN
 F 3 "" H 2600 4100 50  0001 C CNN
 F 4 "C38523" H 2600 4100 59  0001 L BNN "LCSC"
 	1    2600 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:PRTR5V0U2X D16
+L hub_keyboard-eagle-import:PRTR5V0U2X D?
 U 1 1 9CA8D5E5
 P 9000 6800
-AR Path="/9CA8D5E5" Ref="D16"  Part="1" 
-AR Path="/5EFCC321/9CA8D5E5" Ref="D16"  Part="1" 
-AR Path="/5F06AC00/9CA8D5E5" Ref="D16"  Part="1" 
-F 0 "D16" H 8797 7200 59  0000 L BNN
+AR Path="/9CA8D5E5" Ref="D?"  Part="1" 
+AR Path="/5EFCC321/9CA8D5E5" Ref="D?"  Part="1" 
+AR Path="/5F06AC00/9CA8D5E5" Ref="D2"  Part="1" 
+F 0 "D2" H 8797 7200 59  0000 L BNN
 F 1 "PRTR5V0U2X" H 8797 6403 59  0000 L BNN
 F 2 "hub_keyboard:SOT143" H 9000 6800 50  0001 C CNN
 F 3 "" H 9000 6800 50  0001 C CNN
@@ -1133,13 +1133,13 @@ F 7 "C384891" H 9000 6800 59  0001 L BNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:PRTR5V0U2X D14
+L hub_keyboard-eagle-import:PRTR5V0U2X D?
 U 1 1 72C1871A
 P 9100 9000
-AR Path="/72C1871A" Ref="D14"  Part="1" 
-AR Path="/5EFCC321/72C1871A" Ref="D14"  Part="1" 
-AR Path="/5F06AC00/72C1871A" Ref="D14"  Part="1" 
-F 0 "D14" H 8898 9400 59  0000 L BNN
+AR Path="/72C1871A" Ref="D?"  Part="1" 
+AR Path="/5EFCC321/72C1871A" Ref="D?"  Part="1" 
+AR Path="/5F06AC00/72C1871A" Ref="D3"  Part="1" 
+F 0 "D3" H 8898 9400 59  0000 L BNN
 F 1 "PRTR5V0U2X" H 8898 8603 59  0000 L BNN
 F 2 "hub_keyboard:SOT143" H 9100 9000 50  0001 C CNN
 F 3 "" H 9100 9000 50  0001 C CNN
@@ -1151,120 +1151,120 @@ F 7 "C384891" H 9100 9000 59  0001 L BNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R2
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 D198352C
 P 7300 1100
-AR Path="/D198352C" Ref="R2"  Part="1" 
-AR Path="/5EFCC321/D198352C" Ref="R2"  Part="1" 
-AR Path="/5F06AC00/D198352C" Ref="R2"  Part="1" 
-F 0 "R2" H 7150 1159 59  0000 L BNN
+AR Path="/D198352C" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/D198352C" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/D198352C" Ref="R6"  Part="1" 
+F 0 "R6" H 7150 1159 59  0000 L BNN
 F 1 "5k1" H 7150 970 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 7300 1100 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 7300 1100 50  0001 C CNN
 F 3 "" H 7300 1100 50  0001 C CNN
 F 4 "C23186" H 7300 1100 59  0001 L BNN "LCSC"
 	1    7300 1100
 	0    1    1    0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R6
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 7E60C7BA
 P 7000 1100
-AR Path="/7E60C7BA" Ref="R6"  Part="1" 
-AR Path="/5EFCC321/7E60C7BA" Ref="R6"  Part="1" 
-AR Path="/5F06AC00/7E60C7BA" Ref="R6"  Part="1" 
-F 0 "R6" H 6850 1159 59  0000 L BNN
+AR Path="/7E60C7BA" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/7E60C7BA" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/7E60C7BA" Ref="R5"  Part="1" 
+F 0 "R5" H 6850 1159 59  0000 L BNN
 F 1 "5k1" H 6850 970 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 7000 1100 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 7000 1100 50  0001 C CNN
 F 3 "" H 7000 1100 50  0001 C CNN
 F 4 "C23186" H 7000 1100 59  0001 L BNN "LCSC"
 	1    7000 1100
 	0    1    1    0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R17
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 4212B154
 P 9600 4400
-AR Path="/4212B154" Ref="R17"  Part="1" 
-AR Path="/5EFCC321/4212B154" Ref="R17"  Part="1" 
-AR Path="/5F06AC00/4212B154" Ref="R17"  Part="1" 
-F 0 "R17" H 9450 4459 59  0000 L BNN
+AR Path="/4212B154" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/4212B154" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/4212B154" Ref="R14"  Part="1" 
+F 0 "R14" H 9450 4459 59  0000 L BNN
 F 1 "22R" H 9450 4270 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 9600 4400 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 9600 4400 50  0001 C CNN
 F 3 "" H 9600 4400 50  0001 C CNN
 F 4 "C23345" H 9600 4400 59  0001 L BNN "LCSC"
 	1    9600 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R18
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 C87CEA22
 P 9300 4500
-AR Path="/C87CEA22" Ref="R18"  Part="1" 
-AR Path="/5EFCC321/C87CEA22" Ref="R18"  Part="1" 
-AR Path="/5F06AC00/C87CEA22" Ref="R18"  Part="1" 
-F 0 "R18" H 9150 4559 59  0000 L BNN
+AR Path="/C87CEA22" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/C87CEA22" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/C87CEA22" Ref="R15"  Part="1" 
+F 0 "R15" H 9150 4559 59  0000 L BNN
 F 1 "22R" H 9150 4370 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 9300 4500 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 9300 4500 50  0001 C CNN
 F 3 "" H 9300 4500 50  0001 C CNN
 F 4 "C23345" H 9300 4500 59  0001 L BNN "LCSC"
 	1    9300 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R14
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 EBD0106B
 P 9600 6200
-AR Path="/EBD0106B" Ref="R14"  Part="1" 
-AR Path="/5EFCC321/EBD0106B" Ref="R14"  Part="1" 
-AR Path="/5F06AC00/EBD0106B" Ref="R14"  Part="1" 
-F 0 "R14" H 9450 6259 59  0000 L BNN
+AR Path="/EBD0106B" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/EBD0106B" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/EBD0106B" Ref="R20"  Part="1" 
+F 0 "R20" H 9450 6259 59  0000 L BNN
 F 1 "22R" H 9450 6070 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 9600 6200 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 9600 6200 50  0001 C CNN
 F 3 "" H 9600 6200 50  0001 C CNN
 F 4 "C23345" H 9600 6200 59  0001 L BNN "LCSC"
 	1    9600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R15
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 7AB92B1D
 P 9300 6300
-AR Path="/7AB92B1D" Ref="R15"  Part="1" 
-AR Path="/5EFCC321/7AB92B1D" Ref="R15"  Part="1" 
-AR Path="/5F06AC00/7AB92B1D" Ref="R15"  Part="1" 
-F 0 "R15" H 9150 6359 59  0000 L BNN
+AR Path="/7AB92B1D" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/7AB92B1D" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/7AB92B1D" Ref="R21"  Part="1" 
+F 0 "R21" H 9150 6359 59  0000 L BNN
 F 1 "22R" H 9150 6170 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 9300 6300 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 9300 6300 50  0001 C CNN
 F 3 "" H 9300 6300 50  0001 C CNN
 F 4 "C23345" H 9300 6300 59  0001 L BNN "LCSC"
 	1    9300 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R11
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 D5EFCBE0
 P 9600 7800
-AR Path="/D5EFCBE0" Ref="R11"  Part="1" 
-AR Path="/5EFCC321/D5EFCBE0" Ref="R11"  Part="1" 
-AR Path="/5F06AC00/D5EFCBE0" Ref="R11"  Part="1" 
-F 0 "R11" H 9450 7859 59  0000 L BNN
+AR Path="/D5EFCBE0" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/D5EFCBE0" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/D5EFCBE0" Ref="R24"  Part="1" 
+F 0 "R24" H 9450 7859 59  0000 L BNN
 F 1 "22R" H 9450 7670 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 9600 7800 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 9600 7800 50  0001 C CNN
 F 3 "" H 9600 7800 50  0001 C CNN
 F 4 "C23345" H 9600 7800 59  0001 L BNN "LCSC"
 	1    9600 7800
 	1    0    0    -1  
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R12
+L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 84C3B2F5
 P 9300 7900
-AR Path="/84C3B2F5" Ref="R12"  Part="1" 
-AR Path="/5EFCC321/84C3B2F5" Ref="R12"  Part="1" 
-AR Path="/5F06AC00/84C3B2F5" Ref="R12"  Part="1" 
-F 0 "R12" H 9150 7959 59  0000 L BNN
+AR Path="/84C3B2F5" Ref="R?"  Part="1" 
+AR Path="/5EFCC321/84C3B2F5" Ref="R?"  Part="1" 
+AR Path="/5F06AC00/84C3B2F5" Ref="R25"  Part="1" 
+F 0 "R25" H 9150 7959 59  0000 L BNN
 F 1 "22R" H 9150 7770 59  0000 L BNN
-F 2 "hub_keyboard:R0603" H 9300 7900 50  0001 C CNN
+F 2 "1_Keyboard Footprints:R_0603" H 9300 7900 50  0001 C CNN
 F 3 "" H 9300 7900 50  0001 C CNN
 F 4 "C23345" H 9300 7900 59  0001 L BNN "LCSC"
 	1    9300 7900
@@ -1275,10 +1275,10 @@ D+
 Text GLabel 5300 4900 2    50   Input ~ 0
 D-
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 5FB691D5
 P 9400 9300
-F 0 "#PWR?" H 9400 9050 50  0001 C CNN
+F 0 "#PWR0116" H 9400 9050 50  0001 C CNN
 F 1 "GND" H 9405 9127 50  0000 C CNN
 F 2 "" H 9400 9300 50  0001 C CNN
 F 3 "" H 9400 9300 50  0001 C CNN
@@ -1286,10 +1286,10 @@ F 3 "" H 9400 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5FB8CB70
 P 3800 2200
-F 0 "#PWR?" H 3800 1950 50  0001 C CNN
+F 0 "#PWR0117" H 3800 1950 50  0001 C CNN
 F 1 "GND" H 3805 2027 50  0000 C CNN
 F 2 "" H 3800 2200 50  0001 C CNN
 F 3 "" H 3800 2200 50  0001 C CNN
@@ -1297,10 +1297,10 @@ F 3 "" H 3800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 5FB8CF42
 P 4700 2200
-F 0 "#PWR?" H 4700 1950 50  0001 C CNN
+F 0 "#PWR0118" H 4700 1950 50  0001 C CNN
 F 1 "GND" H 4705 2027 50  0000 C CNN
 F 2 "" H 4700 2200 50  0001 C CNN
 F 3 "" H 4700 2200 50  0001 C CNN
@@ -1308,10 +1308,10 @@ F 3 "" H 4700 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 5FB98DFC
 P 2200 3400
-F 0 "#PWR?" H 2200 3150 50  0001 C CNN
+F 0 "#PWR0119" H 2200 3150 50  0001 C CNN
 F 1 "GND" H 2205 3227 50  0000 C CNN
 F 2 "" H 2200 3400 50  0001 C CNN
 F 3 "" H 2200 3400 50  0001 C CNN
@@ -1319,10 +1319,10 @@ F 3 "" H 2200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0120
 U 1 1 5FBA5ADE
 P 1000 4300
-F 0 "#PWR?" H 1000 4050 50  0001 C CNN
+F 0 "#PWR0120" H 1000 4050 50  0001 C CNN
 F 1 "GND" H 1005 4127 50  0000 C CNN
 F 2 "" H 1000 4300 50  0001 C CNN
 F 3 "" H 1000 4300 50  0001 C CNN
@@ -1330,10 +1330,10 @@ F 3 "" H 1000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 5FBA5FAC
 P 1400 4300
-F 0 "#PWR?" H 1400 4050 50  0001 C CNN
+F 0 "#PWR0121" H 1400 4050 50  0001 C CNN
 F 1 "GND" H 1405 4127 50  0000 C CNN
 F 2 "" H 1400 4300 50  0001 C CNN
 F 3 "" H 1400 4300 50  0001 C CNN
@@ -1341,10 +1341,10 @@ F 3 "" H 1400 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0122
 U 1 1 5FBA63AE
 P 1900 4300
-F 0 "#PWR?" H 1900 4050 50  0001 C CNN
+F 0 "#PWR0122" H 1900 4050 50  0001 C CNN
 F 1 "GND" H 1905 4127 50  0000 C CNN
 F 2 "" H 1900 4300 50  0001 C CNN
 F 3 "" H 1900 4300 50  0001 C CNN
@@ -1352,10 +1352,10 @@ F 3 "" H 1900 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 5FBA676C
 P 2200 4300
-F 0 "#PWR?" H 2200 4050 50  0001 C CNN
+F 0 "#PWR0123" H 2200 4050 50  0001 C CNN
 F 1 "GND" H 2205 4127 50  0000 C CNN
 F 2 "" H 2200 4300 50  0001 C CNN
 F 3 "" H 2200 4300 50  0001 C CNN
@@ -1363,10 +1363,10 @@ F 3 "" H 2200 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 5FBB2494
 P 2600 4400
-F 0 "#PWR?" H 2600 4150 50  0001 C CNN
+F 0 "#PWR0124" H 2600 4150 50  0001 C CNN
 F 1 "GND" H 2605 4227 50  0000 C CNN
 F 2 "" H 2600 4400 50  0001 C CNN
 F 3 "" H 2600 4400 50  0001 C CNN
@@ -1374,10 +1374,10 @@ F 3 "" H 2600 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 5FBB28A7
 P 3000 4400
-F 0 "#PWR?" H 3000 4150 50  0001 C CNN
+F 0 "#PWR0125" H 3000 4150 50  0001 C CNN
 F 1 "GND" H 3005 4227 50  0000 C CNN
 F 2 "" H 3000 4400 50  0001 C CNN
 F 3 "" H 3000 4400 50  0001 C CNN
@@ -1385,10 +1385,10 @@ F 3 "" H 3000 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 5FBC987A
 P 3000 5400
-F 0 "#PWR?" H 3000 5150 50  0001 C CNN
+F 0 "#PWR0126" H 3000 5150 50  0001 C CNN
 F 1 "GND" H 3005 5227 50  0000 C CNN
 F 2 "" H 3000 5400 50  0001 C CNN
 F 3 "" H 3000 5400 50  0001 C CNN
@@ -1396,10 +1396,10 @@ F 3 "" H 3000 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 5FBC9CF3
 P 3800 5400
-F 0 "#PWR?" H 3800 5150 50  0001 C CNN
+F 0 "#PWR0127" H 3800 5150 50  0001 C CNN
 F 1 "GND" H 3805 5227 50  0000 C CNN
 F 2 "" H 3800 5400 50  0001 C CNN
 F 3 "" H 3800 5400 50  0001 C CNN
@@ -1407,10 +1407,10 @@ F 3 "" H 3800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 5FBE12A5
 P 6200 3200
-F 0 "#PWR?" H 6200 2950 50  0001 C CNN
+F 0 "#PWR0128" H 6200 2950 50  0001 C CNN
 F 1 "GND" H 6205 3027 50  0000 C CNN
 F 2 "" H 6200 3200 50  0001 C CNN
 F 3 "" H 6200 3200 50  0001 C CNN
@@ -1418,10 +1418,10 @@ F 3 "" H 6200 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 5FBE1630
 P 6500 3200
-F 0 "#PWR?" H 6500 2950 50  0001 C CNN
+F 0 "#PWR0129" H 6500 2950 50  0001 C CNN
 F 1 "GND" H 6505 3027 50  0000 C CNN
 F 2 "" H 6500 3200 50  0001 C CNN
 F 3 "" H 6500 3200 50  0001 C CNN
@@ -1429,10 +1429,10 @@ F 3 "" H 6500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0130
 U 1 1 5FBED03B
 P 7000 900
-F 0 "#PWR?" H 7000 650 50  0001 C CNN
+F 0 "#PWR0130" H 7000 650 50  0001 C CNN
 F 1 "GND" V 7005 772 50  0000 R CNN
 F 2 "" H 7000 900 50  0001 C CNN
 F 3 "" H 7000 900 50  0001 C CNN
@@ -1440,10 +1440,10 @@ F 3 "" H 7000 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 5FBED877
 P 7300 900
-F 0 "#PWR?" H 7300 650 50  0001 C CNN
+F 0 "#PWR0131" H 7300 650 50  0001 C CNN
 F 1 "GND" V 7305 772 50  0000 R CNN
 F 2 "" H 7300 900 50  0001 C CNN
 F 3 "" H 7300 900 50  0001 C CNN
@@ -1451,10 +1451,10 @@ F 3 "" H 7300 900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0132
 U 1 1 5FBF9406
 P 7300 2500
-F 0 "#PWR?" H 7300 2250 50  0001 C CNN
+F 0 "#PWR0132" H 7300 2250 50  0001 C CNN
 F 1 "GND" H 7305 2327 50  0000 C CNN
 F 2 "" H 7300 2500 50  0001 C CNN
 F 3 "" H 7300 2500 50  0001 C CNN
@@ -1462,10 +1462,10 @@ F 3 "" H 7300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0133
 U 1 1 5FC04D6F
 P 7400 3600
-F 0 "#PWR?" H 7400 3350 50  0001 C CNN
+F 0 "#PWR0133" H 7400 3350 50  0001 C CNN
 F 1 "GND" H 7405 3427 50  0000 C CNN
 F 2 "" H 7400 3600 50  0001 C CNN
 F 3 "" H 7400 3600 50  0001 C CNN
@@ -1473,10 +1473,10 @@ F 3 "" H 7400 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0134
 U 1 1 5FC1071C
 P 6100 5400
-F 0 "#PWR?" H 6100 5150 50  0001 C CNN
+F 0 "#PWR0134" H 6100 5150 50  0001 C CNN
 F 1 "GND" H 6105 5227 50  0000 C CNN
 F 2 "" H 6100 5400 50  0001 C CNN
 F 3 "" H 6100 5400 50  0001 C CNN
@@ -1484,10 +1484,10 @@ F 3 "" H 6100 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0135
 U 1 1 5FC1C085
 P 6300 7200
-F 0 "#PWR?" H 6300 6950 50  0001 C CNN
+F 0 "#PWR0135" H 6300 6950 50  0001 C CNN
 F 1 "GND" H 6305 7027 50  0000 C CNN
 F 2 "" H 6300 7200 50  0001 C CNN
 F 3 "" H 6300 7200 50  0001 C CNN
@@ -1495,10 +1495,10 @@ F 3 "" H 6300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0136
 U 1 1 5FC27A57
 P 10200 3900
-F 0 "#PWR?" H 10200 3650 50  0001 C CNN
+F 0 "#PWR0136" H 10200 3650 50  0001 C CNN
 F 1 "GND" H 10205 3727 50  0000 C CNN
 F 2 "" H 10200 3900 50  0001 C CNN
 F 3 "" H 10200 3900 50  0001 C CNN
@@ -1506,10 +1506,10 @@ F 3 "" H 10200 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0137
 U 1 1 5FC33506
 P 12100 4500
-F 0 "#PWR?" H 12100 4250 50  0001 C CNN
+F 0 "#PWR0137" H 12100 4250 50  0001 C CNN
 F 1 "GND" H 12105 4327 50  0000 C CNN
 F 2 "" H 12100 4500 50  0001 C CNN
 F 3 "" H 12100 4500 50  0001 C CNN
@@ -1517,10 +1517,10 @@ F 3 "" H 12100 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0138
 U 1 1 5FC3EF4C
 P 9700 4600
-F 0 "#PWR?" H 9700 4350 50  0001 C CNN
+F 0 "#PWR0138" H 9700 4350 50  0001 C CNN
 F 1 "GND" H 9705 4427 50  0000 C CNN
 F 2 "" H 9700 4600 50  0001 C CNN
 F 3 "" H 9700 4600 50  0001 C CNN
@@ -1528,10 +1528,10 @@ F 3 "" H 9700 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0139
 U 1 1 5FC4A9E9
 P 9300 5300
-F 0 "#PWR?" H 9300 5050 50  0001 C CNN
+F 0 "#PWR0139" H 9300 5050 50  0001 C CNN
 F 1 "GND" H 9305 5127 50  0000 C CNN
 F 2 "" H 9300 5300 50  0001 C CNN
 F 3 "" H 9300 5300 50  0001 C CNN
@@ -1539,10 +1539,10 @@ F 3 "" H 9300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0140
 U 1 1 5FC5616A
 P 10400 5700
-F 0 "#PWR?" H 10400 5450 50  0001 C CNN
+F 0 "#PWR0140" H 10400 5450 50  0001 C CNN
 F 1 "GND" H 10405 5527 50  0000 C CNN
 F 2 "" H 10400 5700 50  0001 C CNN
 F 3 "" H 10400 5700 50  0001 C CNN
@@ -1550,10 +1550,10 @@ F 3 "" H 10400 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0141
 U 1 1 5FC61D84
 P 12100 6300
-F 0 "#PWR?" H 12100 6050 50  0001 C CNN
+F 0 "#PWR0141" H 12100 6050 50  0001 C CNN
 F 1 "GND" H 12105 6127 50  0000 C CNN
 F 2 "" H 12100 6300 50  0001 C CNN
 F 3 "" H 12100 6300 50  0001 C CNN
@@ -1561,10 +1561,10 @@ F 3 "" H 12100 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0142
 U 1 1 5FC62285
 P 12100 7900
-F 0 "#PWR?" H 12100 7650 50  0001 C CNN
+F 0 "#PWR0142" H 12100 7650 50  0001 C CNN
 F 1 "GND" H 12105 7727 50  0000 C CNN
 F 2 "" H 12100 7900 50  0001 C CNN
 F 3 "" H 12100 7900 50  0001 C CNN
@@ -1572,10 +1572,10 @@ F 3 "" H 12100 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0143
 U 1 1 5FC6DDBC
 P 10400 7300
-F 0 "#PWR?" H 10400 7050 50  0001 C CNN
+F 0 "#PWR0143" H 10400 7050 50  0001 C CNN
 F 1 "GND" H 10405 7127 50  0000 C CNN
 F 2 "" H 10400 7300 50  0001 C CNN
 F 3 "" H 10400 7300 50  0001 C CNN
@@ -1583,10 +1583,10 @@ F 3 "" H 10400 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0144
 U 1 1 5FC797C1
 P 9700 6400
-F 0 "#PWR?" H 9700 6150 50  0001 C CNN
+F 0 "#PWR0144" H 9700 6150 50  0001 C CNN
 F 1 "GND" H 9705 6227 50  0000 C CNN
 F 2 "" H 9700 6400 50  0001 C CNN
 F 3 "" H 9700 6400 50  0001 C CNN
@@ -1594,10 +1594,10 @@ F 3 "" H 9700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0145
 U 1 1 5FC851C5
 P 9300 7100
-F 0 "#PWR?" H 9300 6850 50  0001 C CNN
+F 0 "#PWR0145" H 9300 6850 50  0001 C CNN
 F 1 "GND" H 9305 6927 50  0000 C CNN
 F 2 "" H 9300 7100 50  0001 C CNN
 F 3 "" H 9300 7100 50  0001 C CNN
@@ -1605,10 +1605,10 @@ F 3 "" H 9300 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0146
 U 1 1 5FC90B96
 P 9700 8000
-F 0 "#PWR?" H 9700 7750 50  0001 C CNN
+F 0 "#PWR0146" H 9700 7750 50  0001 C CNN
 F 1 "GND" H 9705 7827 50  0000 C CNN
 F 2 "" H 9700 8000 50  0001 C CNN
 F 3 "" H 9700 8000 50  0001 C CNN
