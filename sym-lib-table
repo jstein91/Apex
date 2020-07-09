@@ -15,4 +15,5 @@
   (lib (name 1_keebio)(type Legacy)(uri /Users/joshstein/Downloads/keebio-components-master/keebio.lib)(options "")(descr ""))
   (lib (name 1_MX_Alps_Hybrid)(type Legacy)(uri "/Users/joshstein/Baer Law, LLC Dropbox/Baer Law LLC/1 - STEIN/Personal/Kicad Parts/Keyboard Symbols/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name Apex-rev1-rescue)(type Legacy)(uri "${KIPRJMOD}/Apex rev1-rescue.lib")(options "")(descr ""))
+  (lib (name 1_acheronSymbols)(type Legacy)(uri /Users/joshstein/Downloads/AcheronLibrary-master/symbols/acheronSymbols.lib)(options "")(descr ""))
 )
