@@ -40,3 +40,5 @@ https://builder.mrkeebs.com/
 https://github.com/adamws/kicad-kbplacer
 
 https://github.com/AcheronProject
+
+https://github.com/ai03-2725/Unified-Daughterboard
