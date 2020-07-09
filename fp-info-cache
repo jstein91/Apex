@@ -86362,123 +86362,118 @@ hub_keyboard
 LED3MM
 <B>LED</B><p>
 3 mm, round
-
+0
 0
 2
 2
 hub_keyboard
 QFN44G-0.5-7X7MM
 
-
+0
 0
 45
 45
 hub_keyboard
 R0603
 <b>RESISTOR</b>
-
+0
 0
 2
 2
 hub_keyboard
 R0805
 <b>RESISTOR</b><p>
-
+0
 0
 2
 2
 hub_keyboard
 R1210
 <b>RESISTOR</b>
-
+0
 0
 2
 2
 hub_keyboard
 SO-08
 <B>Small Outline Narrow Plastic Gull Wing</B><p>
-150-mil body, package type SN
-
+150
+0
 0
 8
 8
 hub_keyboard
 SOD123
-<b>Diode</b>
-
+0
+0
 0
 2
 2
 hub_keyboard
 SOT143
-
-
+0
+0
 0
 4
 4
 hub_keyboard
 SSOP20
-<b>plastic shrink small outline package</b> 20 leads; body width 4.4 mm SOT266-1<p>
-Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf
-
+0
+0
+0
 0
 20
 20
 hub_keyboard
-SSOP28
-
-
+0
+0
+0
 0
 28
 28
 hub_keyboard
-STABILIZER_1X2.25U
-1x2.25U Stabilizer
-
 0
+1
 0
-0
-hub_keyboard
-STABILIZER_1X2.75U
-1x2.75U Stabilizer
-
 0
 0
 0
 hub_keyboard
-STABILIZER_1X2U
-1x2U Stabilizer
-
 0
+1
 0
-0
-hub_keyboard
-STABILIZER_1X6.25U
-1x6.25U Stabilizer
-
 0
 0
 0
 hub_keyboard
-TACTILE_SWITCH_SMD_5.2MM
-<h3>Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square</h3>
-<p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>
+0
+1
+0
+0
+0
+0
+hub_keyboard
+0
+1
+0
+0
+0
+0
+hub_keyboard
+0
+0
+0
 <p><a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf">Dimensional Drawing</a></p>
 
 0
 4
 4
-hub_keyboard
-USB-A-S-SILK-FEMALE
+0
+0
 
 
 0
 6
 6
-hub_keyboard
-USB-C-16P
-
-
 0
-20
-20
+0
