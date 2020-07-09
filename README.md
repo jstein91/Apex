@@ -3,7 +3,13 @@
 
 TKL keyboard with OLED, USB-C, USB hub and encoder. Heavily inspired by the hub keyboard created by /konstantinwerner.
 
-WIP:
+## To Do:
+
+-check switch orientation
+
+
+
+## Future:
 
 Implement pogo pins on exterior to link numpad?
 
