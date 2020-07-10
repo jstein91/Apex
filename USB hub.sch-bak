@@ -58,17 +58,6 @@ F 3 "" H 8400 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0146
-U 1 1 5FC90B96
-P 10750 8350
-F 0 "#PWR0146" H 10750 8100 50  0001 C CNN
-F 1 "GND" H 10755 8177 50  0000 C CNN
-F 2 "" H 10750 8350 50  0001 C CNN
-F 3 "" H 10750 8350 50  0001 C CNN
-	1    10750 8350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0145
 U 1 1 5FC851C5
 P 10350 7450
@@ -88,28 +77,6 @@ F 1 "GND" H 10755 6577 50  0000 C CNN
 F 2 "" H 10750 6750 50  0001 C CNN
 F 3 "" H 10750 6750 50  0001 C CNN
 	1    10750 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0143
-U 1 1 5FC6DDBC
-P 11450 7650
-F 0 "#PWR0143" H 11450 7400 50  0001 C CNN
-F 1 "GND" H 11455 7477 50  0000 C CNN
-F 2 "" H 11450 7650 50  0001 C CNN
-F 3 "" H 11450 7650 50  0001 C CNN
-	1    11450 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0142
-U 1 1 5FC62285
-P 13150 8250
-F 0 "#PWR0142" H 13150 8000 50  0001 C CNN
-F 1 "GND" H 13155 8077 50  0000 C CNN
-F 2 "" H 13150 8250 50  0001 C CNN
-F 3 "" H 13150 8250 50  0001 C CNN
-	1    13150 8250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -354,51 +321,10 @@ F 3 "" H 4850 2550 50  0001 C CNN
 	1    4850 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5FB691D5
-P 10450 9650
-F 0 "#PWR0116" H 10450 9400 50  0001 C CNN
-F 1 "GND" H 10455 9477 50  0000 C CNN
-F 2 "" H 10450 9650 50  0001 C CNN
-F 3 "" H 10450 9650 50  0001 C CNN
-	1    10450 9650
-	1    0    0    -1  
-$EndComp
 Text GLabel 6350 5250 2    50   Input ~ 0
 D-
 Text GLabel 6350 5150 2    50   Input ~ 0
 D+
-$Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R?
-U 1 1 84C3B2F5
-P 10350 8250
-AR Path="/84C3B2F5" Ref="R?"  Part="1" 
-AR Path="/5EFCC321/84C3B2F5" Ref="R?"  Part="1" 
-AR Path="/5F06AC00/84C3B2F5" Ref="R25"  Part="1" 
-F 0 "R25" H 10200 8309 59  0000 L BNN
-F 1 "22R" H 10200 8120 59  0000 L BNN
-F 2 "1_Keyboard Footprints:R_0603" H 10350 8250 50  0001 C CNN
-F 3 "" H 10350 8250 50  0001 C CNN
-F 4 "C23345" H 10350 8250 59  0001 L BNN "LCSC"
-	1    10350 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R?
-U 1 1 D5EFCBE0
-P 10650 8150
-AR Path="/D5EFCBE0" Ref="R?"  Part="1" 
-AR Path="/5EFCC321/D5EFCBE0" Ref="R?"  Part="1" 
-AR Path="/5F06AC00/D5EFCBE0" Ref="R24"  Part="1" 
-F 0 "R24" H 10500 8209 59  0000 L BNN
-F 1 "22R" H 10500 8020 59  0000 L BNN
-F 2 "1_Keyboard Footprints:R_0603" H 10650 8150 50  0001 C CNN
-F 3 "" H 10650 8150 50  0001 C CNN
-F 4 "C23345" H 10650 8150 59  0001 L BNN "LCSC"
-	1    10650 8150
-	1    0    0    -1  
-$EndComp
 $Comp
 L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 7AB92B1D
@@ -458,24 +384,6 @@ F 3 "" H 10650 4750 50  0001 C CNN
 F 4 "C23345" H 10650 4750 59  0001 L BNN "LCSC"
 	1    10650 4750
 	1    0    0    -1  
-$EndComp
-$Comp
-L hub_keyboard-eagle-import:PRTR5V0U2X D?
-U 1 1 72C1871A
-P 10150 9350
-AR Path="/72C1871A" Ref="D?"  Part="1" 
-AR Path="/5EFCC321/72C1871A" Ref="D?"  Part="1" 
-AR Path="/5F06AC00/72C1871A" Ref="D3"  Part="1" 
-F 0 "D3" H 9948 9750 59  0000 L BNN
-F 1 "PRTR5V0U2X" H 9948 8953 59  0000 L BNN
-F 2 "hub_keyboard:SOT143" H 10150 9350 50  0001 C CNN
-F 3 "" H 10150 9350 50  0001 C CNN
-F 4 "1727-3884-1-ND" H 10150 9350 59  0001 L BNN "DIGIKEY"
-F 5 "TRUE" H 10150 9350 59  0001 L BNN "EXTENDED"
-F 6 "1524157" H 10150 9350 59  0001 L BNN "FARNELL"
-F 7 "C384891" H 10150 9350 59  0001 L BNN "LCSC"
-	1    10150 9350
-	0    1    -1   0   
 $EndComp
 $Comp
 L hub_keyboard-eagle-import:PRTR5V0U2X D?
@@ -724,21 +632,6 @@ F 4 "C4184" H 4650 5150 59  0001 L BNN "LCSC"
 $EndComp
 $Comp
 L hub_keyboard-eagle-import:CPOL-EUCT3528 C?
-U 1 1 CD35B308
-P 11250 7650
-AR Path="/CD35B308" Ref="C?"  Part="1" 
-AR Path="/5EFCC321/CD35B308" Ref="C?"  Part="1" 
-AR Path="/5F06AC00/CD35B308" Ref="C23"  Part="1" 
-F 0 "C23" H 11295 7669 59  0000 L BNN
-F 1 "100uF" H 11295 7469 59  0000 L BNN
-F 2 "hub_keyboard:CT3528" H 11250 7650 50  0001 C CNN
-F 3 "" H 11250 7650 50  0001 C CNN
-F 4 "C16133" H 11250 7650 59  0001 L BNN "LCSC"
-	1    11250 7650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L hub_keyboard-eagle-import:CPOL-EUCT3528 C?
 U 1 1 DF433A60
 P 11250 6050
 AR Path="/DF433A60" Ref="C?"  Part="1" 
@@ -860,37 +753,6 @@ F 4 "C19702" H 2950 4450 59  0001 L BNN "LCSC"
 $EndComp
 $Comp
 L hub_keyboard-eagle-import:R-EU_R0603 R?
-U 1 1 99B5315F
-P 12650 8050
-AR Path="/99B5315F" Ref="R?"  Part="1" 
-AR Path="/5EFCC321/99B5315F" Ref="R?"  Part="1" 
-AR Path="/5F06AC00/99B5315F" Ref="R23"  Part="1" 
-F 0 "R23" H 12500 8109 59  0000 L BNN
-F 1 "1M" H 12800 8120 59  0000 L BNN
-F 2 "1_Keyboard Footprints:R_0603" H 12650 8050 50  0001 C CNN
-F 3 "" H 12650 8050 50  0001 C CNN
-F 4 "C22935" H 12650 8050 59  0001 L BNN "LCSC"
-	1    12650 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L hub_keyboard-eagle-import:C-EUC0603 C?
-U 1 1 3C437C10
-P 12650 8250
-AR Path="/3C437C10" Ref="C?"  Part="1" 
-AR Path="/5EFCC321/3C437C10" Ref="C?"  Part="1" 
-AR Path="/5F06AC00/3C437C10" Ref="C24"  Part="1" 
-F 0 "C24" V 12635 8310 59  0000 L BNN
-F 1 "10n 100V" V 12635 7710 59  0000 L BNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12650 8250 50  0001 C CNN
-F 3 "" H 12650 8250 50  0001 C CNN
-F 4 "TRUE" H 12650 8250 59  0001 L BNN "EXTENDED"
-F 5 "C84709" H 12650 8250 59  0001 L BNN "LCSC"
-	1    12650 8250
-	0    1    1    0   
-$EndComp
-$Comp
-L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 BE3D42EC
 P 12650 6450
 AR Path="/BE3D42EC" Ref="R?"  Part="1" 
@@ -953,21 +815,6 @@ F 5 "C84709" H 12650 4850 59  0001 L BNN "LCSC"
 $EndComp
 $Comp
 L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J?
-U 1 1 92202B0B
-P 11250 8250
-AR Path="/92202B0B" Ref="J?"  Part="1" 
-AR Path="/5EFCC321/92202B0B" Ref="J?"  Part="1" 
-AR Path="/5F06AC00/92202B0B" Ref="J5"  Part="1" 
-F 0 "J5" H 11050 8560 70  0000 L BNN
-F 1 "USB_A_SMT_FEMALE" H 11050 8040 70  0000 L TNN
-F 2 "hub_keyboard:USB-A-S-SILK-FEMALE" H 11250 8250 50  0001 C CNN
-F 3 "" H 11250 8250 50  0001 C CNN
-F 4 "609-4946-1-ND" H 11250 8250 70  0001 L BNN "DIGIKEY"
-	1    11250 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L hub_keyboard-eagle-import:USB_A_SMT_FEMALE J?
 U 1 1 F1780596
 P 11250 6650
 AR Path="/F1780596" Ref="J?"  Part="1" 
@@ -1013,10 +860,6 @@ F 5 "C9359" H 5650 4750 59  0001 L BNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10950 8250 10550 8250
-Wire Wire Line
-	10950 8150 10850 8150
-Wire Wire Line
 	10550 6650 10950 6650
 Wire Wire Line
 	10950 6550 10850 6550
@@ -1057,17 +900,12 @@ Wire Wire Line
 	7350 6850 7350 6950
 Wire Wire Line
 	7450 6850 7350 6850
-Connection ~ 10450 8050
 Connection ~ 10350 6450
 Connection ~ 10350 4650
-Connection ~ 9350 6850
 Connection ~ 9350 4250
-Connection ~ 9350 7650
 Connection ~ 9350 6450
 Connection ~ 9350 6050
 Connection ~ 9350 4650
-Wire Wire Line
-	10450 9050 10450 8150
 Wire Wire Line
 	10350 6850 10350 6450
 Wire Wire Line
@@ -1083,17 +921,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 6450 10350 6450
 Wire Wire Line
-	10450 8050 9350 8050
-Wire Wire Line
-	10950 8050 10450 8050
-Wire Wire Line
-	9350 6850 9350 7650
-Wire Wire Line
 	9350 6450 9350 6850
-Wire Wire Line
-	9350 7650 9350 8050
-Wire Wire Line
-	11150 7650 9350 7650
 Wire Wire Line
 	9350 4650 9350 6050
 Wire Wire Line
@@ -1197,17 +1025,6 @@ Wire Wire Line
 	4650 4050 4650 4150
 Wire Wire Line
 	4950 4050 4650 4050
-Connection ~ 11750 8150
-Wire Wire Line
-	11750 8250 11750 8150
-Wire Wire Line
-	12450 8250 11750 8250
-Wire Wire Line
-	11750 8150 11650 8150
-Wire Wire Line
-	11750 8050 11750 8150
-Wire Wire Line
-	12450 8050 11750 8050
 Connection ~ 11750 6550
 Wire Wire Line
 	11750 6650 11750 6550
@@ -1320,10 +1137,6 @@ Wire Wire Line
 	4850 5650 4850 5750
 Wire Wire Line
 	4950 5650 4850 5650
-Text Label 10950 8350 0    10   ~ 0
-GND
-Wire Wire Line
-	10950 8350 10750 8350
 Text Label 10950 6750 0    10   ~ 0
 GND
 Wire Wire Line
@@ -1334,17 +1147,6 @@ Wire Wire Line
 	10950 4950 10750 4950
 Wire Wire Line
 	8200 4050 8000 4050
-Text Label 12850 8050 0    10   ~ 0
-GND
-Connection ~ 13050 8250
-Wire Wire Line
-	13050 8250 13150 8250
-Wire Wire Line
-	13050 8250 12750 8250
-Wire Wire Line
-	13050 8050 13050 8250
-Wire Wire Line
-	12850 8050 13050 8050
 Text Label 12850 6450 0    10   ~ 0
 GND
 Connection ~ 13050 6650
@@ -1367,32 +1169,6 @@ Wire Wire Line
 	13050 4650 13050 4850
 Wire Wire Line
 	12850 4650 13050 4650
-Connection ~ 9650 8150
-Wire Wire Line
-	10450 8150 9650 8150
-Wire Wire Line
-	9650 9750 9650 8150
-Wire Wire Line
-	9850 9750 9650 9750
-Wire Wire Line
-	9850 9650 9850 9750
-Wire Wire Line
-	8650 4950 6350 4950
-Wire Wire Line
-	8650 8150 8650 4950
-Wire Wire Line
-	9650 8150 8650 8150
-Connection ~ 9850 8250
-Wire Wire Line
-	10150 8250 9850 8250
-Wire Wire Line
-	9850 9050 9850 8250
-Wire Wire Line
-	8750 4850 6350 4850
-Wire Wire Line
-	8750 8250 8750 4850
-Wire Wire Line
-	9850 8250 8750 8250
 Connection ~ 9750 6650
 Wire Wire Line
 	9750 6650 10150 6650
@@ -1445,7 +1221,4 @@ Wire Wire Line
 	9050 4750 9050 4350
 Wire Wire Line
 	9550 4750 9050 4750
-Connection ~ 10450 8150
-Wire Wire Line
-	10450 8150 10450 8050
 $EndSCHEMATC
