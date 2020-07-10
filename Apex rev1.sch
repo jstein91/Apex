@@ -364,17 +364,6 @@ F 3 "~" H 5900 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
-U 1 1 5F0A2EEA
-P 5450 3250
-F 0 "C7" H 5542 3296 50  0000 L CNN
-F 1 ".1u" H 5542 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5450 3250 50  0001 C CNN
-F 3 "~" H 5450 3250 50  0001 C CNN
-	1    5450 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C6
 U 1 1 5F0A3767
 P 5000 3250
@@ -413,22 +402,12 @@ Connection ~ 4550 3150
 Wire Wire Line
 	4550 3150 5000 3150
 Connection ~ 5000 3150
-Wire Wire Line
-	5000 3150 5450 3150
-Connection ~ 5450 3150
-Wire Wire Line
-	5450 3150 5900 3150
-Wire Wire Line
-	5900 3350 5450 3350
 Connection ~ 4550 3350
 Wire Wire Line
 	4550 3350 4200 3350
 Connection ~ 5000 3350
 Wire Wire Line
 	5000 3350 4550 3350
-Connection ~ 5450 3350
-Wire Wire Line
-	5450 3350 5000 3350
 Wire Wire Line
 	4200 3350 4200 3450
 Connection ~ 4200 3350
@@ -705,4 +684,8 @@ Connection ~ 7700 2550
 Connection ~ 7000 2550
 Wire Wire Line
 	7000 2550 7000 2600
+Wire Wire Line
+	5000 3150 5900 3150
+Wire Wire Line
+	5000 3350 5900 3350
 $EndSCHEMATC
