@@ -321,10 +321,6 @@ F 3 "" H 4850 2550 50  0001 C CNN
 	1    4850 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 6350 5250 2    50   Input ~ 0
-D-
-Text GLabel 6350 5150 2    50   Input ~ 0
-D+
 $Comp
 L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 7AB92B1D
@@ -1203,4 +1199,12 @@ Wire Wire Line
 	9550 4750 9050 4750
 Wire Wire Line
 	7250 2250 8050 2250
+Text GLabel 6350 5150 2    50   Input ~ 0
+D+
+Text GLabel 6350 5250 2    50   Input ~ 0
+D-
+Text Label 7050 3850 0    50   ~ 0
+DP+
+Text Label 7050 3950 0    50   ~ 0
+DP-
 $EndSCHEMATC

@@ -1207,4 +1207,6 @@ Text Label 7050 3850 0    50   ~ 0
 DP+
 Text Label 7050 3950 0    50   ~ 0
 DP-
+NoConn ~ 6350 4850
+NoConn ~ 6350 4950
 $EndSCHEMATC
