@@ -321,10 +321,6 @@ F 3 "" H 4850 2550 50  0001 C CNN
 	1    4850 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 6350 5250 2    50   Input ~ 0
-D-
-Text GLabel 6350 5150 2    50   Input ~ 0
-D+
 $Comp
 L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 7AB92B1D
@@ -676,22 +672,6 @@ F 4 "C9002" H 4550 4450 59  0001 L BNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hub_keyboard-eagle-import:R-EU_R0805 R?
-U 1 1 0CE4963D
-P 7550 2250
-AR Path="/0CE4963D" Ref="R?"  Part="1" 
-AR Path="/5EFCC321/0CE4963D" Ref="R?"  Part="1" 
-AR Path="/5F06AC00/0CE4963D" Ref="R7"  Part="1" 
-F 0 "R7" H 7400 2309 59  0000 L BNN
-F 1 "Ferrite 2A" H 7400 2120 59  0000 L BNN
-F 2 "hub_keyboard:R0805" H 7550 2250 50  0001 C CNN
-F 3 "" H 7550 2250 50  0001 C CNN
-F 4 "TRUE" H 7550 2250 59  0001 L BNN "EXTENDED"
-F 5 "C44361" H 7550 2250 59  0001 L BNN "LCSC"
-	1    7550 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L hub_keyboard-eagle-import:R-EU_R0603 R?
 U 1 1 0C3AE8E0
 P 6750 5450
@@ -887,8 +867,6 @@ Wire Wire Line
 	8050 1950 8050 2250
 Wire Wire Line
 	9350 1950 8050 1950
-Wire Wire Line
-	8050 2250 7750 2250
 Connection ~ 7350 6850
 Wire Wire Line
 	6550 6850 7350 6850
@@ -1069,8 +1047,6 @@ Wire Wire Line
 	7250 2250 7250 2450
 Wire Wire Line
 	7250 2150 7250 2250
-Wire Wire Line
-	7350 2250 7250 2250
 Text Label 3650 4650 0    10   ~ 0
 GND
 Wire Wire Line
@@ -1221,4 +1197,14 @@ Wire Wire Line
 	9050 4750 9050 4350
 Wire Wire Line
 	9550 4750 9050 4750
+Wire Wire Line
+	7250 2250 8050 2250
+Text GLabel 6350 5150 2    50   Input ~ 0
+D+
+Text GLabel 6350 5250 2    50   Input ~ 0
+D-
+Text Label 7050 3850 0    50   ~ 0
+DP+
+Text Label 7050 3950 0    50   ~ 0
+DP-
 $EndSCHEMATC

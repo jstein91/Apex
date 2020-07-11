@@ -556,23 +556,6 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# hub_keyboard-eagle-import_R-EU_R0805
-#
-DEF hub_keyboard-eagle-import_R-EU_R0805 R 0 40 Y Y 1 L N
-F0 "R" -150 59 59 H V L BNN
-F1 "hub_keyboard-eagle-import_R-EU_R0805" -150 -130 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -35 -100 35 N
-P 2 1 0 0 -100 -35 100 -35 N
-P 2 1 0 0 100 -35 100 35 N
-P 2 1 0 0 100 35 -100 35 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # hub_keyboard-eagle-import_USB_A_SMT_FEMALE
 #
 DEF hub_keyboard-eagle-import_USB_A_SMT_FEMALE J 0 40 Y Y 1 L N
