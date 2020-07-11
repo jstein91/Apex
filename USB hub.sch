@@ -1209,4 +1209,12 @@ Text Label 7050 3950 0    50   ~ 0
 DP-
 NoConn ~ 6350 4850
 NoConn ~ 6350 4950
+Text Label 9900 4750 0    50   ~ 0
+D1-
+Text Label 9950 4850 0    50   ~ 0
+D1+
+Text Label 9950 6550 0    50   ~ 0
+D2-
+Text Label 9950 6650 0    50   ~ 0
+D2+
 $EndSCHEMATC
