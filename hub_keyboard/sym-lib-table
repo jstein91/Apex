@@ -7,4 +7,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "/Users/joshstein/Baer Law, LLC Dropbox/Baer Law LLC/1 - STEIN/Personal/Kicad Parts/Keyboard Symbols/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name keyboard_parts)(type Legacy)(uri "/Users/joshstein/Baer Law, LLC Dropbox/Baer Law LLC/1 - STEIN/Personal/Kicad Parts/Keyboard Symbols/keyboard_parts.lib")(options "")(descr ""))
   (lib (name planck-pcb-module)(type Legacy)(uri "/Users/joshstein/Baer Law, LLC Dropbox/Baer Law LLC/1 - STEIN/Personal/Kicad Parts/Keyboard Symbols/planck-pcb-module.lib")(options "")(descr ""))
+  (lib (name numpad_v1a-eagle-import)(type Legacy)(uri ${KIPRJMOD}/numpad_v1a-eagle-import.lib)(options "")(descr ""))
 )

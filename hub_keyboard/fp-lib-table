@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name hub_keyboard)(type KiCad)(uri "$(KIPRJMOD)/hub_keyboard.pretty")(options "")(descr ""))
   (lib (name "Keyboard Footprints")(type KiCad)(uri "/Users/joshstein/Dropbox/1 - STEIN/Personal/Kicad Parts/Keyboard Footprints")(options "")(descr ""))
+  (lib (name numpad_v1a)(type KiCad)(uri "$(KIPRJMOD)/numpad_v1a.pretty")(options "")(descr ""))
 )

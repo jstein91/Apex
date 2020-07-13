@@ -1,0 +1,1318 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12095 8402
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1200 900  1700 900 
+Wire Wire Line
+	1700 900  1700 1200
+Wire Wire Line
+	1700 1200 1800 1200
+Wire Wire Line
+	1700 900  3500 900 
+Wire Wire Line
+	3500 900  5300 900 
+Wire Wire Line
+	5300 900  5300 1200
+Wire Wire Line
+	5300 1200 5400 1200
+Wire Wire Line
+	3600 1200 3500 1200
+Wire Wire Line
+	3500 1200 3500 900 
+Wire Wire Line
+	7200 900  7200 1200
+Wire Wire Line
+	7200 1200 7300 1200
+Wire Wire Line
+	5300 900  7200 900 
+Wire Wire Line
+	7200 900  9400 900 
+Wire Wire Line
+	9400 1000 9400 900 
+Connection ~ 1700 900 
+Connection ~ 3500 900 
+Text GLabel 1200 900  0    70   BiDi ~ 0
+R1
+Connection ~ 5300 900 
+Connection ~ 7200 900 
+Wire Wire Line
+	1200 1900 1700 1900
+Wire Wire Line
+	1700 1900 1700 2200
+Wire Wire Line
+	1700 2200 1800 2200
+Wire Wire Line
+	1700 1900 3500 1900
+Wire Wire Line
+	3500 1900 3500 2200
+Wire Wire Line
+	3600 2200 3500 2200
+Wire Wire Line
+	3500 1900 5300 1900
+Wire Wire Line
+	5300 1900 5300 2200
+Wire Wire Line
+	5300 2200 5400 2200
+Wire Wire Line
+	5300 1900 7200 1900
+Wire Wire Line
+	7200 1900 7200 2200
+Wire Wire Line
+	7200 2200 7300 2200
+Connection ~ 1700 1900
+Connection ~ 3500 1900
+Text GLabel 1200 1900 0    70   BiDi ~ 0
+R2
+Connection ~ 5300 1900
+Wire Wire Line
+	1200 3000 1700 3000
+Wire Wire Line
+	1700 3000 3500 3000
+Wire Wire Line
+	3500 3000 5300 3000
+Wire Wire Line
+	5300 3000 5300 3300
+Wire Wire Line
+	5300 3300 5400 3300
+Wire Wire Line
+	3600 3300 3500 3300
+Wire Wire Line
+	3500 3300 3500 3000
+Wire Wire Line
+	1800 3300 1700 3300
+Wire Wire Line
+	1700 3300 1700 3000
+Wire Wire Line
+	7200 3000 7200 3300
+Wire Wire Line
+	7200 3300 7300 3300
+Wire Wire Line
+	5300 3000 7200 3000
+Wire Wire Line
+	7200 3000 9400 3000
+Wire Wire Line
+	9400 3000 9400 3100
+Connection ~ 3500 3000
+Connection ~ 1700 3000
+Text GLabel 1200 3000 0    70   BiDi ~ 0
+R3
+Connection ~ 5300 3000
+Connection ~ 7200 3000
+Wire Wire Line
+	1200 4000 1700 4000
+Wire Wire Line
+	1700 4000 3500 4000
+Wire Wire Line
+	3500 4000 5300 4000
+Wire Wire Line
+	5300 4000 5300 4300
+Wire Wire Line
+	5300 4300 5400 4300
+Wire Wire Line
+	3600 4300 3500 4300
+Wire Wire Line
+	3500 4300 3500 4000
+Wire Wire Line
+	1800 4300 1700 4300
+Wire Wire Line
+	1700 4300 1700 4000
+Wire Wire Line
+	7200 4000 7200 4300
+Wire Wire Line
+	7200 4300 7300 4300
+Wire Wire Line
+	5300 4000 7200 4000
+Wire Wire Line
+	7200 4000 9200 4000
+Wire Wire Line
+	9200 4000 9200 4300
+Wire Wire Line
+	9300 4300 9200 4300
+Connection ~ 3500 4000
+Connection ~ 1700 4000
+Text GLabel 1200 4000 0    70   BiDi ~ 0
+R4
+Connection ~ 5300 4000
+Connection ~ 7200 4000
+Wire Wire Line
+	2200 1700 1700 1700
+Wire Wire Line
+	1700 1700 1700 1400
+Wire Wire Line
+	1700 1400 1800 1400
+Wire Wire Line
+	2200 2700 1700 2700
+Wire Wire Line
+	1700 2700 1700 2400
+Wire Wire Line
+	1700 2400 1800 2400
+Wire Wire Line
+	2200 3800 1700 3800
+Wire Wire Line
+	1700 3800 1700 3500
+Wire Wire Line
+	1700 3500 1800 3500
+Wire Wire Line
+	2200 4800 1700 4800
+Wire Wire Line
+	1700 4800 1700 4500
+Wire Wire Line
+	1700 4500 1800 4500
+Wire Wire Line
+	2400 4800 3300 4800
+Wire Wire Line
+	3300 4800 3300 3800
+Wire Wire Line
+	3300 3800 2400 3800
+Wire Wire Line
+	3300 3800 3300 2700
+Wire Wire Line
+	3300 2700 2400 2700
+Wire Wire Line
+	3300 2700 3300 1700
+Wire Wire Line
+	3300 1700 2400 1700
+Wire Wire Line
+	3300 1700 3300 800 
+Wire Wire Line
+	3300 800  3200 800 
+Wire Wire Line
+	2400 5800 3300 5800
+Wire Wire Line
+	3300 5800 3300 4800
+Connection ~ 3300 3800
+Connection ~ 3300 2700
+Connection ~ 3300 1700
+Text GLabel 3200 800  0    70   BiDi ~ 0
+C1
+Connection ~ 3300 4800
+Wire Wire Line
+	4000 2700 3500 2700
+Wire Wire Line
+	3500 2700 3500 2400
+Wire Wire Line
+	3600 2400 3500 2400
+Wire Wire Line
+	4000 1700 3500 1700
+Wire Wire Line
+	3500 1700 3500 1400
+Wire Wire Line
+	3500 1400 3600 1400
+Wire Wire Line
+	4000 3800 3500 3800
+Wire Wire Line
+	3500 3800 3500 3500
+Wire Wire Line
+	3500 3500 3600 3500
+Wire Wire Line
+	4000 4800 3500 4800
+Wire Wire Line
+	3500 4800 3500 4500
+Wire Wire Line
+	3500 4500 3600 4500
+Wire Wire Line
+	5800 4800 5300 4800
+Wire Wire Line
+	5300 4800 5300 4500
+Wire Wire Line
+	5300 4500 5400 4500
+Wire Wire Line
+	5800 3800 5300 3800
+Wire Wire Line
+	5300 3800 5300 3500
+Wire Wire Line
+	5300 3500 5400 3500
+Wire Wire Line
+	5800 2700 5300 2700
+Wire Wire Line
+	5300 2700 5300 2400
+Wire Wire Line
+	5300 2400 5400 2400
+Wire Wire Line
+	5800 1700 5300 1700
+Wire Wire Line
+	5300 1700 5300 1400
+Wire Wire Line
+	5300 1400 5400 1400
+Wire Wire Line
+	4200 4800 5100 4800
+Wire Wire Line
+	5100 4800 5100 3800
+Wire Wire Line
+	5100 3800 4200 3800
+Wire Wire Line
+	4200 2700 5100 2700
+Wire Wire Line
+	5100 2700 5100 3800
+Wire Wire Line
+	4200 1700 5100 1700
+Wire Wire Line
+	5100 1700 5100 2700
+Wire Wire Line
+	5100 1700 5100 800 
+Wire Wire Line
+	5100 800  4900 800 
+Wire Wire Line
+	4200 5800 5100 5800
+Wire Wire Line
+	5100 5800 5100 4800
+Connection ~ 5100 3800
+Connection ~ 5100 2700
+Connection ~ 5100 1700
+Text GLabel 4900 800  0    70   BiDi ~ 0
+C2
+Connection ~ 5100 4800
+Wire Wire Line
+	6000 4800 7000 4800
+Wire Wire Line
+	7000 4800 7000 3800
+Wire Wire Line
+	7000 3800 6000 3800
+Wire Wire Line
+	7000 3800 7000 2700
+Wire Wire Line
+	7000 2700 6000 2700
+Wire Wire Line
+	7000 2700 7000 1700
+Wire Wire Line
+	7000 1700 6000 1700
+Wire Wire Line
+	7000 1700 7000 800 
+Wire Wire Line
+	7000 800  6800 800 
+Wire Wire Line
+	6000 5800 7000 5800
+Wire Wire Line
+	7000 5800 7000 4800
+Connection ~ 7000 3800
+Connection ~ 7000 2700
+Connection ~ 7000 1700
+Text GLabel 6800 800  0    70   BiDi ~ 0
+C3
+Connection ~ 7000 4800
+Wire Wire Line
+	1200 5000 1700 5000
+Wire Wire Line
+	1700 5000 3500 5000
+Wire Wire Line
+	3500 5000 5300 5000
+Wire Wire Line
+	5300 5000 5300 5300
+Wire Wire Line
+	5300 5300 5400 5300
+Wire Wire Line
+	3600 5300 3500 5300
+Wire Wire Line
+	3500 5300 3500 5000
+Wire Wire Line
+	1800 5300 1700 5300
+Wire Wire Line
+	1700 5300 1700 5000
+Wire Wire Line
+	5300 5000 7200 5000
+Wire Wire Line
+	7200 5000 7200 5300
+Wire Wire Line
+	7200 5300 7300 5300
+Wire Wire Line
+	1700 5300 1600 5300
+Wire Wire Line
+	1600 5300 1600 6300
+Wire Wire Line
+	1600 6300 1800 6300
+Connection ~ 3500 5000
+Connection ~ 1700 5000
+Text GLabel 1200 5000 0    70   BiDi ~ 0
+R5
+Connection ~ 5300 5000
+Connection ~ 1700 5300
+Wire Wire Line
+	9400 3800 9700 3800
+Wire Wire Line
+	9400 3500 9400 3800
+Wire Wire Line
+	9400 1700 9700 1700
+Wire Wire Line
+	9400 1400 9400 1700
+Wire Wire Line
+	2900 1400 3000 1400
+Text GLabel 3000 1400 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	4700 1400 4800 1400
+Text GLabel 4800 1400 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	6500 1400 6600 1400
+Text GLabel 6600 1400 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	2900 2200 3000 2200
+Text GLabel 3000 2200 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	2900 3300 3000 3300
+Text GLabel 3000 3300 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	2900 4300 3000 4300
+Text GLabel 3000 4300 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	2900 5300 3000 5300
+Text GLabel 3000 5300 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	8400 1400 8500 1400
+Text GLabel 8500 1400 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	10200 1300 10500 1300
+Text GLabel 10500 1300 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	2900 6300 3000 6300
+Text GLabel 3000 6300 2    70   BiDi ~ 0
+CA1
+Wire Wire Line
+	2900 2400 3000 2400
+Text GLabel 3000 2400 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	4700 2400 4800 2400
+Text GLabel 4800 2400 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	6500 2400 6600 2400
+Text GLabel 6600 2400 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	2900 1200 3000 1200
+Text GLabel 3000 1200 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	4700 3300 4800 3300
+Text GLabel 4800 3300 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	4700 4300 4800 4300
+Text GLabel 4800 4300 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	4700 5300 4800 5300
+Text GLabel 4800 5300 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	8400 2400 8500 2400
+Text GLabel 8500 2400 2    70   BiDi ~ 0
+CA2
+Wire Wire Line
+	2900 3500 3000 3500
+Text GLabel 3000 3500 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	4700 3500 4800 3500
+Text GLabel 4800 3500 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	6500 3500 6600 3500
+Text GLabel 6600 3500 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	4700 1200 4800 1200
+Text GLabel 4800 1200 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	4700 2200 4800 2200
+Text GLabel 4800 2200 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	6500 4300 6600 4300
+Text GLabel 6600 4300 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	6500 5300 6600 5300
+Text GLabel 6600 5300 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	8400 3500 8500 3500
+Text GLabel 8500 3500 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	10200 3400 10500 3400
+Text GLabel 10500 3400 2    70   BiDi ~ 0
+CA3
+Wire Wire Line
+	2900 4500 3000 4500
+Text GLabel 3000 4500 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	4700 4500 4800 4500
+Text GLabel 4800 4500 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	6500 4500 6600 4500
+Text GLabel 6600 4500 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	6500 1200 6600 1200
+Text GLabel 6600 1200 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	6500 2200 6600 2200
+Text GLabel 6600 2200 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	6500 3300 6600 3300
+Text GLabel 6600 3300 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	8400 4500 8500 4500
+Text GLabel 8500 4500 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	10400 4500 10500 4500
+Text GLabel 10500 4500 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	8400 5300 8500 5300
+Text GLabel 8500 5300 2    70   BiDi ~ 0
+CA4
+Wire Wire Line
+	8400 1200 8500 1200
+Text GLabel 8500 1200 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	8400 2200 8500 2200
+Text GLabel 8500 2200 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	8400 3300 8500 3300
+Text GLabel 8500 3300 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	8400 4300 8500 4300
+Text GLabel 8500 4300 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	2900 5500 3000 5500
+Text GLabel 3000 5500 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	4700 5500 4800 5500
+Text GLabel 4800 5500 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	6500 5500 6600 5500
+Text GLabel 6600 5500 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	10400 4300 10500 4300
+Text GLabel 10500 4300 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	8400 5500 8500 5500
+Text GLabel 8500 5500 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	2900 6500 3000 6500
+Text GLabel 3000 6500 2    70   BiDi ~ 0
+CA5
+Wire Wire Line
+	10200 1000 10500 1000
+Text GLabel 10500 1000 2    70   BiDi ~ 0
+CA6
+Wire Wire Line
+	10200 3100 10500 3100
+Text GLabel 10500 3100 2    70   BiDi ~ 0
+CA6
+Wire Wire Line
+	2200 5800 1700 5800
+Wire Wire Line
+	1700 5800 1700 5500
+Wire Wire Line
+	1700 5500 1800 5500
+Wire Wire Line
+	1800 6500 1500 6500
+Wire Wire Line
+	1500 6500 1500 5500
+Wire Wire Line
+	1500 5500 1700 5500
+Connection ~ 1700 5500
+Wire Wire Line
+	4000 5800 3500 5800
+Wire Wire Line
+	3500 5800 3500 5500
+Wire Wire Line
+	3500 5500 3600 5500
+Wire Wire Line
+	5800 5800 5300 5800
+Wire Wire Line
+	5300 5800 5300 5500
+Wire Wire Line
+	5300 5500 5400 5500
+Wire Wire Line
+	9900 1700 10900 1700
+Wire Wire Line
+	10700 800  10900 800 
+Wire Wire Line
+	10900 800  10900 1700
+Wire Wire Line
+	10900 1700 10900 3800
+Wire Wire Line
+	9900 3800 10900 3800
+Connection ~ 10900 1700
+Text GLabel 10700 800  0    70   BiDi ~ 0
+C5
+Wire Wire Line
+	7700 4800 7200 4800
+Wire Wire Line
+	7200 4800 7200 4500
+Wire Wire Line
+	7200 4500 7300 4500
+Wire Wire Line
+	7200 4800 7200 4900
+Wire Wire Line
+	7200 4900 9200 4900
+Wire Wire Line
+	9200 4900 9200 4500
+Wire Wire Line
+	9200 4500 9300 4500
+Connection ~ 7200 4800
+Wire Wire Line
+	7700 3800 7200 3800
+Wire Wire Line
+	7200 3800 7200 3500
+Wire Wire Line
+	7200 3500 7300 3500
+Wire Wire Line
+	7700 2700 7200 2700
+Wire Wire Line
+	7200 2700 7200 2400
+Wire Wire Line
+	7200 2400 7300 2400
+Wire Wire Line
+	7700 1700 7200 1700
+Wire Wire Line
+	7200 1700 7200 1400
+Wire Wire Line
+	7200 1400 7300 1400
+Wire Wire Line
+	7900 4800 8900 4800
+Wire Wire Line
+	8900 4800 8900 3800
+Wire Wire Line
+	8900 3800 7900 3800
+Wire Wire Line
+	8900 3800 8900 2700
+Wire Wire Line
+	8900 2700 7900 2700
+Wire Wire Line
+	8900 2700 8900 1700
+Wire Wire Line
+	8900 1700 7900 1700
+Wire Wire Line
+	8900 1700 8900 800 
+Wire Wire Line
+	8900 800  8700 800 
+Wire Wire Line
+	7900 5800 8900 5800
+Wire Wire Line
+	8900 5800 8900 4800
+Connection ~ 8900 3800
+Connection ~ 8900 2700
+Connection ~ 8900 1700
+Text GLabel 8700 800  0    70   BiDi ~ 0
+C4
+Connection ~ 8900 4800
+Wire Wire Line
+	7300 5500 7200 5500
+Wire Wire Line
+	7200 5500 7200 5800
+Wire Wire Line
+	7200 5800 7700 5800
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY1
+U 1 1 92EBCE10
+P 2200 1300
+AR Path="/92EBCE10" Ref="KEY1"  Part="1" 
+AR Path="/5F0B53E2/92EBCE10" Ref="KEY1"  Part="1" 
+F 0 "KEY1" H 1990 1010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 2200 1300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 2200 1300 50  0001 C CNN
+F 3 "" H 2200 1300 50  0001 C CNN
+	1    2200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY2
+U 1 1 CF8D99AB
+P 4000 1300
+AR Path="/CF8D99AB" Ref="KEY2"  Part="1" 
+AR Path="/5F0B53E2/CF8D99AB" Ref="KEY2"  Part="1" 
+F 0 "KEY2" H 3790 1010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 4000 1300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 4000 1300 50  0001 C CNN
+F 3 "" H 4000 1300 50  0001 C CNN
+	1    4000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY3
+U 1 1 4E73A9D2
+P 5800 1300
+AR Path="/4E73A9D2" Ref="KEY3"  Part="1" 
+AR Path="/5F0B53E2/4E73A9D2" Ref="KEY3"  Part="1" 
+F 0 "KEY3" H 5590 1010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 5800 1300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 5800 1300 50  0001 C CNN
+F 3 "" H 5800 1300 50  0001 C CNN
+	1    5800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY5
+U 1 1 F843DCEF
+P 2200 2300
+AR Path="/F843DCEF" Ref="KEY5"  Part="1" 
+AR Path="/5F0B53E2/F843DCEF" Ref="KEY5"  Part="1" 
+F 0 "KEY5" H 1990 2010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 2200 2300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 2200 2300 50  0001 C CNN
+F 3 "" H 2200 2300 50  0001 C CNN
+	1    2200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY6
+U 1 1 0915A0D2
+P 4000 2300
+AR Path="/0915A0D2" Ref="KEY6"  Part="1" 
+AR Path="/5F0B53E2/0915A0D2" Ref="KEY6"  Part="1" 
+F 0 "KEY6" H 3790 2010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 4000 2300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 4000 2300 50  0001 C CNN
+F 3 "" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY7
+U 1 1 2CD24901
+P 5800 2300
+AR Path="/2CD24901" Ref="KEY7"  Part="1" 
+AR Path="/5F0B53E2/2CD24901" Ref="KEY7"  Part="1" 
+F 0 "KEY7" H 5590 2010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 5800 2300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 5800 2300 50  0001 C CNN
+F 3 "" H 5800 2300 50  0001 C CNN
+	1    5800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY9
+U 1 1 AC119F9D
+P 2200 3400
+AR Path="/AC119F9D" Ref="KEY9"  Part="1" 
+AR Path="/5F0B53E2/AC119F9D" Ref="KEY9"  Part="1" 
+F 0 "KEY9" H 1990 3110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 2200 3400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 2200 3400 50  0001 C CNN
+F 3 "" H 2200 3400 50  0001 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY10
+U 1 1 C0E191AB
+P 4000 3400
+AR Path="/C0E191AB" Ref="KEY10"  Part="1" 
+AR Path="/5F0B53E2/C0E191AB" Ref="KEY10"  Part="1" 
+F 0 "KEY10" H 3790 3110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 4000 3400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 4000 3400 50  0001 C CNN
+F 3 "" H 4000 3400 50  0001 C CNN
+	1    4000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY11
+U 1 1 1D146F12
+P 5800 3400
+AR Path="/1D146F12" Ref="KEY11"  Part="1" 
+AR Path="/5F0B53E2/1D146F12" Ref="KEY11"  Part="1" 
+F 0 "KEY11" H 5590 3110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 5800 3400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 5800 3400 50  0001 C CNN
+F 3 "" H 5800 3400 50  0001 C CNN
+	1    5800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY13
+U 1 1 7255CEF5
+P 2200 4400
+AR Path="/7255CEF5" Ref="KEY13"  Part="1" 
+AR Path="/5F0B53E2/7255CEF5" Ref="KEY13"  Part="1" 
+F 0 "KEY13" H 1990 4110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 2200 4400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 2200 4400 50  0001 C CNN
+F 3 "" H 2200 4400 50  0001 C CNN
+	1    2200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY14
+U 1 1 532566EE
+P 4000 4400
+AR Path="/532566EE" Ref="KEY14"  Part="1" 
+AR Path="/5F0B53E2/532566EE" Ref="KEY14"  Part="1" 
+F 0 "KEY14" H 3790 4110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 4000 4400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 4000 4400 50  0001 C CNN
+F 3 "" H 4000 4400 50  0001 C CNN
+	1    4000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY15
+U 1 1 EBA7A898
+P 5800 4400
+AR Path="/EBA7A898" Ref="KEY15"  Part="1" 
+AR Path="/5F0B53E2/EBA7A898" Ref="KEY15"  Part="1" 
+F 0 "KEY15" H 5590 4110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 5800 4400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 5800 4400 50  0001 C CNN
+F 3 "" H 5800 4400 50  0001 C CNN
+	1    5800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D21
+U 1 1 213CD91D
+P 2300 1700
+AR Path="/213CD91D" Ref="D21"  Part="1" 
+AR Path="/5F0B53E2/213CD91D" Ref="D21"  Part="1" 
+F 0 "D21" H 2400 1719 59  0000 L BNN
+F 1 "1N4148W" H 2400 1609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 2300 1700 50  0001 C CNN
+F 3 "" H 2300 1700 50  0001 C CNN
+F 4 "C81598" H 2300 1700 59  0001 L BNN "LCSC"
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D16
+U 1 1 93B12A69
+P 2300 2700
+AR Path="/93B12A69" Ref="D16"  Part="1" 
+AR Path="/5F0B53E2/93B12A69" Ref="D16"  Part="1" 
+F 0 "D16" H 2400 2719 59  0000 L BNN
+F 1 "1N4148W" H 2400 2609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 2300 2700 50  0001 C CNN
+F 3 "" H 2300 2700 50  0001 C CNN
+F 4 "C81598" H 2300 2700 59  0001 L BNN "LCSC"
+	1    2300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D12
+U 1 1 274E0008
+P 2300 3800
+AR Path="/274E0008" Ref="D12"  Part="1" 
+AR Path="/5F0B53E2/274E0008" Ref="D12"  Part="1" 
+F 0 "D12" H 2400 3819 59  0000 L BNN
+F 1 "1N4148W" H 2400 3709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 2300 3800 50  0001 C CNN
+F 3 "" H 2300 3800 50  0001 C CNN
+F 4 "C81598" H 2300 3800 59  0001 L BNN "LCSC"
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D7
+U 1 1 7A8DC2C8
+P 2300 4800
+AR Path="/7A8DC2C8" Ref="D7"  Part="1" 
+AR Path="/5F0B53E2/7A8DC2C8" Ref="D7"  Part="1" 
+F 0 "D7" H 2400 4819 59  0000 L BNN
+F 1 "1N4148W" H 2400 4709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 2300 4800 50  0001 C CNN
+F 3 "" H 2300 4800 50  0001 C CNN
+F 4 "C81598" H 2300 4800 59  0001 L BNN "LCSC"
+	1    2300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D20
+U 1 1 54B8F931
+P 4100 1700
+AR Path="/54B8F931" Ref="D20"  Part="1" 
+AR Path="/5F0B53E2/54B8F931" Ref="D20"  Part="1" 
+F 0 "D20" H 4200 1719 59  0000 L BNN
+F 1 "1N4148W" H 4200 1609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 4100 1700 50  0001 C CNN
+F 3 "" H 4100 1700 50  0001 C CNN
+F 4 "C81598" H 4100 1700 59  0001 L BNN "LCSC"
+	1    4100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D15
+U 1 1 33E94C22
+P 4100 2700
+AR Path="/33E94C22" Ref="D15"  Part="1" 
+AR Path="/5F0B53E2/33E94C22" Ref="D15"  Part="1" 
+F 0 "D15" H 4200 2719 59  0000 L BNN
+F 1 "1N4148W" H 4200 2609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 4100 2700 50  0001 C CNN
+F 3 "" H 4100 2700 50  0001 C CNN
+F 4 "C81598" H 4100 2700 59  0001 L BNN "LCSC"
+	1    4100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D11
+U 1 1 CA23ED2B
+P 4100 3800
+AR Path="/CA23ED2B" Ref="D11"  Part="1" 
+AR Path="/5F0B53E2/CA23ED2B" Ref="D11"  Part="1" 
+F 0 "D11" H 4200 3819 59  0000 L BNN
+F 1 "1N4148W" H 4200 3709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 4100 3800 50  0001 C CNN
+F 3 "" H 4100 3800 50  0001 C CNN
+F 4 "C81598" H 4100 3800 59  0001 L BNN "LCSC"
+	1    4100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D6
+U 1 1 AEBBE1A6
+P 4100 4800
+AR Path="/AEBBE1A6" Ref="D6"  Part="1" 
+AR Path="/5F0B53E2/AEBBE1A6" Ref="D6"  Part="1" 
+F 0 "D6" H 4200 4819 59  0000 L BNN
+F 1 "1N4148W" H 4200 4709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 4100 4800 50  0001 C CNN
+F 3 "" H 4100 4800 50  0001 C CNN
+F 4 "C81598" H 4100 4800 59  0001 L BNN "LCSC"
+	1    4100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D19
+U 1 1 852CFD1E
+P 5900 1700
+AR Path="/852CFD1E" Ref="D19"  Part="1" 
+AR Path="/5F0B53E2/852CFD1E" Ref="D19"  Part="1" 
+F 0 "D19" H 6000 1719 59  0000 L BNN
+F 1 "1N4148W" H 6000 1609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 5900 1700 50  0001 C CNN
+F 3 "" H 5900 1700 50  0001 C CNN
+F 4 "C81598" H 5900 1700 59  0001 L BNN "LCSC"
+	1    5900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D14
+U 1 1 7DD87896
+P 5900 2700
+AR Path="/7DD87896" Ref="D14"  Part="1" 
+AR Path="/5F0B53E2/7DD87896" Ref="D14"  Part="1" 
+F 0 "D14" H 6000 2719 59  0000 L BNN
+F 1 "1N4148W" H 6000 2609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 5900 2700 50  0001 C CNN
+F 3 "" H 5900 2700 50  0001 C CNN
+F 4 "C81598" H 5900 2700 59  0001 L BNN "LCSC"
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D10
+U 1 1 4563E90D
+P 5900 3800
+AR Path="/4563E90D" Ref="D10"  Part="1" 
+AR Path="/5F0B53E2/4563E90D" Ref="D10"  Part="1" 
+F 0 "D10" H 6000 3819 59  0000 L BNN
+F 1 "1N4148W" H 6000 3709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 5900 3800 50  0001 C CNN
+F 3 "" H 5900 3800 50  0001 C CNN
+F 4 "C81598" H 5900 3800 59  0001 L BNN "LCSC"
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D5
+U 1 1 911215B6
+P 5900 4800
+AR Path="/911215B6" Ref="D5"  Part="1" 
+AR Path="/5F0B53E2/911215B6" Ref="D5"  Part="1" 
+F 0 "D5" H 6000 4819 59  0000 L BNN
+F 1 "1N4148W" H 6000 4709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 5900 4800 50  0001 C CNN
+F 3 "" H 5900 4800 50  0001 C CNN
+F 4 "C81598" H 5900 4800 59  0001 L BNN "LCSC"
+	1    5900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:EC12E_SW ENC2
+U 2 1 5E08E820
+P 9400 3300
+AR Path="/5E08E820" Ref="ENC2"  Part="2" 
+AR Path="/5F0B53E2/5E08E820" Ref="ENC2"  Part="2" 
+F 0 "ENC2" H 9400 3300 50  0001 C CNN
+F 1 "EC12E_SW" H 9200 3200 42  0001 L BNN
+F 2 "numpad_v1a:ALPS_EC12E_SW" H 9400 3300 50  0001 C CNN
+F 3 "" H 9400 3300 50  0001 C CNN
+	2    9400 3300
+	0    1    -1   0   
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:EC12E_SW ENC1
+U 2 1 FEFD6F0E
+P 9400 1200
+AR Path="/FEFD6F0E" Ref="ENC1"  Part="2" 
+AR Path="/5F0B53E2/FEFD6F0E" Ref="ENC1"  Part="2" 
+F 0 "ENC1" H 9400 1200 50  0001 C CNN
+F 1 "EC12E_SW" H 9200 1100 42  0001 L BNN
+F 2 "numpad_v1a:ALPS_EC12E_SW" H 9400 1200 50  0001 C CNN
+F 3 "" H 9400 1200 50  0001 C CNN
+	2    9400 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D8
+U 1 1 BD8B7914
+P 9800 3800
+AR Path="/BD8B7914" Ref="D8"  Part="1" 
+AR Path="/5F0B53E2/BD8B7914" Ref="D8"  Part="1" 
+F 0 "D8" H 9900 3819 59  0000 L BNN
+F 1 "1N4148W" H 9900 3709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 9800 3800 50  0001 C CNN
+F 3 "" H 9800 3800 50  0001 C CNN
+F 4 "C81598" H 9800 3800 59  0001 L BNN "LCSC"
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D17
+U 1 1 F193B2D5
+P 9800 1700
+AR Path="/F193B2D5" Ref="D17"  Part="1" 
+AR Path="/5F0B53E2/F193B2D5" Ref="D17"  Part="1" 
+F 0 "D17" H 9900 1719 59  0000 L BNN
+F 1 "1N4148W" H 9900 1609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 9800 1700 50  0001 C CNN
+F 3 "" H 9800 1700 50  0001 C CNN
+F 4 "C81598" H 9800 1700 59  0001 L BNN "LCSC"
+	1    9800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:LED3MM LED2
+U 1 1 01E2EC58
+P 10200 3200
+AR Path="/01E2EC58" Ref="LED2"  Part="1" 
+AR Path="/5F0B53E2/01E2EC58" Ref="LED2"  Part="1" 
+F 0 "LED2" V 10340 3020 59  0000 L BNN
+F 1 "LED3MM" V 10425 3020 59  0000 L BNN
+F 2 "numpad_v1a:LED3MM" H 10200 3200 50  0001 C CNN
+F 3 "" H 10200 3200 50  0001 C CNN
+	1    10200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:LED3MM LED1
+U 1 1 84EE1AB4
+P 10200 1100
+AR Path="/84EE1AB4" Ref="LED1"  Part="1" 
+AR Path="/5F0B53E2/84EE1AB4" Ref="LED1"  Part="1" 
+F 0 "LED1" V 10340 920 59  0000 L BNN
+F 1 "LED3MM" V 10425 920 59  0000 L BNN
+F 2 "numpad_v1a:LED3MM" H 10200 1100 50  0001 C CNN
+F 3 "" H 10200 1100 50  0001 C CNN
+	1    10200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY17
+U 1 1 80C446A7
+P 2200 5400
+AR Path="/80C446A7" Ref="KEY17"  Part="1" 
+AR Path="/5F0B53E2/80C446A7" Ref="KEY17"  Part="1" 
+F 0 "KEY17" H 1990 5110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 2200 5400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 2200 5400 50  0001 C CNN
+F 3 "" H 2200 5400 50  0001 C CNN
+	1    2200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY18
+U 1 1 80026EC5
+P 4000 5400
+AR Path="/80026EC5" Ref="KEY18"  Part="1" 
+AR Path="/5F0B53E2/80026EC5" Ref="KEY18"  Part="1" 
+F 0 "KEY18" H 3790 5110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 4000 5400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 4000 5400 50  0001 C CNN
+F 3 "" H 4000 5400 50  0001 C CNN
+	1    4000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY19
+U 1 1 15DFB4E6
+P 5800 5400
+AR Path="/15DFB4E6" Ref="KEY19"  Part="1" 
+AR Path="/5F0B53E2/15DFB4E6" Ref="KEY19"  Part="1" 
+F 0 "KEY19" H 5590 5110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 5800 5400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 5800 5400 50  0001 C CNN
+F 3 "" H 5800 5400 50  0001 C CNN
+	1    5800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D3
+U 1 1 19C10BF7
+P 2300 5800
+AR Path="/19C10BF7" Ref="D3"  Part="1" 
+AR Path="/5F0B53E2/19C10BF7" Ref="D3"  Part="1" 
+F 0 "D3" H 2400 5819 59  0000 L BNN
+F 1 "1N4148W" H 2400 5709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 2300 5800 50  0001 C CNN
+F 3 "" H 2300 5800 50  0001 C CNN
+F 4 "C81598" H 2300 5800 59  0001 L BNN "LCSC"
+	1    2300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D2
+U 1 1 7BB043A0
+P 4100 5800
+AR Path="/7BB043A0" Ref="D2"  Part="1" 
+AR Path="/5F0B53E2/7BB043A0" Ref="D2"  Part="1" 
+F 0 "D2" H 4200 5819 59  0000 L BNN
+F 1 "1N4148W" H 4200 5709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 4100 5800 50  0001 C CNN
+F 3 "" H 4100 5800 50  0001 C CNN
+F 4 "C81598" H 4100 5800 59  0001 L BNN "LCSC"
+	1    4100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D1
+U 1 1 D544EE27
+P 5900 5800
+AR Path="/D544EE27" Ref="D1"  Part="1" 
+AR Path="/5F0B53E2/D544EE27" Ref="D1"  Part="1" 
+F 0 "D1" H 6000 5819 59  0000 L BNN
+F 1 "1N4148W" H 6000 5709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 5900 5800 50  0001 C CNN
+F 3 "" H 5900 5800 50  0001 C CNN
+F 4 "C81598" H 5900 5800 59  0001 L BNN "LCSC"
+	1    5900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY4
+U 1 1 C54240EB
+P 7700 1300
+AR Path="/C54240EB" Ref="KEY4"  Part="1" 
+AR Path="/5F0B53E2/C54240EB" Ref="KEY4"  Part="1" 
+F 0 "KEY4" H 7490 1010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 7700 1300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 7700 1300 50  0001 C CNN
+F 3 "" H 7700 1300 50  0001 C CNN
+	1    7700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY8
+U 1 1 136432EA
+P 7700 2300
+AR Path="/136432EA" Ref="KEY8"  Part="1" 
+AR Path="/5F0B53E2/136432EA" Ref="KEY8"  Part="1" 
+F 0 "KEY8" H 7490 2010 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 7700 2300 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 7700 2300 50  0001 C CNN
+F 3 "" H 7700 2300 50  0001 C CNN
+	1    7700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY12
+U 1 1 82997380
+P 7700 3400
+AR Path="/82997380" Ref="KEY12"  Part="1" 
+AR Path="/5F0B53E2/82997380" Ref="KEY12"  Part="1" 
+F 0 "KEY12" H 7490 3110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 7700 3400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 7700 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0001 C CNN
+	1    7700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED_NOHOLES KEY16
+U 1 1 01F9CD5F
+P 7700 4400
+AR Path="/01F9CD5F" Ref="KEY16"  Part="1" 
+AR Path="/5F0B53E2/01F9CD5F" Ref="KEY16"  Part="1" 
+F 0 "KEY16" H 7490 4110 59  0000 L BNN
+F 1 "CHERRY-MX-LED_NOHOLES" H 7700 4400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED_NOHOLES" H 7700 4400 50  0001 C CNN
+F 3 "" H 7700 4400 50  0001 C CNN
+	1    7700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D18
+U 1 1 D4614BAD
+P 7800 1700
+AR Path="/D4614BAD" Ref="D18"  Part="1" 
+AR Path="/5F0B53E2/D4614BAD" Ref="D18"  Part="1" 
+F 0 "D18" H 7900 1719 59  0000 L BNN
+F 1 "1N4148W" H 7900 1609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 7800 1700 50  0001 C CNN
+F 3 "" H 7800 1700 50  0001 C CNN
+F 4 "C81598" H 7800 1700 59  0001 L BNN "LCSC"
+	1    7800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D13
+U 1 1 A6BCBFAC
+P 7800 2700
+AR Path="/A6BCBFAC" Ref="D13"  Part="1" 
+AR Path="/5F0B53E2/A6BCBFAC" Ref="D13"  Part="1" 
+F 0 "D13" H 7900 2719 59  0000 L BNN
+F 1 "1N4148W" H 7900 2609 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 7800 2700 50  0001 C CNN
+F 3 "" H 7800 2700 50  0001 C CNN
+F 4 "C81598" H 7800 2700 59  0001 L BNN "LCSC"
+	1    7800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D9
+U 1 1 51B4401A
+P 7800 3800
+AR Path="/51B4401A" Ref="D9"  Part="1" 
+AR Path="/5F0B53E2/51B4401A" Ref="D9"  Part="1" 
+F 0 "D9" H 7900 3819 59  0000 L BNN
+F 1 "1N4148W" H 7900 3709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 7800 3800 50  0001 C CNN
+F 3 "" H 7800 3800 50  0001 C CNN
+F 4 "C81598" H 7800 3800 59  0001 L BNN "LCSC"
+	1    7800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D4
+U 1 1 FA1F7191
+P 7800 4800
+AR Path="/FA1F7191" Ref="D4"  Part="1" 
+AR Path="/5F0B53E2/FA1F7191" Ref="D4"  Part="1" 
+F 0 "D4" H 7900 4819 59  0000 L BNN
+F 1 "1N4148W" H 7900 4709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 7800 4800 50  0001 C CNN
+F 3 "" H 7800 4800 50  0001 C CNN
+F 4 "C81598" H 7800 4800 59  0001 L BNN "LCSC"
+	1    7800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY16A
+U 1 1 81F04E05
+P 9700 4400
+AR Path="/81F04E05" Ref="KEY16A"  Part="1" 
+AR Path="/5F0B53E2/81F04E05" Ref="KEY16A1"  Part="1" 
+F 0 "KEY16A1" H 9490 4110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 9700 4400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 9700 4400 50  0001 C CNN
+F 3 "" H 9700 4400 50  0001 C CNN
+	1    9700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED KEY20
+U 1 1 E4E78B43
+P 7700 5400
+AR Path="/E4E78B43" Ref="KEY20"  Part="1" 
+AR Path="/5F0B53E2/E4E78B43" Ref="KEY20"  Part="1" 
+F 0 "KEY20" H 7490 5110 59  0000 L BNN
+F 1 "CHERRY-MX-LED" H 7700 5400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED" H 7700 5400 50  0001 C CNN
+F 3 "" H 7700 5400 50  0001 C CNN
+	1    7700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DIODE-SOD123 D22
+U 1 1 68CA2723
+P 7800 5800
+AR Path="/68CA2723" Ref="D22"  Part="1" 
+AR Path="/5F0B53E2/68CA2723" Ref="D22"  Part="1" 
+F 0 "D22" H 7900 5819 59  0000 L BNN
+F 1 "1N4148W" H 7900 5709 59  0000 L BNN
+F 2 "numpad_v1a:SOD123" H 7800 5800 50  0001 C CNN
+F 3 "" H 7800 5800 50  0001 C CNN
+F 4 "C81598" H 7800 5800 59  0001 L BNN "LCSC"
+	1    7800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:CHERRY-MX-LED_NOHOLES KEY17A
+U 1 1 DC22A19D
+P 2200 6400
+AR Path="/DC22A19D" Ref="KEY17A"  Part="1" 
+AR Path="/5F0B53E2/DC22A19D" Ref="KEY17A1"  Part="1" 
+F 0 "KEY17A1" H 1990 6110 59  0000 L BNN
+F 1 "CHERRY-MX-LED_NOHOLES" H 2200 6400 50  0001 C CNN
+F 2 "numpad_v1a:CHERRY-MX-LED_NOHOLES" H 2200 6400 50  0001 C CNN
+F 3 "" H 2200 6400 50  0001 C CNN
+	1    2200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DINA4_L #FRAME2
+U 1 1 BB57B2F6
+P 900 7600
+AR Path="/BB57B2F6" Ref="#FRAME2"  Part="1" 
+AR Path="/5F0B53E2/BB57B2F6" Ref="#FRAME2"  Part="1" 
+F 0 "#FRAME2" H 900 7600 50  0001 C CNN
+F 1 "DINA4_L" H 900 7600 50  0001 C CNN
+F 2 "" H 900 7600 50  0001 C CNN
+F 3 "" H 900 7600 50  0001 C CNN
+	1    900  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L numpad_v1a-eagle-import:DINA4_L #FRAME2
+U 2 1 BB57B2FA
+P 7300 7600
+AR Path="/BB57B2FA" Ref="#FRAME2"  Part="2" 
+AR Path="/5F0B53E2/BB57B2FA" Ref="#FRAME2"  Part="2" 
+F 0 "#FRAME2" H 7300 7600 50  0001 C CNN
+F 1 "DINA4_L" H 7300 7600 50  0001 C CNN
+F 2 "" H 7300 7600 50  0001 C CNN
+F 3 "" H 7300 7600 50  0001 C CNN
+	2    7300 7600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
