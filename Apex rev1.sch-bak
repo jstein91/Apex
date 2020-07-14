@@ -153,29 +153,27 @@ F 3 "" H 8950 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 3750 8150 3750
-Wire Wire Line
-	8150 3750 8150 3900
+	7750 3750 7750 3900
 $Comp
 L Device:R R4
 U 1 1 5F0438EB
-P 8150 4050
-F 0 "R4" H 8220 4096 50  0000 L CNN
-F 1 "1k" H 8220 4005 50  0000 L CNN
-F 2 "1_Keyboard Footprints:R_0603" V 8080 4050 50  0001 C CNN
-F 3 "~" H 8150 4050 50  0001 C CNN
-	1    8150 4050
+P 7750 4050
+F 0 "R4" H 7820 4096 50  0000 L CNN
+F 1 "1k" H 7820 4005 50  0000 L CNN
+F 2 "1_Keyboard Footprints:R_0603" V 7680 4050 50  0001 C CNN
+F 3 "~" H 7750 4050 50  0001 C CNN
+	1    7750 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5F0441E1
-P 8150 4200
-F 0 "#PWR0107" H 8150 3950 50  0001 C CNN
-F 1 "GND" H 8155 4027 50  0000 C CNN
-F 2 "" H 8150 4200 50  0001 C CNN
-F 3 "" H 8150 4200 50  0001 C CNN
-	1    8150 4200
+P 7750 4200
+F 0 "#PWR0107" H 7750 3950 50  0001 C CNN
+F 1 "GND" H 7755 4027 50  0000 C CNN
+F 2 "" H 7750 4200 50  0001 C CNN
+F 3 "" H 7750 4200 50  0001 C CNN
+	1    7750 4200
 	1    0    0    -1  
 $EndComp
 Text GLabel 9600 2750 2    50   Input ~ 0
@@ -517,10 +515,6 @@ Wire Wire Line
 	12450 3250 12450 3400
 Wire Wire Line
 	12950 3250 12950 3400
-Wire Wire Line
-	12950 3750 12950 3900
-Wire Wire Line
-	12450 3750 12450 3900
 $Comp
 L Device:C_Small C25
 U 1 1 5F132E89
@@ -557,20 +551,6 @@ Wire Wire Line
 Connection ~ 12950 3400
 Wire Wire Line
 	12950 3400 12950 3550
-Wire Wire Line
-	12450 3900 12300 3900
-Connection ~ 12450 3900
-Wire Wire Line
-	12450 3900 12450 3950
-Wire Wire Line
-	12950 3900 13100 3900
-Connection ~ 12950 3900
-Wire Wire Line
-	12950 3900 12950 3950
-Text GLabel 12300 3900 0    50   Input ~ 0
-ENC1
-Text GLabel 13100 3900 2    50   Input ~ 0
-ENC2
 $Comp
 L power:GND #PWR0148
 U 1 1 5F208042
@@ -601,11 +581,9 @@ NoConn ~ 8400 2350
 NoConn ~ 8400 3550
 NoConn ~ 8400 3650
 NoConn ~ 8400 3850
-NoConn ~ 8400 3950
-NoConn ~ 8400 4050
+NoConn ~ 9600 3150
 NoConn ~ 8400 4150
 NoConn ~ 8400 4250
-NoConn ~ 8400 4450
 NoConn ~ 8400 4550
 NoConn ~ 8400 4650
 NoConn ~ 8400 4750
@@ -613,12 +591,8 @@ NoConn ~ 8400 4850
 NoConn ~ 8400 4950
 NoConn ~ 8400 5050
 NoConn ~ 8400 5150
-NoConn ~ 9600 5150
 NoConn ~ 9600 5050
-NoConn ~ 9600 4950
 NoConn ~ 9600 4850
-NoConn ~ 9600 4750
-NoConn ~ 9600 4650
 NoConn ~ 9600 4250
 NoConn ~ 9600 4150
 NoConn ~ 9600 4050
@@ -628,8 +602,6 @@ NoConn ~ 9600 3750
 NoConn ~ 9600 3650
 NoConn ~ 9600 3550
 NoConn ~ 9600 3350
-NoConn ~ 9600 3250
-NoConn ~ 9600 3150
 NoConn ~ 9600 3050
 NoConn ~ 9600 2650
 NoConn ~ 9600 2450
@@ -688,4 +660,25 @@ Wire Wire Line
 	5000 3150 5900 3150
 Wire Wire Line
 	5000 3350 5900 3350
+Text GLabel 8400 4050 0    50   Input ~ 0
+ROT1
+Text GLabel 8400 3950 0    50   Input ~ 0
+ROT2
+Wire Wire Line
+	12450 3750 12450 3950
+Wire Wire Line
+	12950 3750 12950 3950
+Wire Wire Line
+	7750 3750 8400 3750
+NoConn ~ 9600 3250
+Text GLabel 9600 4650 2    50   Input ~ 0
+COL16
+Text GLabel 9600 4750 2    50   Input ~ 0
+ROW5
+Text GLabel 9600 4950 2    50   Input ~ 0
+COL15
+Text GLabel 9600 5150 2    50   Input ~ 0
+ROW4
+Text GLabel 8400 4450 0    50   Input ~ 0
+COL14
 $EndSCHEMATC
