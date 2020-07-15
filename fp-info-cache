@@ -1,4 +1,4 @@
-19655678476176451
+19657273302320545
 1_Keyboard Footprints
 1pin_conn
 Resitance 3 pas
@@ -86260,6 +86260,13 @@ USB_MiniB_XM7D-0512
 0
 18
 6
+components
+diode-silk
+
+
+0
+0
+0
 hub_keyboard
 3,2-PAD
 <b>MOUNTING PAD</b> 3.2 mm, round
