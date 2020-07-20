@@ -705,7 +705,7 @@ U 1 1 5F164554
 P 6200 6400
 F 0 "J2" H 5871 6496 50  0000 R CNN
 F 1 "AVR-ISP-6" H 5871 6405 50  0000 R CNN
-F 2 "1_Keyboard Footprints:ICSP-Header-ZigZag" V 5950 6450 50  0001 C CNN
+F 2 "1_Keyboard Footprints:ICSP-Header" V 5950 6450 50  0001 C CNN
 F 3 " ~" H 4925 5850 50  0001 C CNN
 	1    6200 6400
 	1    0    0    -1  

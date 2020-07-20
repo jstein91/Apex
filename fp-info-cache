@@ -1,4 +1,4 @@
-19657273302320545
+19658868556325545
 1_Keyboard Footprints
 1pin_conn
 Resitance 3 pas
@@ -86260,6 +86260,13 @@ USB_MiniB_XM7D-0512
 0
 18
 6
+components
+Apex-silk
+
+
+0
+0
+0
 components
 diode-silk
 
